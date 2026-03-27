@@ -21,13 +21,15 @@ public class Berd : MonoBehaviour
         while (true){
             yield return new WaitForSeconds(delay);
             index = (index+1)%WalkCycle.Length;
+            Debug.Log($"New Frame {index}");
             spriteRenderer.sprite = WalkCycle[index];
         }
     }
 
     void OnDrawGizmos()
     {
-        spriteRenderer.sprite = WalkCycle[0];
+        if(spriteRenderer.sprite == null)
+            spriteRenderer.sprite = WalkCycle[0];
     }
     public void Move(bool left = true, float distance = 1, float speed = 1){
         float duration = Mathf.Abs(distance)/speed; 
@@ -41,7 +43,7 @@ public class Berd : MonoBehaviour
 
 #if UNITY_EDITOR
 
-[CustomEditor(typeof(Berd))]
+// [CustomEditor(typeof(Berd))]
 public class BerdEditor : Editor
 {
     public override void OnInspectorGUI()
