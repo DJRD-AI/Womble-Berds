@@ -50,10 +50,10 @@
         "ProjectSettings/": true,
         "temp/": true,
         "Temp/": true,
-        "Assets/Prefabs/":true,
-        "Assets/Scenes/":true,
-        "Assets/TextMesh Pro/":true
+        "Assets/Prefabs/": true,
+        "Assets/Scenes/": true,
+        "Assets/TextMesh Pro/": true
     },
-    "dotnet.defaultSolution": "Womble Example.sln",
+    "dotnet.defaultSolution": "Womble-Berds.sln",
     "dotnet.preferCSharpExtension": true
 }

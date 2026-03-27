@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: dfc665c975eb352449d866fd3b8467c3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LittleDreeea_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08157c5ec638a42a7863f9c15d95e8
+      internalID: -1130587868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c7d54b6aabaf4ab1c23a2eec12a64
+      internalID: -1580031190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_2
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7520bf08b5c7114f8e9f1fc5cebba73
+      internalID: 608961194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_3
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19869e37680073a429e18dbde7d4f5ce
+      internalID: -2020006697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_4
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440ceaa58baba24194403b2db470fc4
+      internalID: 394852434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_5
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fa03320aaca8d47b6935491c681115
+      internalID: 2034853595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_6
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1976
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1a5bdbd1489b64ba2792e404d94c9d
+      internalID: -815387538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f49712573e7e5046b608ccbfc59f215
+      internalID: 761329643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b461d209021246a5a4c761718bd5b
+      internalID: 914044502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_9
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fde9d0d8957b8f42ad9d031105fdfc8
+      internalID: -782899318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_10
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c59b632c6ead5499e58c02878662d3
+      internalID: 2097548109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_11
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4d6764bece02540883d5ca1c23881e
+      internalID: -665037398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_12
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0026874b05284c6428c8637e30a81b1a
+      internalID: 2047381609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_13
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1482
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18d50255bba9a44b5b3b20a0792188
+      internalID: -1094644418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2540b590379c5a646a2a16644c579dcd
+      internalID: 990050051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10004fcfd976f4ea054a50ddf4e135
+      internalID: 924471035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b92a44045db2478b432a6efa0a345
+      internalID: 1316494658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_17
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90641c8fab1ba514498d89d55501b942
+      internalID: 425887742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_18
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04be304ded7f0c469f65819dd22e278
+      internalID: 1254410279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_19
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25660e7f3f0764bbd3f3e4f96c564a
+      internalID: 931986661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_20
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 988
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe232f7ad9de7e4d98d40f5585adbcf
+      internalID: 845215252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9aa8dcc5642ab439826f23819d224d
+      internalID: 431868132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_22
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99dfa29d01d2c479caf074e78784b7
+      internalID: -2062278570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f97c09e3980bcd479cbffa2eca43706
+      internalID: -235692413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_24
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa34a1322d94e4191a76a2d4bd75a0
+      internalID: 775568616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_25
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4ffff2cb3afd4d8c8d1964b87f8ce
+      internalID: 2003978620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_26
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2ed3b2804ac843afe7e2e163bc6f9
+      internalID: -823073157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_27
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 494
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e666f5fc7a716a48908776325914ec8
+      internalID: -1118769192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2f56c1f0e18448bbcba798ad6a0ba
+      internalID: 1900949587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_29
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0171f9c8a1aa6ac4c991af7f68b7ea32
+      internalID: -940214080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_30
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaaf456d9d2aea49a20009f52a7ebe0
+      internalID: 1438196689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleDreeea_31
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 656
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eaf80e6861e3e44a05ac8fed547b9e
+      internalID: 1258727788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LittleDreeea_0: -1130587868
+      LittleDreeea_1: -1580031190
+      LittleDreeea_10: 2097548109
+      LittleDreeea_11: -665037398
+      LittleDreeea_12: 2047381609
+      LittleDreeea_13: -1094644418
+      LittleDreeea_14: 990050051
+      LittleDreeea_15: 924471035
+      LittleDreeea_16: 1316494658
+      LittleDreeea_17: 425887742
+      LittleDreeea_18: 1254410279
+      LittleDreeea_19: 931986661
+      LittleDreeea_2: 608961194
+      LittleDreeea_20: 845215252
+      LittleDreeea_21: 431868132
+      LittleDreeea_22: -2062278570
+      LittleDreeea_23: -235692413
+      LittleDreeea_24: 775568616
+      LittleDreeea_25: 2003978620
+      LittleDreeea_26: -823073157
+      LittleDreeea_27: -1118769192
+      LittleDreeea_28: 1900949587
+      LittleDreeea_29: -940214080
+      LittleDreeea_3: -2020006697
+      LittleDreeea_30: 1438196689
+      LittleDreeea_31: 1258727788
+      LittleDreeea_32: -26451484
+      LittleDreeea_33: 1084963475
+      LittleDreeea_34: 1350723160
+      LittleDreeea_4: 394852434
+      LittleDreeea_5: 2034853595
+      LittleDreeea_6: -815387538
+      LittleDreeea_7: 761329643
+      LittleDreeea_8: 914044502
+      LittleDreeea_9: -782899318
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

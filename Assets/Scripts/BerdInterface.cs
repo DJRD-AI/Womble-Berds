@@ -27,8 +27,8 @@ public class BerdInterface : MonoBehaviour
     private StreamReader reader;
     private StreamWriter writer;
 
-    private readonly string _username = "INSERT USERNAME";
-    private readonly string _oauth    = "NICE TRY"; // get from Twitch
+    private readonly string _username = "artwomble";
+    private readonly string _oauth    = "TO INPUT"; // get from Twitch
     private readonly string _channel  = "artwomble";
     /// <summary>
     /// All possible berd prefabs
@@ -151,13 +151,14 @@ public class BerdInterface : MonoBehaviour
     }
 
     private void HandleCommand(ChatMessage message){
-        GameObject Berd = GetBerd(message);
+        GameObject BerdObject = GetBerd(message);
+        Berd berd = BerdObject.GetComponent<Berd>();
         if(!message.Body.StartsWith("!"))
             return;
 
         string[] parts = message.Body.Split(' ');
 
-        if(Berd == null)
+        if(BerdObject == null)
             return;
 
         switch (parts[0]){
@@ -171,14 +172,7 @@ public class BerdInterface : MonoBehaviour
                     float.TryParse(parts[2],out speed);
                 speed = Mathf.Abs(speed);
                 speed = Mathf.Clamp(speed,MINBERDSPEED,MAXBERDSPEED);
-
-                float duration = Mathf.Abs(distance)/speed;
-                if(parts[0] == "!left")
-                    distance *= -1;
-
-                Vector3 endpos = Berd.transform.localPosition;
-                endpos.x += distance;
-                StartCoroutine(Berd.transform.AnimatingLocalPos(endpos,AnimationCurve.EaseInOut(0,0,1,1),duration));
+                berd.Move(parts[0] == "!left",distance,speed);
                 break;
         }
     }
