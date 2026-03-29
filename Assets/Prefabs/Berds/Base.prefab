@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localPosition: {x: 0, y: 0, z: 0}
-  localScale: {x: 1, y: 1, z: 1}
+  localScale: {x: 0.69, y: 0.69, z: 0.69}
   spriteRenderer: {fileID: 5422377068652383178}
   WalkCycleTime: 1.2
   WalkCycle: []

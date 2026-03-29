@@ -27,8 +27,8 @@ public class BerdInterface : MonoBehaviour
     private StreamReader reader;
     private StreamWriter writer;
 
-    private readonly string _username = "artwomble";
-    private readonly string _oauth    = "TO INPUT"; // get from Twitch
+   private readonly string _username = "artwomble";
+    private readonly string _oauth    = "NICE TRY"; // get from Twitch
     private readonly string _channel  = "artwomble";
     /// <summary>
     /// All possible berd prefabs
@@ -66,13 +66,14 @@ public class BerdInterface : MonoBehaviour
     private GameObject GetBerd(string name = "" ){
         //See if the berd is contained within the active berds list.
         //If so return this berd
+        Debug.Log("name");
         GameObject ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
 
         if(ReturningBerd != null)
             return ReturningBerd;
 
         //Make a new berd based upon the list of all berds
-        GameObject NewBerd = berds.FirstOrDefault(b => b != null && b.name == name);
+        GameObject NewBerd = berds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
 
         if(NewBerd == null)
             return null;
@@ -152,27 +153,39 @@ public class BerdInterface : MonoBehaviour
 
     private void HandleCommand(ChatMessage message){
         GameObject BerdObject = GetBerd(message);
-        Berd berd = BerdObject.GetComponent<Berd>();
+        Berd berd;
+
+        if(BerdObject == null)
+            return;
+
+        berd = BerdObject.GetComponent<Berd>();
         if(!message.Body.StartsWith("!"))
             return;
 
         string[] parts = message.Body.Split(' ');
 
-        if(BerdObject == null)
-            return;
-
+        float Arg1 = 1;
+        float Arg2 = 1;
+        if(parts.Length > 1)
+            float.TryParse(parts[1],out Arg1);
+        if(parts.Length > 2)
+            float.TryParse(parts[2],out Arg2);
         switch (parts[0]){
             case "!left":
             case "!right":
-                float distance = 1;
-                float speed    = 1;
-                if(parts.Length > 1)
-                    float.TryParse(parts[1],out distance);
-                if(parts.Length > 2)
-                    float.TryParse(parts[2],out speed);
-                speed = Mathf.Abs(speed);
-                speed = Mathf.Clamp(speed,MINBERDSPEED,MAXBERDSPEED);
-                berd.Move(parts[0] == "!left",distance,speed);
+                Arg2 = Mathf.Abs(Arg2);
+                Arg2 = Mathf.Clamp(Arg2,MINBERDSPEED,MAXBERDSPEED);
+                berd.Move(parts[0] == "!left",Arg1,Arg2);
+                break;
+            case "!reset":
+                berd.ResetBerd();
+                break;
+            case "!forward":
+            case "!backward":
+                berd.ChangePriority(parts[0] == "!forward");
+                break;
+            case "!scale":
+                berd.Scale(Arg1,Arg2);
                 break;
         }
     }

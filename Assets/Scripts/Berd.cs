@@ -7,21 +7,24 @@ using UnityEditor;
 
 public class Berd : MonoBehaviour
 {
-    [SerializeField] Vector3 localPosition = Vector3.zero;
-    [SerializeField] Vector3 localScale = Vector3.zero;
+    [SerializeField] Vector3 _localPosition = Vector3.zero;
+    [SerializeField] Vector3 _localScale = Vector3.zero;
+    public Vector3 LocalPosition {get => _localPosition;}
+    public Vector3 LocalScale {get => _localScale;}
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] float WalkCycleTime;
     [SerializeField] Sprite[] WalkCycle;
+    private Coroutine movement;
+    private Coroutine Scaling;
     // Start is called before the first frame update
     IEnumerator Start(){
-        transform.localPosition = localPosition;
-        transform.localScale = localScale;
+        transform.localPosition = _localPosition;
+        transform.localScale = _localScale;
         int index = 0;
         float delay = WalkCycleTime/WalkCycle.Length;
         while (true){
             yield return new WaitForSeconds(delay);
-            index = (index+1)%WalkCycle.Length;
-            Debug.Log($"New Frame {index}");
+            index = (index+1)%(WalkCycle.Length-1);
             spriteRenderer.sprite = WalkCycle[index];
         }
     }
@@ -30,6 +33,9 @@ public class Berd : MonoBehaviour
     {
         if(spriteRenderer.sprite == null)
             spriteRenderer.sprite = WalkCycle[0];
+        if(_localPosition == Vector3.zero)
+            _localPosition = transform.position;
+        _localScale = transform.localScale;
     }
     public void Move(bool left = true, float distance = 1, float speed = 1){
         float duration = Mathf.Abs(distance)/speed; 
@@ -37,13 +43,36 @@ public class Berd : MonoBehaviour
             distance *= -1;
         Vector3 endpos = transform.localPosition;
         endpos.x += distance;
-        StartCoroutine(transform.AnimatingLocalPos(endpos,AnimationCurve.EaseInOut(0,0,1,1),duration));
+        endpos.x = Mathf.Clamp(endpos.x,-10,10);
+        movement = StartCoroutine(transform.AnimatingLocalPos(endpos,AnimationCurve.EaseInOut(0,0,1,1),duration));
+        
+    }
+
+    public void ResetBerd()
+    {
+        if(movement != null)
+            StopCoroutine(movement);
+        if(Scaling != null)
+            StopCoroutine(Scaling);
+        transform.localPosition = LocalPosition;
+        transform.localScale = LocalScale;
+    }
+
+    public void ChangePriority(bool up)
+    {
+        spriteRenderer.sortingOrder += up ? 1 : -1;
+    }
+
+    public void Scale(float endScale, float duration = 1.0f)
+    {
+        endScale = Mathf.Clamp(endScale,0.1f, 0.8f);
+        Scaling = StartCoroutine(transform.AnimatingLocalScale(Vector3.one*endScale,AnimationCurve.EaseInOut(0,0,1,1),duration));
     }
 }
 
 #if UNITY_EDITOR
 
-// [CustomEditor(typeof(Berd))]
+[CustomEditor(typeof(Berd)),CanEditMultipleObjects]
 public class BerdEditor : Editor
 {
     public override void OnInspectorGUI()
