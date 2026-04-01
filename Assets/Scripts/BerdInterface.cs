@@ -10,11 +10,9 @@ using UnityEngine;
 public class BerdInterface : MonoBehaviour
 {
     /// <summary>
-    /// Time before a berd gets DESTROYED!
+    /// Time in minutes before a berd gets DESTROYED!
     /// </summary>
     private static readonly float DESTRUCTIONTIME = 60.0f;
-    private static readonly float MINBERDSPEED = 1.0f;
-    private static readonly float MAXBERDSPEED = 10.0f;
     [Serializable]
     private class ChatMessage{
         public string Sender;
@@ -27,9 +25,6 @@ public class BerdInterface : MonoBehaviour
     private StreamReader reader;
     private StreamWriter writer;
 
-   private readonly string _username = "artwomble";
-    private readonly string _oauth    = "NICE TRY"; // get from Twitch
-    private readonly string _channel  = "artwomble";
     /// <summary>
     /// All possible berd prefabs
     /// </summary>
@@ -44,14 +39,33 @@ public class BerdInterface : MonoBehaviour
     [SerializeField] private List<ChatMessage> Destructionlist;
     private Coroutine _DeletionTracker = null;
 
+    #region Admin Vars
+    bool EnableAdminInputs = false;
+    [SerializeField] bool EnableInputs = true;
+    bool EnableSpawns = true;
+    bool EnableRemoval = true;
+    #endregion
     // Start is called before the first frame update
     void Start(){
-        Chatconnect();
     }
 
     // Update is called once per frame
     void Update(){
+        AdminInputs();
         ChatRead();
+    }
+
+    void AdminInputs()
+    {
+        if(Input.GetKeyDown(KeyCode.Q)) EnableAdminInputs = !EnableAdminInputs;
+        if(!EnableAdminInputs) return;
+
+        if(Input.GetKeyDown(KeyCode.D)) EnableInputs  = !EnableInputs;
+        if(Input.GetKeyDown(KeyCode.S)) EnableSpawns  = !EnableSpawns;
+        if(Input.GetKeyDown(KeyCode.R)) EnableRemoval = !EnableRemoval;
+
+        if(Input.GetKeyDown(KeyCode.A)) StartCoroutine(SPAWNBERDARMY());
+        if(Input.GetKeyDown(KeyCode.C)) StartCoroutine(ClearBerds());
     }
 
     private bool TrackedName(string name = "") => berds.Any(b => b != null && b.name.ToLower() == name.ToLower());
@@ -65,20 +79,18 @@ public class BerdInterface : MonoBehaviour
     /// <returns></returns>
     private GameObject GetBerd(string name = "" ){
         //See if the berd is contained within the active berds list.
-        //If so return this berd
-        Debug.Log("name");
         GameObject ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
 
-        if(ReturningBerd != null)
+        if(ReturningBerd != null || !EnableSpawns)
             return ReturningBerd;
 
         //Make a new berd based upon the list of all berds
-        GameObject NewBerd = berds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
+        ReturningBerd = berds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
 
-        if(NewBerd == null)
+        if(ReturningBerd == null)
             return null;
 
-        ReturningBerd = Instantiate(NewBerd,transform);
+        ReturningBerd = Instantiate(ReturningBerd,transform);
         ReturningBerd.name = name;
         ActiveBerds.Add(ReturningBerd);
         return ReturningBerd;
@@ -91,19 +103,25 @@ public class BerdInterface : MonoBehaviour
     /// <returns></returns>
     private GameObject GetBerd(ChatMessage message = null ) => message != null ? GetBerd(message.Sender) : null;
 
-    void Chatconnect(){
+    public bool Chatconnect(string username = null, string channel = null, string oauth = null){
+        if(username == null)
+            return false;
+        if(channel == null)
+            return false;
+        if(oauth == null)
+            return false;
         //setup Twitch connection
         client = new TcpClient("irc.chat.twitch.tv", 6667);
         reader = new StreamReader(client.GetStream());
         writer = new StreamWriter(client.GetStream());
 
-
-        writer.WriteLine($"PASS oauth:{_oauth}");
-        writer.WriteLine($"NICK {_username}");
-        writer.WriteLine($"USER {_username} 8 * :{_username}");
-        writer.WriteLine($"JOIN #{_channel}");
+        writer.WriteLine($"PASS oauth:{oauth}");
+        writer.WriteLine($"NICK {username}");
+        writer.WriteLine($"USER {username} 8 * :{username}");
+        writer.WriteLine($"JOIN #{channel}");
         // writer.WriteLine("CAP REQ :twitch.tv/tags"); // enables metadata
         writer.Flush();
+        return true;
     }
 
     void ChatRead(){
@@ -119,26 +137,25 @@ public class BerdInterface : MonoBehaviour
             writer.Flush();
             return;
         }
-        Debug.Log(message);
         ChatMessage chatMessage = ParseMessage(message);
         if(chatMessage == null)
             return;
-        HandleCommand(chatMessage);
-        UpdateDestructionList(chatMessage);
+        if(EnableInputs)
+            HandleCommand(chatMessage);
+        if(EnableRemoval)
+            UpdateDestructionList(chatMessage);
     }
 
     ChatMessage ParseMessage(string raw){
         if (!raw.Contains("PRIVMSG"))
             return null;
 
-        // Extract username
         int nameEnd     = raw.IndexOf('!');
         string username = raw[1..nameEnd];
 
         if(!TrackedName(username))
             return null;
 
-        // Extract message
         int msgIndex = raw.IndexOf("PRIVMSG");
         int msgStart = raw.IndexOf(':', msgIndex);
         string message = raw[(msgStart + 1)..];
@@ -157,35 +174,49 @@ public class BerdInterface : MonoBehaviour
 
         if(BerdObject == null)
             return;
+        if(!EnableInputs)
+            return;
 
         berd = BerdObject.GetComponent<Berd>();
         if(!message.Body.StartsWith("!"))
             return;
 
         string[] parts = message.Body.Split(' ');
-
+        string Command = parts[0];
         float Arg1 = 1;
         float Arg2 = 1;
+        Debug.Log(parts.Length);
         if(parts.Length > 1)
             float.TryParse(parts[1],out Arg1);
+        if(Arg1 == 0)
+            Arg1 = 1;
         if(parts.Length > 2)
             float.TryParse(parts[2],out Arg2);
-        switch (parts[0]){
-            case "!left":
-            case "!right":
-                Arg2 = Mathf.Abs(Arg2);
-                Arg2 = Mathf.Clamp(Arg2,MINBERDSPEED,MAXBERDSPEED);
-                berd.Move(parts[0] == "!left",Arg1,Arg2);
-                break;
+        Arg2 = Mathf.Abs(Arg2);
+        switch (Command){
             case "!reset":
                 berd.ResetBerd();
                 break;
-            case "!forward":
-            case "!backward":
-                berd.ChangePriority(parts[0] == "!forward");
+            case "!up":
+            case "!down":
+            case "!left":
+            case "!right":
+                bool Vertical = Command == "!up" || Command == "!down";
+                Vector2 direction = Vertical ? Vector2.up : Vector2.right;
+                if(Command == "!left" || Command == "!down")
+                    direction *= -1;
+                direction *= Arg1;
+                berd.MoveDir(direction,Arg2);
                 break;
             case "!scale":
                 berd.Scale(Arg1,Arg2);
+                break;
+            case "!quack":
+                berd.Quack();
+                break;
+            case "!wiggle":
+                Debug.Log($"WIGGLE {message.Sender}!, amplitude{Arg1}");
+                berd.Wiggle(Arg1,Arg2);
                 break;
         }
     }
@@ -197,15 +228,40 @@ public class BerdInterface : MonoBehaviour
     }
 
     IEnumerator DeletingBerds(){
-        while(Destructionlist.Count != 0){
+        while(Destructionlist.Count != 0 && EnableRemoval){
             ChatMessage ToCheck = Destructionlist[0];
             Destructionlist.RemoveAt(0);
             yield return new WaitForSeconds((float)(ToCheck.DeleteTime - DateTime.Now).TotalSeconds);
+            if(!EnableRemoval)
+                break;
             if(Destructionlist.Count(m => m.Sender == ToCheck.Sender) > 0)
                 continue;
-            GameObject ToDestroy = ActiveBerds.First(m => m.name.ToLower() == ToCheck.Sender.ToLower());
+            GameObject ToDestroy = GetBerd(ToCheck);
             ActiveBerds.Remove(ToDestroy);
-            Destroy(ToDestroy);
+            ToDestroy.GetComponent<Berd>().DespawnBerd();
         }
+    }
+
+    private IEnumerator SPAWNBERDARMY(){
+       foreach(GameObject berd in berds){
+            GetBerd(berd.name.ToLower());
+            ChatMessage NewMessage = new(){
+                Sender     = berd.name.ToLower(),
+                Body       = "",
+                DeleteTime = DateTime.Now.AddMinutes(DESTRUCTIONTIME)
+            };
+            if(EnableRemoval)
+                UpdateDestructionList(NewMessage);
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
+        }
+    }
+    private IEnumerator ClearBerds(){
+        foreach(GameObject berd in ActiveBerds){
+            berd.GetComponent<Berd>().DespawnBerd();
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
+        }
+        ActiveBerds.Clear();
+        Destructionlist.Clear();
+        StopAllCoroutines();
     }
 }

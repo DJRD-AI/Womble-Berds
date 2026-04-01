@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: cfd501763c3c2a04d9acc3f0ab36ab42
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.6, y: 0.17}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ebonydraygon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc56e42cd7547a243a4114b1ddd4fcad
+      internalID: -864444836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7d6895527179343a1d5696d23bc709
+      internalID: 337015116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf6d1572e9fe104f8ec4099f54b9ecb
+      internalID: 297359980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f734cdfbfa95e743b61894cc8f67355
+      internalID: 634846065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf77ea750b47e2a4a9b1651ae8cac331
+      internalID: 661901648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_5
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b9a6826b44f844290226ccd51e3f26
+      internalID: -1620462713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_6
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a4001c9df8a7844919efabca48f563
+      internalID: 1973273385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_7
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd40733aae054d94697508bfddd0d1c1
+      internalID: -340198170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0043126532055694a989cdb67b92fa26
+      internalID: 2033539342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a23cf364a6831449559fd7c7bf3b5b
+      internalID: 292454006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1079021fb1d34d8ac97adeb7f16b9
+      internalID: 1337902240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3480bfd48e24ad044a1709b8296f12c4
+      internalID: 95360425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34619e6bd3bdc4b8cd669b72737113
+      internalID: 402949203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc7ce49b695185409112d29c21eec01
+      internalID: 2091035689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebdd89a2d4646449b3861922e370611
+      internalID: -2137687948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d3977a9e468f34cb0075de1fe1bb00
+      internalID: -470908881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d8a6278de324c409e6b3482ded2d65
+      internalID: -1170763026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a35bfb3aa8c5db47be3ece9cb41eddc
+      internalID: 48030110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ed62b68ba5dd47836d2115a67c8f1
+      internalID: 1796757442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1956225c4bc1f664da1857db3429530d
+      internalID: -1042211237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa0945c37cb86f49861aacd84e46b8e
+      internalID: -1530994185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171258749eb80fe4d8cbac2d6c8600a9
+      internalID: 1247567091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a8b56a94ab7647a6acc7786545d6c
+      internalID: -2097571967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc627de6e0f5a034f96bc06ab232edca
+      internalID: 141125249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08a286fe5f5ff147bac21d6191bb005
+      internalID: -1740450408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f433bdba573ad429a80392ee93f0fe
+      internalID: 1827237758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ca73590a7ab814782ed32521af07b9
+      internalID: -1103350579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3add10f89a37c4041b718938bb1b12d2
+      internalID: -1787351360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13166bd74117204e82d243f1427dc17
+      internalID: 1730139430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4331b9185ed2cd4b90e1c8a57f08da4
+      internalID: -1972420347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09450886256f75e41bd8de0d81b26c91
+      internalID: 52340023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ebonydraygon_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ce122c3e781e4e8e69e0a73b8b2cd
+      internalID: 1758440537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ebonydraygon_0: -864444836
+      ebonydraygon_1: 337015116
+      ebonydraygon_10: 1337902240
+      ebonydraygon_11: 95360425
+      ebonydraygon_12: 402949203
+      ebonydraygon_13: 2091035689
+      ebonydraygon_14: -2137687948
+      ebonydraygon_15: -470908881
+      ebonydraygon_16: -1170763026
+      ebonydraygon_17: 48030110
+      ebonydraygon_18: 1796757442
+      ebonydraygon_19: -1042211237
+      ebonydraygon_2: 297359980
+      ebonydraygon_20: -1530994185
+      ebonydraygon_21: 1247567091
+      ebonydraygon_22: -2097571967
+      ebonydraygon_23: 141125249
+      ebonydraygon_24: -1740450408
+      ebonydraygon_25: 1827237758
+      ebonydraygon_26: -1103350579
+      ebonydraygon_27: -1787351360
+      ebonydraygon_28: 1730139430
+      ebonydraygon_29: -1972420347
+      ebonydraygon_3: 634846065
+      ebonydraygon_30: 52340023
+      ebonydraygon_31: 1758440537
+      ebonydraygon_4: 661901648
+      ebonydraygon_5: -1620462713
+      ebonydraygon_6: 1973273385
+      ebonydraygon_7: -340198170
+      ebonydraygon_8: 2033539342
+      ebonydraygon_9: 292454006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

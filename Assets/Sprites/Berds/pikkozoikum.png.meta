@@ -46,7 +46,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: 0.6, y: 0.17}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -109,11 +109,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,11 +130,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 398
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,11 +151,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 796
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,11 +172,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1194
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,11 +193,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1592
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,11 +214,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1990
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,11 +235,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2388
-        y: 900
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: pikkozoikum_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 600
+        x: 2786
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: pikkozoikum_8
       rect:
         serializedVersion: 2
-        x: 398
-        y: 600
+        x: 3184
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: pikkozoikum_9
       rect:
         serializedVersion: 2
-        x: 796
-        y: 600
+        x: 3582
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: pikkozoikum_10
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 600
+        x: 3980
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: pikkozoikum_11
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 600
+        x: 0
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,12 +360,12 @@ TextureImporter:
       name: pikkozoikum_12
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 600
+        x: 398
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: pikkozoikum_13
       rect:
         serializedVersion: 2
-        x: 2388
-        y: 600
+        x: 796
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: pikkozoikum_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
+        x: 1194
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: pikkozoikum_15
       rect:
         serializedVersion: 2
-        x: 398
-        y: 300
+        x: 1592
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,12 +444,12 @@ TextureImporter:
       name: pikkozoikum_16
       rect:
         serializedVersion: 2
-        x: 796
-        y: 300
+        x: 1990
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: pikkozoikum_17
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 300
+        x: 2388
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,12 +486,12 @@ TextureImporter:
       name: pikkozoikum_18
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 300
+        x: 2786
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -507,12 +507,12 @@ TextureImporter:
       name: pikkozoikum_19
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 300
+        x: 3184
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: pikkozoikum_20
       rect:
         serializedVersion: 2
-        x: 2388
-        y: 300
+        x: 3582
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,12 +549,12 @@ TextureImporter:
       name: pikkozoikum_21
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3980
         y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -592,12 +592,6 @@ TextureImporter:
       pikkozoikum_2: -771588401
       pikkozoikum_20: -405899597
       pikkozoikum_21: 1712060741
-      pikkozoikum_22: 1805369458
-      pikkozoikum_23: -1121584292
-      pikkozoikum_24: -633454430
-      pikkozoikum_25: -994631897
-      pikkozoikum_26: -741528000
-      pikkozoikum_27: -2130476799
       pikkozoikum_3: -1016967854
       pikkozoikum_4: 336167409
       pikkozoikum_5: 422043048

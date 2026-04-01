@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: fbe38ab7939ebf84c905420d3dabce89
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Azymadia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7972b9bd783dea48848fce71a102cca
+      internalID: 1693627600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1103ba7ee404cd149857b221fed6207c
+      internalID: 457033225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bdf27e0c49ed041bdcc25d9b6e5a7f
+      internalID: 2111708022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd097c35579622d42a7dbdffcc03f143
+      internalID: 563636880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764a9f3172367ae4ab2911815efaf5cc
+      internalID: -388557893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_5
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e6c23fc3e16b54a990e2d86aca78a1
+      internalID: -1759233496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_6
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8806e88553ffc841b6528f37c200e9d
+      internalID: 94934528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_7
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fd5c0cf4ca5f1499b7ce4225311eb1
+      internalID: -2013928538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb308ad2097d040997cc74fa64a74a
+      internalID: -617531422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ed3d3bec768842a1b26a510e3447d
+      internalID: -98007548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3af0301dbe67b44f9374aeb2f0c739c
+      internalID: 488664114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a809a5aa0dbc498d8016fc6439bb2
+      internalID: -1411663678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a2f9d5126271f4c8bafee4aa72d434
+      internalID: 1136266348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9921932133af094d8a0fd0c974ad116
+      internalID: -662095962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effe884e44a6ee0478a9acd4a8d28cb5
+      internalID: -1711296109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7618e19e18532a4b83368d9ae9cddd2
+      internalID: -108501776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de477999bdd1fe4ab5ee091d5bbdc1a
+      internalID: -1555156290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4f6f7a29adcc40935c50024edaf9f
+      internalID: 861421872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570da9984828b5841847773bd5735c49
+      internalID: 695374061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ace36437778ef4bb63ff86f39b8131
+      internalID: 810721897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b01923e80edfd04dbfa61da4555a0c3
+      internalID: 968775152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe44b008dba384f8d5b11ecf31514d
+      internalID: 1726721234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612dd1afd34af2040b8e602b23202c1e
+      internalID: -2009063623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bd85fa5873bc54abe62f1849be4379
+      internalID: 1241294400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a0a12d36d147418fcacd72b9f96a6
+      internalID: 64636751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ef0fedcbcd2149a707d342d78ac07
+      internalID: -629138429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daca8eb9dd037a4f9cfd850d16724e3
+      internalID: -755084777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99c955897f6ec42b1dc16edb15c7f7
+      internalID: 1703688409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671ccb1b7dca37747b123e9425512834
+      internalID: 1021726440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17cb81180b4e9e40bb7f5870be54c21
+      internalID: 1837279385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce60f719b5b5c8f43841c9b27e477843
+      internalID: -1509962497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azymadia_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a3477d96865d14287c83275d150a31
+      internalID: 583162557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Azymadia_0: 1693627600
+      Azymadia_1: 457033225
+      Azymadia_10: 488664114
+      Azymadia_11: -1411663678
+      Azymadia_12: 1136266348
+      Azymadia_13: -662095962
+      Azymadia_14: -1711296109
+      Azymadia_15: -108501776
+      Azymadia_16: -1555156290
+      Azymadia_17: 861421872
+      Azymadia_18: 695374061
+      Azymadia_19: 810721897
+      Azymadia_2: 2111708022
+      Azymadia_20: 968775152
+      Azymadia_21: 1726721234
+      Azymadia_22: -2009063623
+      Azymadia_23: 1241294400
+      Azymadia_24: 64636751
+      Azymadia_25: -629138429
+      Azymadia_26: -755084777
+      Azymadia_27: 1703688409
+      Azymadia_28: 1021726440
+      Azymadia_29: 1837279385
+      Azymadia_3: 563636880
+      Azymadia_30: -1509962497
+      Azymadia_31: 583162557
+      Azymadia_4: -388557893
+      Azymadia_5: -1759233496
+      Azymadia_6: 94934528
+      Azymadia_7: -2013928538
+      Azymadia_8: -617531422
+      Azymadia_9: -98007548
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

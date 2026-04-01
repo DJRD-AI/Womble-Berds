@@ -46,7 +46,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: 0.6, y: 0.17}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -109,11 +109,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,11 +130,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 398
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,11 +151,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 796
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,11 +172,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1194
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,11 +193,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1592
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,11 +214,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1990
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,11 +235,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2388
-        y: 1200
+        y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: lux4272_7
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2786
         y: 900
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: lux4272_8
       rect:
         serializedVersion: 2
-        x: 398
-        y: 900
+        x: 0
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: lux4272_9
       rect:
         serializedVersion: 2
-        x: 796
-        y: 900
+        x: 398
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: lux4272_10
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 900
+        x: 796
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: lux4272_11
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 900
+        x: 1194
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,12 +360,12 @@ TextureImporter:
       name: lux4272_12
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 900
+        x: 1592
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: lux4272_13
       rect:
         serializedVersion: 2
-        x: 2388
-        y: 900
+        x: 1990
+        y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: lux4272_14
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2388
         y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: lux4272_15
       rect:
         serializedVersion: 2
-        x: 398
+        x: 2786
         y: 600
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,12 +444,12 @@ TextureImporter:
       name: lux4272_16
       rect:
         serializedVersion: 2
-        x: 796
-        y: 600
+        x: 0
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: lux4272_17
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 600
+        x: 398
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,12 +486,12 @@ TextureImporter:
       name: lux4272_18
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 600
+        x: 796
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -507,12 +507,12 @@ TextureImporter:
       name: lux4272_19
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 600
+        x: 1194
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: lux4272_20
       rect:
         serializedVersion: 2
-        x: 2388
-        y: 600
+        x: 1592
+        y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,12 +549,12 @@ TextureImporter:
       name: lux4272_21
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1990
         y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,12 +570,12 @@ TextureImporter:
       name: lux4272_22
       rect:
         serializedVersion: 2
-        x: 398
+        x: 2388
         y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -591,12 +591,12 @@ TextureImporter:
       name: lux4272_23
       rect:
         serializedVersion: 2
-        x: 796
+        x: 2786
         y: 300
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: lux4272_24
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 300
+        x: 0
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -633,12 +633,12 @@ TextureImporter:
       name: lux4272_25
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 300
+        x: 398
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -654,12 +654,12 @@ TextureImporter:
       name: lux4272_26
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 300
+        x: 796
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: lux4272_27
       rect:
         serializedVersion: 2
-        x: 2388
-        y: 300
+        x: 1194
+        y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -696,12 +696,12 @@ TextureImporter:
       name: lux4272_28
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1592
         y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -717,12 +717,12 @@ TextureImporter:
       name: lux4272_29
       rect:
         serializedVersion: 2
-        x: 398
+        x: 1990
         y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -738,12 +738,12 @@ TextureImporter:
       name: lux4272_30
       rect:
         serializedVersion: 2
-        x: 796
+        x: 2388
         y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: lux4272_31
       rect:
         serializedVersion: 2
-        x: 1194
+        x: 2786
         y: 0
         width: 398
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -813,9 +813,6 @@ TextureImporter:
       lux4272_3: 428982727
       lux4272_30: -1421387086
       lux4272_31: 1788173826
-      lux4272_32: -631910721
-      lux4272_33: 1921024845
-      lux4272_34: 1047367566
       lux4272_4: -530672182
       lux4272_5: -323782201
       lux4272_6: 231072011
