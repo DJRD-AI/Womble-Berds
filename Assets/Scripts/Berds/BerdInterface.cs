@@ -6,6 +6,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class BerdInterface : MonoBehaviour
 {
@@ -41,7 +44,7 @@ public class BerdInterface : MonoBehaviour
 
     #region Admin Vars
     bool EnableAdminInputs = false;
-    [SerializeField] bool EnableInputs = true;
+    bool EnableInputs = true;
     bool EnableSpawns = true;
     bool EnableRemoval = true;
     #endregion
@@ -52,7 +55,29 @@ public class BerdInterface : MonoBehaviour
     // Update is called once per frame
     void Update(){
         AdminInputs();
+        GrabBerds();
         ChatRead();
+    }
+
+    public void FindAllBerds(){
+        #if UNITY_EDITOR
+        string folderPath = "Assets/Prefabs/Berds";
+        string[] guids = AssetDatabase.FindAssets("t:Prefab", new[] { folderPath });
+        berds.Clear();
+        foreach (string guid in guids){
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+
+            if (assetPath.Contains("Berd Base"))
+                continue;
+
+            GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
+
+            if (asset == null)
+                continue;
+
+            berds.Add(asset);
+        }
+        #endif
     }
 
     void AdminInputs()
@@ -66,6 +91,24 @@ public class BerdInterface : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.A)) StartCoroutine(SPAWNBERDARMY());
         if(Input.GetKeyDown(KeyCode.C)) StartCoroutine(ClearBerds());
+    }
+
+    void GrabBerds()
+    {
+        if(!Input.GetMouseButtonDown(0))
+            return;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin,ray.direction);
+        Transform HitObject = hit ? hit.collider.transform : null;
+        if(HitObject == null){
+            Debug.Log("No cast hit");
+            return;
+        }
+        if(!HitObject.transform.TryGetComponent(out Berd shotBerd)){
+            Debug.Log($"{HitObject.name} : No berd");
+            return;
+        }
+        shotBerd.StartDraggin();
     }
 
     private bool TrackedName(string name = "") => berds.Any(b => b != null && b.name.ToLower() == name.ToLower());
@@ -212,7 +255,7 @@ public class BerdInterface : MonoBehaviour
                 berd.Scale(Arg1,Arg2);
                 break;
             case "!quack":
-                berd.Quack();
+                berd.Quack(Arg1);
                 break;
             case "!wiggle":
                 Debug.Log($"WIGGLE {message.Sender}!, amplitude{Arg1}");
@@ -265,3 +308,25 @@ public class BerdInterface : MonoBehaviour
         StopAllCoroutines();
     }
 }
+
+#if UNITY_EDITOR
+[CustomEditor(typeof(BerdInterface))]
+public class BerdInterfaceEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        if (target == null || serializedObject == null)
+            return;
+
+        if (GUILayout.Button("Find Berds")){
+            BerdInterface script = (BerdInterface)target;
+            script.FindAllBerds();
+        }
+
+        SerializedProperty berds = serializedObject.FindProperty("berds");
+        EditorGUILayout.PropertyField(berds);
+
+        serializedObject.ApplyModifiedProperties();
+    }
+}
+#endif

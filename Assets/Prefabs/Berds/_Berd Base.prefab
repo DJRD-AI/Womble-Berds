@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5422377068652383178}
   - component: {fileID: 5422377068652383180}
   - component: {fileID: 5551688358482389687}
+  - component: {fileID: 3047125958676895494}
   m_Layer: 0
   m_Name: _Berd Base
   m_TagString: Untagged
@@ -98,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b260bfee1816884189f88ef56491752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localPosition: {x: 0, y: 0, z: 0}
-  _localScale: {x: 0, y: 0, z: 0}
+  scale: 1
+  ScaleMod: 1
   quack: {fileID: 8300000, guid: d5b50d252258bdd4dad467f0846b7803, type: 3}
   quackHole: {fileID: 5551688358482389687}
   spriteRenderer: {fileID: 5422377068652383178}
@@ -201,3 +202,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &3047125958676895494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422377068652383183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.55, y: 0.95}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.6, y: 0.17}
+    oldSize: {x: 3.98, y: 3.0005467}
+    newSize: {x: 3.98, y: 3.0005467}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3, y: 2}
+  m_EdgeRadius: 0
