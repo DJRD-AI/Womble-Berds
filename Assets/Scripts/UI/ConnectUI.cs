@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ConnectUI : MonoBehaviour
 {
+    public static bool Connected{get;private set;} = false;
     [SerializeField] BerdInterface Interface = null;
     [SerializeField] TMP_InputField _username;
     [SerializeField] TMP_InputField _channel;
@@ -49,6 +50,7 @@ public class ConnectUI : MonoBehaviour
         PlayerPrefs.SetString("OAuth", _OAuth.text);
         if (!Interface.Chatconnect(_username.text, _channel.text, _OAuth.text))
             return;
+        Connected = true;
         Destroy(transform.parent.gameObject);
     }
 
@@ -60,6 +62,7 @@ public class ConnectUI : MonoBehaviour
             return;
 
         PlayerPrefs.SetString("CamColour", colour);
+        goal.a = 0;
         Camera.main.backgroundColor = goal;
     }
 }
