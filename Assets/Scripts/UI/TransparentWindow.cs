@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System;
+using System.Diagnostics;
 
 public class TransparentWindow : MonoBehaviour
 {
@@ -23,42 +24,13 @@ public class TransparentWindow : MonoBehaviour
     public static extern IntPtr SetLayeredWindowAttributes(IntPtr hWnd, uint crKey, byte bAlpha, uint dwFlags);
     [DllImport("Dwmapi.dll")]
     private static extern uint DwmExtendFrameIntoClientArea(IntPtr hWind, ref MARGINS margins);
-    IntPtr hWnd;
-    const int GWL_EXTSTYLE = -20;
-    const uint WS_EX_LAYERED = 0x00080000;
-    const uint WS_EX_TRANSPARENT = 0x00000020;
-    static readonly IntPtr HWND_TOPMOST = new(-1);
-    const uint LWA_COLORKEY = 0x00000001;
     private void Start(){
         if(Application.isEditor)
             return;
-        hWnd = GetActiveWindow();
+        IntPtr hWnd = Process.GetCurrentProcess().MainWindowHandle;;
         MARGINS margins = new() { cxLeftWidth = -1};
 
         _ = DwmExtendFrameIntoClientArea(hWnd, ref margins);
-
-        SetWindowLong(hWnd, GWL_EXTSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
-        // SetLayeredWindowAttributes(hWnd,0,0,LWA_COLORKEY);
-
-        SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, 0);
-    }
-
-    void Update()
-    {
-        SetClickthrough(ConnectUI.Connected && Physics2D.OverlapPoint(GetMousePos()) == null); 
-    }
-
-    Vector2 GetMousePos(){
-        Vector2 MousePos = Input.mousePosition;
-        MousePos = Camera.main.ScreenToWorldPoint(MousePos);
-        return MousePos;
-    }
-    void SetClickthrough(bool clickthrough)
-    {
-        if(clickthrough)
-            SetWindowLong(hWnd, GWL_EXTSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
-        else
-            SetWindowLong(hWnd, GWL_EXTSTYLE, WS_EX_LAYERED);
 
     }
 }

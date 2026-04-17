@@ -24,10 +24,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 678204509, guid: e55cf349d44f4c6408dd4af38433a349, type: 3}
     - target: {fileID: 5422377068652383178, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5422377068652383178, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -282,6 +278,10 @@ PrefabInstance:
     - target: {fileID: 5422377068652383183, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}
       propertyPath: m_Name
       value: Valyavt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462952784855566980, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 3.0009356
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}

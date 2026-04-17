@@ -16,13 +16,13 @@ public class BerdInterface : MonoBehaviour
     /// Time in minutes before a berd gets DESTROYED!
     /// </summary>
     private static readonly float DESTRUCTIONTIME = 60.0f;
+    private static readonly int ARGCOUNT = 5;
     [Serializable]
     private class ChatMessage{
         public string Sender;
         public string Body;
         public DateTime DeleteTime;
     }
-
 
     private TcpClient client;
     private StreamReader reader;
@@ -43,13 +43,28 @@ public class BerdInterface : MonoBehaviour
     private Coroutine _DeletionTracker = null;
 
     #region Admin Vars
-    bool EnableAdminInputs = false;
-    bool EnableInputs = true;
-    bool EnableSpawns = true;
-    bool EnableRemoval = true;
+    private string username = "";
+    private bool EnableAdminInputs = false;
+    private bool EnableInputs = true;
+    private bool EnableSpawns = true;
+    private bool EnableRemoval = true;
+    static public bool EnableQuackCooldown{get;private set;} = true;
     #endregion
-    // Start is called before the first frame update
-    void Start(){
+    public static BoundPos WALKBOUND{get;private set;}
+    public static BoundPos DRAGBOUND{get;private set;}
+    public static BoundPos SPAWNBOUND{get;private set;}
+    public static BoundPos DESPAWNBOUND{get;private set;}
+    [field:SerializeField] public BoundPos WalkBound{get;private set;}    = new(-7.8,8.5,-4.96f,-3.56f);
+    [field:SerializeField] public BoundPos DragBound{get;private set;}    = new(-7.8,8.5,-4.96f,3.58f);
+    [field:SerializeField] public BoundPos SpawnBound{get;private set;}   = new(-7.8,8.5,-4.96f,-3.56f);
+    [field:SerializeField] public BoundPos DespawnBound{get;private set;} = new(-7.8,8.5,-4.96f,3.58f);
+
+    void Awake()
+    {
+        WALKBOUND    = WalkBound;
+        DRAGBOUND    = DragBound;
+        SPAWNBOUND   = SpawnBound;
+        DESPAWNBOUND = DespawnBound;
     }
 
     // Update is called once per frame
@@ -59,8 +74,8 @@ public class BerdInterface : MonoBehaviour
         ChatRead();
     }
 
+#if UNITY_EDITOR
     public void FindAllBerds(){
-        #if UNITY_EDITOR
         string folderPath = "Assets/Prefabs/Berds";
         string[] guids = AssetDatabase.FindAssets("t:Prefab", new[] { folderPath });
         berds.Clear();
@@ -77,42 +92,35 @@ public class BerdInterface : MonoBehaviour
 
             berds.Add(asset);
         }
-        #endif
     }
+#endif
 
-    void AdminInputs()
-    {
+    void AdminInputs(){
         if(Input.GetKeyDown(KeyCode.Q)) EnableAdminInputs = !EnableAdminInputs;
         if(!EnableAdminInputs) return;
 
         if(Input.GetKeyDown(KeyCode.D)) EnableInputs  = !EnableInputs;
         if(Input.GetKeyDown(KeyCode.S)) EnableSpawns  = !EnableSpawns;
         if(Input.GetKeyDown(KeyCode.R)) EnableRemoval = !EnableRemoval;
+        if(Input.GetKeyDown(KeyCode.E)) EnableQuackCooldown = !EnableQuackCooldown;
 
         if(Input.GetKeyDown(KeyCode.A)) StartCoroutine(SPAWNBERDARMY());
         if(Input.GetKeyDown(KeyCode.C)) StartCoroutine(ClearBerds());
     }
 
-    void GrabBerds()
-    {
+    void GrabBerds(){
         if(!Input.GetMouseButtonDown(0))
             return;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin,ray.direction);
         Transform HitObject = hit ? hit.collider.transform : null;
-        if(HitObject == null){
-            Debug.Log("No cast hit");
+        if(HitObject == null || !HitObject.transform.TryGetComponent(out Berd shotBerd))
             return;
-        }
-        if(!HitObject.transform.TryGetComponent(out Berd shotBerd)){
-            Debug.Log($"{HitObject.name} : No berd");
-            return;
-        }
-        shotBerd.StartDraggin();
+        shotBerd.StartDragging();
     }
 
-    private bool TrackedName(string name = "") => berds.Any(b => b != null && b.name.ToLower() == name.ToLower());
-    private bool TrackedName(ChatMessage message ) => TrackedName(message.Sender);
+    private bool TrackedName(string name = "") => berds.Any(b => b != null && string.Equals(b.name,name, StringComparison.OrdinalIgnoreCase));
+    private bool TrackedName(ChatMessage message) => TrackedName(message.Sender);
 
     /// <summary>
     /// Get the berd associated with this name.
@@ -120,15 +128,17 @@ public class BerdInterface : MonoBehaviour
     /// </summary>
     /// <param name="name">Lowercase name of the sender</param>
     /// <returns></returns>
-    private GameObject GetBerd(string name = "" ){
+    private GameObject GetBerd(string name = "", bool spawn = true){
         //See if the berd is contained within the active berds list.
-        GameObject ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
+        if(name.StartsWith('@'))
+            name = name[1..];
+        GameObject ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
 
-        if(ReturningBerd != null || !EnableSpawns)
+        if(ReturningBerd != null || !EnableSpawns || !spawn)
             return ReturningBerd;
 
         //Make a new berd based upon the list of all berds
-        ReturningBerd = berds.FirstOrDefault(b => b != null && b.name.ToLower() == name.ToLower());
+        ReturningBerd = berds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
 
         if(ReturningBerd == null)
             return null;
@@ -144,7 +154,7 @@ public class BerdInterface : MonoBehaviour
     /// </summary>
     /// <param name="message">Message that was sent</param>
     /// <returns></returns>
-    private GameObject GetBerd(ChatMessage message = null ) => message != null ? GetBerd(message.Sender) : null;
+    private GameObject GetBerd(ChatMessage message = null, bool spawn = true) => message != null ? GetBerd(message.Sender,spawn) : null;
 
     public bool Chatconnect(string username = null, string channel = null, string oauth = null){
         if(username == null)
@@ -153,6 +163,8 @@ public class BerdInterface : MonoBehaviour
             return false;
         if(oauth == null)
             return false;
+        this.username = username.ToLower();
+
         //setup Twitch connection
         client = new TcpClient("irc.chat.twitch.tv", 6667);
         reader = new StreamReader(client.GetStream());
@@ -174,8 +186,8 @@ public class BerdInterface : MonoBehaviour
             return;
 
         string message = reader.ReadLine();
-
         if (message.StartsWith("PING")){
+            Debug.Log(message);
             writer.WriteLine("PONG :tmi.twitch.tv\r\n");
             writer.Flush();
             return;
@@ -183,89 +195,128 @@ public class BerdInterface : MonoBehaviour
         ChatMessage chatMessage = ParseMessage(message);
         if(chatMessage == null)
             return;
+        if(chatMessage.Sender == username)
+            HandleAdminCommand(chatMessage);
         if(EnableInputs)
             HandleCommand(chatMessage);
         if(EnableRemoval)
             UpdateDestructionList(chatMessage);
     }
-
-    ChatMessage ParseMessage(string raw){
-        if (!raw.Contains("PRIVMSG"))
+    /// <summary>
+    /// Parses a raw twitch message into the chatmessage format.
+    /// </summary>
+    /// <param name="RawMessage">Raw twitch message</param>
+    /// <returns>Parsed message in chatmessage class</returns>
+    ChatMessage ParseMessage(string RawMessage){
+        if (!RawMessage.Contains("PRIVMSG"))
             return null;
 
-        int nameEnd     = raw.IndexOf('!');
-        string username = raw[1..nameEnd];
+        int nameEnd     = RawMessage.IndexOf('!');
+        string username = RawMessage[1..nameEnd];
 
-        if(!TrackedName(username))
+        if(!TrackedName(username) && string.Equals(username, this.username,StringComparison.OrdinalIgnoreCase))
             return null;
 
-        int msgIndex = raw.IndexOf("PRIVMSG");
-        int msgStart = raw.IndexOf(':', msgIndex);
-        string message = raw[(msgStart + 1)..];
+        int msgIndex = RawMessage.IndexOf("PRIVMSG");
+        int msgStart = RawMessage.IndexOf(':', msgIndex);
+        string message = RawMessage[(msgStart + 1)..];
 
-        ChatMessage NewMessage = new(){
+        return new(){
             Sender     = username.ToLower(),
             Body       = message,
             DeleteTime = DateTime.Now.AddMinutes(DESTRUCTIONTIME)
         };
-        return NewMessage;
     }
+    private void HandleAdminCommand(ChatMessage message){
+        if(!message.Body.StartsWith("!"))
+            return;
 
+        string[] parts = message.Body.Split(' ');
+        string Command = parts[0];
+
+        switch (Command){
+            case "!summon":
+                GetBerd(parts[1]);
+                break;
+            case "!dismiss":
+                GameObject berd = GetBerd(parts[1], false);
+                if(berd == null)
+                    return;
+                Berd berdScript = berd.GetComponent<Berd>();
+                berdScript.DespawnBerd();
+                ActiveBerds.Remove(berd);
+                break;
+            case "!admin":
+                if(parts.Length < 1)
+                    return;
+                ChatMessage phony = new (){
+                    Sender = parts[0],
+                    Body = ""
+                };
+                for(int i = 1; i < parts.Length; i++)
+                    phony.Body.Concat(parts[i] + " ");
+                phony.Body = phony.Body[..^1];
+                HandleCommand(phony);
+                break;
+            default:
+                break;
+        }
+    }
     private void HandleCommand(ChatMessage message){
         GameObject BerdObject = GetBerd(message);
-        Berd berd;
 
         if(BerdObject == null)
             return;
         if(!EnableInputs)
             return;
 
-        berd = BerdObject.GetComponent<Berd>();
+        Berd berd = BerdObject.GetComponent<Berd>();
+        if(berd.IsDragging)
+            return;
         if(!message.Body.StartsWith("!"))
             return;
 
         string[] parts = message.Body.Split(' ');
-        string Command = parts[0];
-        float Arg1 = 1;
-        float Arg2 = 1;
-        Debug.Log(parts.Length);
-        if(parts.Length > 1)
-            float.TryParse(parts[1],out Arg1);
-        if(Arg1 == 0)
-            Arg1 = 1;
-        if(parts.Length > 2)
-            float.TryParse(parts[2],out Arg2);
-        Arg2 = Mathf.Abs(Arg2);
+        string Command = parts[0][1..].ToLower();
+        float[] Fargs = new float[ARGCOUNT];
+        for(int i = 0; i < ARGCOUNT; i++){
+            if(i >= parts.Length-1 || !float.TryParse(parts[i+1], out Fargs[i]))
+                Fargs[i] = 1;
+        }
+
+
         switch (Command){
-            case "!reset":
-                berd.ResetBerd();
-                break;
-            case "!up":
-            case "!down":
-            case "!left":
-            case "!right":
-                bool Vertical = Command == "!up" || Command == "!down";
-                Vector2 direction = Vertical ? Vector2.up : Vector2.right;
-                if(Command == "!left" || Command == "!down")
+            case "reset": berd.ResetBerd(); break;
+            case "scale" : berd.Scale(Fargs[0],Fargs[1]); break;
+            case "quack" : berd.Quack(Fargs[0],Fargs[1]); break;
+            case "wiggle": berd.Wiggle(Fargs[0],Fargs[1]); break;
+
+            case "up": case "down": case "left": case "right":
+                bool Vertical = Command == "up" || Command == "down";
+                Vector2 direction = Vertical ? Vector2.up * 0.1f : Vector2.right;
+                if(Command == "left" || Command == "down")
                     direction *= -1;
-                direction *= Arg1;
-                berd.MoveDir(direction,Arg2);
+                direction *= Fargs[0] == 0 ? 1 : Fargs[0];
+                berd.MoveDir(direction,Fargs[1]);
                 break;
-            case "!scale":
-                berd.Scale(Arg1,Arg2);
+
+            //Handling of variable commands. Defined by the berds class themselves
+            default:
+                //all double arg commands. Like !follow [berd]
+                if(parts.Length < 2)
+                    break;
+                GameObject Berd2Object = GetBerd(parts[1],false);
+                if(Berd2Object == null)
+                    break;
+                if(berd.TryFollow(Berd2Object,Command,Fargs[2],false) != -1)
+                    break;
                 break;
-            case "!quack":
-                berd.Quack(Arg1);
-                break;
-            case "!wiggle":
-                Debug.Log($"WIGGLE {message.Sender}!, amplitude{Arg1}");
-                berd.Wiggle(Arg1,Arg2);
-                break;
+
         }
     }
 
     private void UpdateDestructionList(ChatMessage Message){
-        Destructionlist.RemoveAll(m => m != null && m.Sender.ToLower() == Message.Sender.ToLower());
+        Destructionlist.RemoveAll(m => m != null && string.Equals(m.Sender, Message.Sender,StringComparison.OrdinalIgnoreCase));
         Destructionlist.Add(Message);
         _DeletionTracker ??= StartCoroutine(DeletingBerds());
     }
@@ -276,10 +327,10 @@ public class BerdInterface : MonoBehaviour
             Destructionlist.RemoveAt(0);
             yield return new WaitForSeconds((float)(ToCheck.DeleteTime - DateTime.Now).TotalSeconds);
             if(!EnableRemoval)
-                break;
+                yield break;
             if(Destructionlist.Count(m => m.Sender == ToCheck.Sender) > 0)
                 continue;
-            GameObject ToDestroy = GetBerd(ToCheck);
+            GameObject ToDestroy = GetBerd(ToCheck, false);
             ActiveBerds.Remove(ToDestroy);
             ToDestroy.GetComponent<Berd>().DespawnBerd();
         }
@@ -307,24 +358,56 @@ public class BerdInterface : MonoBehaviour
         Destructionlist.Clear();
         StopAllCoroutines();
     }
+    void OnDrawGizmos(){
+        DrawBoundPosGizmo(WalkBound,Color.yellow);
+        DrawBoundPosGizmo(DragBound,Color.blue);
+        DrawBoundPosGizmo(SpawnBound,Color.green);
+        DrawBoundPosGizmo(DespawnBound,Color.red);
+    }
+    void DrawBoundPosGizmo(BoundPos bounds, Color color){
+        Gizmos.color = color;
+        Gizmos.DrawLine(bounds.UPLEFT   ,bounds.DOWNLEFT);
+        Gizmos.DrawLine(bounds.UPLEFT   ,bounds.UPRIGHT);
+        Gizmos.DrawLine(bounds.UPRIGHT  ,bounds.DOWNRIGHT);
+        Gizmos.DrawLine(bounds.DOWNRIGHT,bounds.DOWNLEFT);
+    }
 }
 
 #if UNITY_EDITOR
 [CustomEditor(typeof(BerdInterface))]
-public class BerdInterfaceEditor : Editor
-{
-    public override void OnInspectorGUI()
+public class BerdInterfaceEditor : Editor{
+    BerdInterface script;
+    SerializedProperty berds;
+    SerializedProperty Active;
+    SerializedProperty walk;
+    SerializedProperty drag;
+    SerializedProperty spawn;
+    SerializedProperty despawn;
+    protected virtual void OnEnable()
     {
         if (target == null || serializedObject == null)
             return;
+        script  = (BerdInterface)target;
+        berds   = serializedObject.FindProperty("berds");
+        Active  = serializedObject.FindProperty("ActiveBerds");
+        walk    = serializedObject.FindProperty("<WalkBound>k__BackingField");
+        drag    = serializedObject.FindProperty("<DragBound>k__BackingField");
+        spawn   = serializedObject.FindProperty("<SpawnBound>k__BackingField");
+        despawn = serializedObject.FindProperty("<DespawnBound>k__BackingField");
+    }
+    public override void OnInspectorGUI(){
+        if (target == null || serializedObject == null)
+            return;
 
-        if (GUILayout.Button("Find Berds")){
-            BerdInterface script = (BerdInterface)target;
+        if (GUILayout.Button("Find Berds"))
             script.FindAllBerds();
-        }
 
-        SerializedProperty berds = serializedObject.FindProperty("berds");
         EditorGUILayout.PropertyField(berds);
+        EditorGUILayout.PropertyField(Active);
+        EditorGUILayout.PropertyField(walk);
+        EditorGUILayout.PropertyField(drag);
+        EditorGUILayout.PropertyField(spawn);
+        EditorGUILayout.PropertyField(despawn);
 
         serializedObject.ApplyModifiedProperties();
     }

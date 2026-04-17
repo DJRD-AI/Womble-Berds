@@ -2,13 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using UnityEngine.Serialization;
-using UnityEngine.EventSystems;
 using System.Linq;
-
-
-
-
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -17,14 +11,16 @@ using UnityEditor;
 [RequireComponent(typeof(AudioSource))]
 public class Berd : MonoBehaviour
 {
+    #region constants
     const float QUACKCOOLDOWN = 15.0f;
     private static readonly BoundVal SCALES      = new(0.3f,0.8f);
-    private static readonly BoundVal SPEED       = new(1.0f, 10.0f);
+    private static readonly BoundVal SPEED       = new(0f, 10.0f);
     private static readonly BoundVal QUACKPITCH  = new(0.5f,1.5f);
     private static readonly BoundVal QUACKVOL    = new(0.5f,2f);
     private static readonly BoundVal RANDOMEVENT = new(15.0f,45.0f);
-    private static readonly BoundPos POS         = new(-7.8,8.5,-4.96f,-3.56f);
-    bool QuackTired = false;
+    #endregion
+    private bool QuackTired = false;
+    [field:SerializeField] public List<Transform> SpecialPositions{get;private set;}
     private Vector2 _localPosition = Vector2.zero;
     [
         SerializeField,
@@ -35,20 +31,21 @@ public class Berd : MonoBehaviour
     [SerializeField,Tooltip("Use this to make sure all the berds are of roughly equal size\nEXCEPT AZY. she be bigger :P")]
     private float ScaleMod = 1f;
     [SerializeField] private AudioClip quack;
+    [SerializeField] private AudioClip quackSpecial;
+    [SerializeField,Range(0.0f,1.0f)] private float specialChance = 0.1f;
     [SerializeField] private AudioSource quackHole;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] float WalkCycleTime;
     [SerializeField] List<Sprite> WalkCycle;
     private Coroutine Movement = null;
     private Coroutine Scaling = null;
+    public bool IsDragging{get; private set;} = false;
     DateTime RandomEvent;
 
     private void Reset() {
         quackHole = GetComponent<AudioSource>();
-        quackHole = quackHole != null ? quackHole : gameObject.AddComponent<AudioSource>();
-        float verpos = POS.VER.Random;
-        transform.localPosition = new(POS.HOR.Random,verpos,verpos);
     }
+
     void Awake(){
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
     }
@@ -65,6 +62,7 @@ public class Berd : MonoBehaviour
     void OnDestroy(){
         StopAllCoroutines();
     }
+
     void Start(){
         quackHole.clip = quack;
         transform.localScale = SCALES.Lerp(scale) * ScaleMod * Vector3.one;
@@ -81,28 +79,26 @@ public class Berd : MonoBehaviour
     }
 
     IEnumerator Spawning(){
-        float verPos = POS.VER.Random;
+        float verPos = BerdInterface.SPAWNBOUND.VER.Random;
+        transform.position = BerdInterface.SPAWNBOUND.Random3;
+        _localPosition = BerdInterface.WALKBOUND.Random3;
         QuackTired = true;
-        transform.position = new(POS.RIGHT+2,verPos,verPos);
-        _localPosition = new (POS.HOR.Random, POS.VER.Random);
-
-        quackHole.Play();
-        QuackTired = false;
+        PlayQuack();
         MoveTo(_localPosition, UnityEngine.Random.Range(1,4));
         yield return Movement;
-        quackHole.Play();
+        PlayQuack();
         yield return new WaitUntil(() => !quackHole.isPlaying);
+        PlayQuack();
+        yield return new WaitForSeconds(QUACKCOOLDOWN);
         QuackTired = false;
-        yield return Quacking();
     }
 
     public Coroutine DespawnBerd() => StartCoroutine(Despawning());
-
     IEnumerator Despawning(){
-        Vector2 MoveSpot = new(POS.LEFT-2,transform.localPosition.y);
-        quackHole.Play();
+        Vector2 MoveSpot = BerdInterface.DESPAWNBOUND.Random2;
+        PlayQuack();
         yield return new WaitUntil(() => !quackHole.isPlaying);
-        quackHole.Play();
+        PlayQuack();
         yield return new WaitUntil(() => !quackHole.isPlaying);
         MoveTo(MoveSpot,UnityEngine.Random.Range(1,4),false);
         yield return Movement;
@@ -136,7 +132,7 @@ public class Berd : MonoBehaviour
                     MoveDir(Direction,SPEED.Random);
                     break;
                 case < 0.4f:
-                    Vector2 EndPos = new(POS.HOR.Random,POS.VER.Random);
+                    Vector2 EndPos = BerdInterface.WALKBOUND.Random2;
                     MoveTo(EndPos,SPEED.Random);
                     break;
                 case < 0.6f:
@@ -151,37 +147,104 @@ public class Berd : MonoBehaviour
         }
     }
 
-    public void MoveTo(Vector3 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
-        if(PosClamp){
-            End.x = POS.HOR.Clamp(End.x);
-            End.y = POS.VER.Clamp(End.y);
-        }
+    private void PlayQuack() => PlayQuack(specialChance);
+    private void PlayQuack(float SpecialOdds){
+        if(quackSpecial != null)
+            quackHole.clip = UnityEngine.Random.Range(0.0f,1.0f) > SpecialOdds ? quack : quackSpecial;
+        quackHole.Play();
+    }
+
+    public void Quack(float pitch = 1.0f, float volume  = 1.0f,bool clampPitch = true, bool VolClamp = true) => StartCoroutine(Quacking(volume,pitch,clampPitch,VolClamp));
+    public IEnumerator Quacking(float pitch = 1.0f, float volume = 1.0f,bool clampPitch = true, bool VolClamp = true){
+        if(QuackTired)
+            yield break;
+        if(clampPitch)
+            pitch = QUACKPITCH.Clamp(pitch);
+        if(VolClamp)
+            volume = QUACKVOL.Clamp(pitch);
+        RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
+        quackHole.pitch = pitch;
+        quackHole.volume = volume;
+        PlayQuack();
+        if(!BerdInterface.EnableQuackCooldown)
+            yield break;
+        QuackTired = true;
+        yield return new WaitForSeconds(QUACKCOOLDOWN);
+        QuackTired = false;
+    }
+
+    private float SpeedCheck(float speed, bool clamp = true)=> SpeedCheck(speed,SPEED,clamp);
+    private float SpeedCheck(float speed, BoundVal bounds, bool clamp = true){
+        if(clamp) speed = bounds.Clamp(speed);
+        if(speed == 0) return bounds.Lower;
+        return Mathf.Abs(speed);
+    }
+
+    public float MoveTo(Vector3 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+        if(PosClamp)
+            End = BerdInterface.WALKBOUND.Clamp(End);
         End.z = End.y;
-        if(SpeedClamp)
-            speed = SPEED.Clamp(speed);
+        speed = SpeedCheck(speed,SpeedClamp);
+
         float Duration = (End-transform.localPosition).magnitude/speed;
         if(Movement != null)
             StopCoroutine(Movement);
+
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-        Movement = StartCoroutine(transform.AnimatingLocalPos(End,AnimationCurve.EaseInOut(0,0,1,1),Duration));
+        Movement = StartCoroutine(transform.AnimatingLocalPos(End,Duration));
+        return Duration;
     }
-    public void MoveTo (Vector2 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true) => MoveTo(new Vector3(End.x,End.y,End.y), speed, PosClamp, SpeedClamp);
-    public void MoveDir(Vector3 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true) => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
-    public void MoveDir(Vector2 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true) => MoveDir(new Vector3(Dir.x,Dir.y,Dir.y),speed, PosClamp, SpeedClamp);
-    public void Scale(float endScale, float duration = 1.0f){
+    public float MoveTo (Vector2 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(End.x,End.y,End.y), speed, PosClamp, SpeedClamp);
+    public float MoveTo (Transform End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true) => MoveTo(End.position, speed, PosClamp, SpeedClamp);
+    public float MoveDir(Vector3 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
+    public float MoveDir(Vector2 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveDir(new Vector3(Dir.x,Dir.y,Dir.y),speed, PosClamp, SpeedClamp);
+
+    public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+        if(ToFollow == null)
+            return -1;
+        if(where.StartsWith("!"))
+            where = where[1..];
+        Transform endPos = ToFollow.SpecialPositions.FirstOrDefault(pos => string.Equals(pos.name, where, StringComparison.OrdinalIgnoreCase));
+        if(endPos == null)
+            return -1;
+        float duration = MoveTo(endPos,speed,PosClamp,SpeedClamp);
+        Scale(endPos,duration);
+        return duration;
+    }
+    public float TryFollow(GameObject ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+        if(ToFollow == null)
+            return -1;
+        Berd berd = ToFollow.GetComponent<Berd>();
+        return TryFollow(berd, where, speed,PosClamp,SpeedClamp);
+    }
+
+    public void Scale(float endScale = 10.0f, float duration = 1.0f){
         endScale = SCALES.Lerp(endScale/10) * ScaleMod;
-        duration = SPEED.Clamp(duration);
+        duration = SpeedCheck(duration);
 
         if(Scaling != null)
             StopCoroutine(Scaling);
 
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-        Scaling = StartCoroutine(transform.AnimatingLocalScale(Vector3.one*endScale,AnimationCurve.EaseInOut(0,0,1,1),duration));
+        Scaling = StartCoroutine(transform.AnimatingLocalScale(Vector3.one*endScale,duration));
+    }
+    public void Scale(Transform endScale = null, float duration = 1.0f){
+        if(endScale == null)
+            return;
+        duration = SpeedCheck(duration);
+
+        if(Scaling != null)
+            StopCoroutine(Scaling);
+
+        RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
+        Scaling = StartCoroutine(transform.AnimatingLocalScale(endScale.lossyScale*ScaleMod,duration));
     }
 
-    public void Wiggle(float Amplitude = 1, float speed = 1){
+    public void Wiggle(float Amplitude = 1, float speed = 1, bool speedClamp = true){
         if(Movement != null)
             StopCoroutine(Movement);
+        speed = SpeedCheck(speed,speedClamp);
+
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
         Movement = StartCoroutine(Wiggling(Amplitude,speed));
     }
@@ -189,8 +252,7 @@ public class Berd : MonoBehaviour
         Vector3 startPos = transform.localPosition;
         Vector3 CurrentPos = startPos;
         speed = SPEED.Clamp(speed);
-        Amplitude = Mathf.Clamp(Amplitude, -2f,2f);
-        Amplitude /= 2;
+        Amplitude = Mathf.Clamp(Amplitude, -2f,2f) / 2;
         if(Amplitude == 0)
             Amplitude = 0.1f;
         float DurSeg = Amplitude/speed;
@@ -205,7 +267,7 @@ public class Berd : MonoBehaviour
                 > 0.75f => EndCurve,
                 _ => MidCurve
             };
-            CurrentPos.x = startPos.x + workCurve.Evaluate(CurvePoint) * Amplitude;
+            CurrentPos.x += workCurve.Evaluate(CurvePoint) * Amplitude;
             transform.localPosition = CurrentPos;
 
             yield return new WaitForEndOfFrame();
@@ -214,46 +276,32 @@ public class Berd : MonoBehaviour
         }
         transform.localPosition = startPos;
     }
-    public void Quack(float volume = 1.0f, float pitch = 1.0f,bool clampPitch = true, bool VolClamp = true) => StartCoroutine(Quacking(volume,pitch,clampPitch,VolClamp));
-    public IEnumerator Quacking(float volume = 1.0f, float pitch = 1.0f,bool clampPitch = true, bool VolClamp = true){
-        if(QuackTired)
-            yield break;
-        if(clampPitch)
-            pitch = QUACKPITCH.Clamp(pitch);
-        if(VolClamp)
-            volume = QUACKVOL.Clamp(pitch);
-        RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-        quackHole.pitch = pitch;
-        quackHole.Play();
-        QuackTired = true;
-        yield return new WaitForSeconds(QUACKCOOLDOWN);
-        QuackTired = false;
-    }
 
-    public void StartDraggin(){
-        StartCoroutine(FollowCursor());
-    }
-
+    public void StartDragging() => StartCoroutine(FollowCursor());
     IEnumerator FollowCursor(){
         Vector3 targetPos;
         QuackTired = false;
+        IsDragging = true;
         Quack(2,UnityEngine.Random.Range(1.1f,1.5f));
         if(Movement != null)
             StopCoroutine(Movement);
         while (Input.GetMouseButton(0)){
+            scale = SCALES.Clamp(scale+Input.mouseScrollDelta.y * 0.10f);
+            transform.localScale = scale * ScaleMod * Vector3.one;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             targetPos = ray.origin;
-            targetPos.y = Mathf.Max(POS.DOWN,targetPos.y);
+            targetPos = BerdInterface.DRAGBOUND.Clamp(targetPos);
             targetPos.z = targetPos.y;
-            transform.position = Vector3.Lerp(transform.position,targetPos,Time.deltaTime*2f);
-            yield return new WaitForEndOfFrame();
+            transform.position = Vector3.Lerp(transform.position,targetPos,Time.deltaTime*10f);
+            yield return null;
         }
         targetPos = transform.localPosition;
-        if(!POS.VER.InBounds(targetPos.y)){
-            Debug.Log("Find New Pos");
-            targetPos.y = POS.VER.Random;
+        if(!BerdInterface.WALKBOUND.VER.InBounds(targetPos.y)){
+            targetPos.y = BerdInterface.WALKBOUND.VER.Random;
         }
         MoveTo(targetPos,10);
+        yield return Movement;
+        IsDragging = false;
     }
 }
 
@@ -266,21 +314,28 @@ public class BerdEditor : Editor{
     SerializedProperty _scaleMod;
     bool _audioFold = false;
     SerializedProperty _quack;
+    SerializedProperty _quackSpecial;
+    SerializedProperty _specialChance;
     bool _spriteFold = true;
     SerializedProperty _walkTime;
     SerializedProperty _walkCycle;
-    SerializedProperty _renderer;
+    SerializedProperty _SpecialPos;
     GUIStyle centeredStyle;
 
     void OnEnable(){
         if(target == null || serializedObject == null)
             return;
-        _startScale = serializedObject.FindProperty("scale");
-        _scaleMod = serializedObject.FindProperty("ScaleMod");
-        _quack = serializedObject.FindProperty("quack");
-        _walkTime = serializedObject.FindProperty("WalkCycleTime");
-        _walkCycle = serializedObject.FindProperty("WalkCycle");
-        _renderer = serializedObject.FindProperty("spriteRenderer");
+        _startScale     = serializedObject.FindProperty("scale");
+        _scaleMod       = serializedObject.FindProperty("ScaleMod");
+
+        _quack          = serializedObject.FindProperty("quack");
+        _quackSpecial   = serializedObject.FindProperty("quackSpecial");
+        _specialChance  = serializedObject.FindProperty("specialChance");
+
+        _walkTime       = serializedObject.FindProperty("WalkCycleTime");
+        _walkCycle      = serializedObject.FindProperty("WalkCycle");
+
+        _SpecialPos     = serializedObject.FindProperty("<SpecialPositions>k__BackingField");
     }
     public override void OnInspectorGUI(){
         if(target == null || serializedObject == null)
@@ -301,15 +356,21 @@ public class BerdEditor : Editor{
         if (_audioFold){
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_quack);
+            if(_quack.objectReferenceValue != null){
+                EditorGUILayout.PropertyField(_quackSpecial);
+                if(_quackSpecial.objectReferenceValue != null)
+                    EditorGUILayout.PropertyField(_specialChance);
+            }
             EditorGUI.indentLevel--;
         }
+
+        EditorGUILayout.PropertyField(_SpecialPos);
         Event evt = Event.current;
         _spriteFold = EditorGUILayout.Foldout(_spriteFold,"Sprite settings");
         if (_spriteFold){
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_walkTime);
             EditorGUILayout.PropertyField(_walkCycle);
-            EditorGUILayout.PropertyField(_renderer);
             if(targets.Length == 1 && DrawSpriteDrop(ref evt))
                 evt.Use();
             EditorGUI.indentLevel--;

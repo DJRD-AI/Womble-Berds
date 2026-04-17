@@ -279,5 +279,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bunny_BunCatGirl
       objectReference: {fileID: 0}
+    - target: {fileID: 6462952784855566980, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 3.0009356
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9db5eb9803a8f499bf810976e66d8a, type: 3}

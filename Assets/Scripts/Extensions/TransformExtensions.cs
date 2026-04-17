@@ -3,20 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class TransformExtensions
-{
-    public static IEnumerator AnimatingLocalScale(this Transform transform, Vector3 endScale, AnimationCurve curve, float duration = .5f) {
+public static class TransformExtensions{
+    public static IEnumerator AnimatingLocalScale(this Transform transform, Vector3 endScale, AnimationCurve curve = null, float duration = .5f) {
         float timePassed = 0f;
         Vector3 beginScale = transform.localScale;
         while (timePassed < duration) {
             yield return new WaitForEndOfFrame();
             timePassed += Time.deltaTime;
-            transform.localScale = Vector3.LerpUnclamped(beginScale, endScale , curve.Evaluate(timePassed / duration));
+            transform.localScale = Vector3.LerpUnclamped(beginScale, endScale, curve.Evaluate(timePassed / duration));
         }
         transform.localScale = endScale;
     }
+    public static IEnumerator AnimatingLocalScale(this Transform transform, Vector3 endScale,float duration = .5f) => AnimatingLocalScale(transform, endScale, AnimationCurve.EaseInOut(0,0,1,1), duration);
 
-    public static  IEnumerator AnimatingLocalPos(this Transform transform, Vector3 endLocalPos, AnimationCurve curve, float duration = .5f) {
+    public static IEnumerator AnimatingLocalPos(this Transform transform, Vector3 endLocalPos, AnimationCurve curve, float duration = .5f) {
         float timePassed = 0f;
         Vector3 beginPos = transform.localPosition;
         while (timePassed < duration) {
@@ -26,7 +26,9 @@ public static class TransformExtensions
         }
         transform.localPosition = endLocalPos;
     }
-    public static  IEnumerator AnimatingPos(this Transform transform, Vector3 endPos,  AnimationCurve curve, float duration = .5f) {
+    public static IEnumerator AnimatingLocalPos(this Transform transform, Vector3 endScale,float duration = .5f) => AnimatingLocalPos(transform, endScale, AnimationCurve.EaseInOut(0,0,1,1), duration);
+
+    public static IEnumerator AnimatingPos(this Transform transform, Vector3 endPos,  AnimationCurve curve, float duration = .5f) {
         float timePassed = 0f;
         Vector3 beginPos = transform.position;
         while (timePassed < duration) {
@@ -36,9 +38,11 @@ public static class TransformExtensions
         }
         transform.position = endPos;
     }
+    public static IEnumerator AnimatingPos(this Transform transform, Vector3 endScale,float duration = .5f) => AnimatingPos(transform, endScale, AnimationCurve.EaseInOut(0,0,1,1), duration);
 
-    public static  IEnumerator AnimatingPosBounce(this Transform transform, float amplitude,  AnimationCurve curve, float duration = 5f) {
+    public static IEnumerator AnimatingPosBounce(this Transform transform, float amplitude,  AnimationCurve curve, float duration = 5f) {
         float timePassed = 0f;
+        curve ??= AnimationCurve.EaseInOut(0,0,1,1);
         Vector3 beginPos = transform.position;
         float currentHeight = 0;
         while (timePassed < duration) {
@@ -50,9 +54,11 @@ public static class TransformExtensions
         }
         transform.position = beginPos;
     }
+    public static IEnumerator AnimatingPosBounce(this Transform transform, float amplitude,float duration = .5f) => AnimatingPosBounce(transform, amplitude, AnimationCurve.EaseInOut(0,0,1,1), duration);
 
-    public static  IEnumerator AnimatingPosBezierCurve(this Transform transform, Vector3 end, Vector3 mid, AnimationCurve curve, float duration = 5f) {
+    public static IEnumerator AnimatingPosBezierCurve(this Transform transform, Vector3 end, Vector3 mid, AnimationCurve curve, float duration = 5f) {
         float index = 0f;
+        curve ??= AnimationCurve.EaseInOut(0,0,1,1);
         Vector3 begin = transform.position;
         while (index < duration) {
             yield return new WaitForEndOfFrame();
@@ -61,10 +67,12 @@ public static class TransformExtensions
         }
         transform.position = end;
     }
+    public static IEnumerator AnimatingPosBezierCurve(this Transform transform, Vector3 end, Vector3 mid, float duration = 5f) => AnimatingPosBezierCurve(transform, end, mid, AnimationCurve.EaseInOut(0,0,1,1), duration);
 
 
-    public static  IEnumerator AnimatingRotation(this Transform transform, Quaternion endrotation,  AnimationCurve curve, float duration = .5f) {
+    public static IEnumerator AnimatingRotation(this Transform transform, Quaternion endrotation,  AnimationCurve curve, float duration = .5f) {
         float timePassed = 0f;
+        curve ??= AnimationCurve.EaseInOut(0,0,1,1);
         Quaternion beginrotation = transform.rotation;
         while (timePassed < duration) {
             yield return new WaitForEndOfFrame();
@@ -74,9 +82,11 @@ public static class TransformExtensions
         yield return new WaitForEndOfFrame();
         transform.rotation = endrotation;
     }
+    public static IEnumerator AnimatingRotation(this Transform transform, Quaternion endrotation, float duration = .5f) => AnimatingRotation(transform, endrotation, AnimationCurve.EaseInOut(0,0,1,1),duration);
 
-    public static  IEnumerator AnimatingLocalRotation(this Transform transform, Quaternion endrotation,  AnimationCurve curve, float duration = .5f) {
+    public static IEnumerator AnimatingLocalRotation(this Transform transform, Quaternion endrotation,  AnimationCurve curve, float duration = .5f) {
         float timePassed = 0f;
+        curve ??= AnimationCurve.EaseInOut(0,0,1,1);
         Quaternion beginrotation = transform.localRotation;
         while (timePassed < duration) {
             yield return new WaitForEndOfFrame();
@@ -85,6 +95,7 @@ public static class TransformExtensions
         }
         transform.localRotation = endrotation;
     }
+    public static IEnumerator AnimatingLocalRotation(this Transform transform, Quaternion endrotation, float duration = .5f) => AnimatingLocalRotation(transform, endrotation, AnimationCurve.EaseInOut(0,0,1,1),duration);
 
     public static IEnumerator ShakeZRotation(this Transform transform, float magnitude, float frequence, float duration = .5f, Action callback = default(Action)) {
         float timePassed = 0f;
