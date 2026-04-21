@@ -414,6 +414,7 @@ public class BerdEditor : Editor{
             return true;
         }
 
+        _walkCycle.arraySize = sprites.Count;
         for (int i = 0; i < sprites.Count; i++)
             _walkCycle.GetArrayElementAtIndex(i).objectReferenceValue = sprites[i];
 

@@ -86,11 +86,18 @@ public class BerdInterface : MonoBehaviour
                 continue;
 
             GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
-
             if (asset == null)
                 continue;
-
             berds.Add(asset);
+
+            if(!assetPath.Contains(" Variant"))
+                continue;
+
+            string fileName = Path.GetFileNameWithoutExtension(assetPath);
+            string result = AssetDatabase.RenameAsset(assetPath, fileName.Replace(" Variant", ""));
+
+            if (!string.IsNullOrEmpty(result))
+                Debug.LogError($"Rename failed: {result}");
         }
     }
 #endif
