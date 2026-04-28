@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf4d3762583af4479077206f1543451
+guid: b2edf128b736c124ba1020ae0e91b272
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pikkozoikum_0
+      name: itsnear2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0247f1dfe0a2954881701be711eade3
-      internalID: -1881135399
+      spriteID: 232fd8d5e7ea72b4b989f0834cba6b0f
+      internalID: 1079512503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_1
+      name: itsnear2_1
       rect:
         serializedVersion: 2
         x: 398
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193c5b5d0e2e0464e8618d27bd8da43c
-      internalID: 1486708848
+      spriteID: 0eccdefd868c63544a7262ae5b646872
+      internalID: 1769763561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_2
+      name: itsnear2_2
       rect:
         serializedVersion: 2
         x: 796
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7c7a9c5001fd64bb699ccb0e95dec2
-      internalID: -771588401
+      spriteID: 4c07e50066ced714b93beb8e339f54eb
+      internalID: 1935920782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_3
+      name: itsnear2_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77170eadaf7c80841a450ab9eb7bc7c0
-      internalID: -1016967854
+      spriteID: 2b934cee0683bb649a1327fb2d60d864
+      internalID: -36930531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_4
+      name: itsnear2_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8051c08eb039e54a8bd1252fba97a25
-      internalID: 336167409
+      spriteID: a62cf5521b632df4fa5ecd3bb32d98d8
+      internalID: 1259847555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_5
+      name: itsnear2_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82bfc10a5a92ce439ab9af17c1bbd40
-      internalID: 422043048
+      spriteID: 7cc0ea29e1814904c8727e2b7967bb4b
+      internalID: 1102457982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_6
+      name: itsnear2_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655d80e1c840ad548a85898866a7edd4
-      internalID: -957893508
+      spriteID: 72a43fc866b2c6d438d493e777a4672c
+      internalID: 2093180741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_7
+      name: itsnear2_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ae7900cbd39a543be97b567f9787ac
-      internalID: -440319693
+      spriteID: 55d274d50b73eb345abf9f421bc366fd
+      internalID: 932720793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_8
+      name: itsnear2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb96189c2cdacc4468e26a3b05d92b07
-      internalID: 1000216367
+      spriteID: 67627383d6bc2324d964ae57f0c581ae
+      internalID: 888846445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_9
+      name: itsnear2_9
       rect:
         serializedVersion: 2
         x: 398
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa90203979c26f54e8f142266b41f682
-      internalID: -539101356
+      spriteID: c13ae6dcd144354478c13b43ec5ad1e3
+      internalID: 203913404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_10
+      name: itsnear2_10
       rect:
         serializedVersion: 2
         x: 796
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f469152f0764f148b531b22fa14c09a
-      internalID: 745623456
+      spriteID: 9e39f0093f605cc4da39242953a6ed59
+      internalID: 374919250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_11
+      name: itsnear2_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8448369a18deb1546b9ab3d5d521ab24
-      internalID: -1058361318
+      spriteID: 783d1ee567c788e409c6c525cd4ac1ad
+      internalID: -397135911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_12
+      name: itsnear2_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22fc02e85593ec8448db366aecd43993
-      internalID: -574685003
+      spriteID: 7a6300c1dcffc6d4d96e27522b8cd940
+      internalID: 446586613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_13
+      name: itsnear2_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07df41d877243b41954302296f0cdac
-      internalID: -54703448
+      spriteID: 0231f77cbb2015e439df86fac70cf932
+      internalID: 75494304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_14
+      name: itsnear2_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7381219f1138479d5f51b36710879
-      internalID: -1194318573
+      spriteID: 2e41d44b69d20d64a82c97e348fa2799
+      internalID: -1040060550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_15
+      name: itsnear2_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0e65040851fb74786e7a523e367d57
-      internalID: 1320336954
+      spriteID: a1409c155db703d41b3bdcc482b2de80
+      internalID: 469038794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_16
+      name: itsnear2_16
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcaa62092feeea498d9cc2f9c6624b3
-      internalID: -411750398
+      spriteID: 936707d91c4d3d44eb883f20bfc2a9e2
+      internalID: 931730969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_17
+      name: itsnear2_17
       rect:
         serializedVersion: 2
         x: 398
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436490887591eef41a543497ccffe1ad
-      internalID: 1223093042
+      spriteID: b5d29cedc7831b740abe86e71d6497d1
+      internalID: -91720022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_18
+      name: itsnear2_18
       rect:
         serializedVersion: 2
         x: 796
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd33332aacca1b479adfcdd26173e04
-      internalID: -631228003
+      spriteID: 45863512486f88f4d8ba7d19c9ec6617
+      internalID: -1908624395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_19
+      name: itsnear2_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f53d173059d9e646b964ffcd342ed2b
-      internalID: 1803279971
+      spriteID: d2aaa93b976003442a6d879be9d72111
+      internalID: -2087234636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_20
+      name: itsnear2_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359883747c3e6f4786ad67c9f71ec21
-      internalID: -405899597
+      spriteID: 3b8b5d420c015244a82ff2817f17279b
+      internalID: -1253462374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_21
+      name: itsnear2_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234cd4355f2831419172f1a9ace1c83
-      internalID: 1712060741
+      spriteID: c28d0a494e398eb45ac4857cf0de5756
+      internalID: 1592394806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_22
+      name: itsnear2_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e72803b141010479838cc7d7c162d6
-      internalID: 830277625
+      spriteID: 6fe7312216d0e5841b2c0a0d16616369
+      internalID: -1394493093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_23
+      name: itsnear2_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c30c1ecf546924193cc861513055ae
-      internalID: 1787450836
+      spriteID: e1f6f7f746c418e4ea87dc8828c191c4
+      internalID: -1007274170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_24
+      name: itsnear2_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da5ba9950e4b2498a453d4a9ec98c3
-      internalID: 663387645
+      spriteID: 0dc9a774a28954f42ae0035bfae5aa72
+      internalID: 786828351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_25
+      name: itsnear2_25
       rect:
         serializedVersion: 2
         x: 398
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f882a98e1555f48a9c1dfeb04fcfb0
-      internalID: 1014415319
+      spriteID: 5c1ba45c128b8b249957ab1f1510af77
+      internalID: 1891804340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_26
+      name: itsnear2_26
       rect:
         serializedVersion: 2
         x: 796
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8585242568fe5a248a4b57a39a55913f
-      internalID: -2140248737
+      spriteID: 525a5704b15cc4341870cddfbc237d8e
+      internalID: 974746204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_27
+      name: itsnear2_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef6b551f57e10240999f7b3fffb11e5
-      internalID: 1076698678
+      spriteID: f90eae3cb6d10da4580e030af59184af
+      internalID: -1174399322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_28
+      name: itsnear2_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0763ac5fc2952724fbaa9700995f88e7
-      internalID: 2016110638
+      spriteID: a5f48c0171956564385f5c526c7711b7
+      internalID: 293699356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_29
+      name: itsnear2_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95857c62d73c4064889fc2a60cb833ee
-      internalID: -1344713072
+      spriteID: 57bc82a093dce4347bde85364fa87946
+      internalID: 1927081959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_30
+      name: itsnear2_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38f0c394b6ad6840b36e683c33ba3ce
-      internalID: 2134493849
+      spriteID: 286c5b4762c615846b628e9abd05c0fc
+      internalID: 723442985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_31
+      name: itsnear2_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283588b778882844bab67254d2c61ebc
-      internalID: 416718343
+      spriteID: 35a25b1fbb11c764b8c10bd4911f88b0
+      internalID: -1059117646
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pikkozoikum_0: -1881135399
-      pikkozoikum_1: 1486708848
-      pikkozoikum_10: 745623456
-      pikkozoikum_11: -1058361318
-      pikkozoikum_12: -574685003
-      pikkozoikum_13: -54703448
-      pikkozoikum_14: -1194318573
-      pikkozoikum_15: 1320336954
-      pikkozoikum_16: -411750398
-      pikkozoikum_17: 1223093042
-      pikkozoikum_18: -631228003
-      pikkozoikum_19: 1803279971
-      pikkozoikum_2: -771588401
-      pikkozoikum_20: -405899597
-      pikkozoikum_21: 1712060741
-      pikkozoikum_22: 830277625
-      pikkozoikum_23: 1787450836
-      pikkozoikum_24: 663387645
-      pikkozoikum_25: 1014415319
-      pikkozoikum_26: -2140248737
-      pikkozoikum_27: 1076698678
-      pikkozoikum_28: 2016110638
-      pikkozoikum_29: -1344713072
-      pikkozoikum_3: -1016967854
-      pikkozoikum_30: 2134493849
-      pikkozoikum_31: 416718343
-      pikkozoikum_4: 336167409
-      pikkozoikum_5: 422043048
-      pikkozoikum_6: -957893508
-      pikkozoikum_7: -440319693
-      pikkozoikum_8: 1000216367
-      pikkozoikum_9: -539101356
+      itsnear2_0: 1079512503
+      itsnear2_1: 1769763561
+      itsnear2_10: 374919250
+      itsnear2_11: -397135911
+      itsnear2_12: 446586613
+      itsnear2_13: 75494304
+      itsnear2_14: -1040060550
+      itsnear2_15: 469038794
+      itsnear2_16: 931730969
+      itsnear2_17: -91720022
+      itsnear2_18: -1908624395
+      itsnear2_19: -2087234636
+      itsnear2_2: 1935920782
+      itsnear2_20: -1253462374
+      itsnear2_21: 1592394806
+      itsnear2_22: -1394493093
+      itsnear2_23: -1007274170
+      itsnear2_24: 786828351
+      itsnear2_25: 1891804340
+      itsnear2_26: 974746204
+      itsnear2_27: -1174399322
+      itsnear2_28: 293699356
+      itsnear2_29: 1927081959
+      itsnear2_3: -36930531
+      itsnear2_30: 723442985
+      itsnear2_31: -1059117646
+      itsnear2_4: 1259847555
+      itsnear2_5: 1102457982
+      itsnear2_6: 2093180741
+      itsnear2_7: 932720793
+      itsnear2_8: 888846445
+      itsnear2_9: 203913404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

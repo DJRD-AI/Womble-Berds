@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf4d3762583af4479077206f1543451
+guid: e774aa01c4d85054e83619d5026049ff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pikkozoikum_0
+      name: blue2rocky_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0247f1dfe0a2954881701be711eade3
-      internalID: -1881135399
+      spriteID: c7e94bfd469f10f45a5c7ae47676f146
+      internalID: -815212754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_1
+      name: blue2rocky_1
       rect:
         serializedVersion: 2
         x: 398
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193c5b5d0e2e0464e8618d27bd8da43c
-      internalID: 1486708848
+      spriteID: aeb54fa1636a27a478276af0a2bed70d
+      internalID: -679770163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_2
+      name: blue2rocky_2
       rect:
         serializedVersion: 2
         x: 796
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7c7a9c5001fd64bb699ccb0e95dec2
-      internalID: -771588401
+      spriteID: f84911ad77f20634599f30c734e91561
+      internalID: 134539326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_3
+      name: blue2rocky_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77170eadaf7c80841a450ab9eb7bc7c0
-      internalID: -1016967854
+      spriteID: 84b8e2ee96f3c0a44bf813d3c98ee53a
+      internalID: -1063885383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_4
+      name: blue2rocky_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8051c08eb039e54a8bd1252fba97a25
-      internalID: 336167409
+      spriteID: aba15e4e6ed959f47bbd3703f70cb40f
+      internalID: -1980119448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_5
+      name: blue2rocky_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82bfc10a5a92ce439ab9af17c1bbd40
-      internalID: 422043048
+      spriteID: fff6c84bdcb171f4f91700523768dd05
+      internalID: 1921597462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_6
+      name: blue2rocky_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655d80e1c840ad548a85898866a7edd4
-      internalID: -957893508
+      spriteID: 6cc6e023f39d5474ea88694e29668bda
+      internalID: -1550603483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_7
+      name: blue2rocky_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ae7900cbd39a543be97b567f9787ac
-      internalID: -440319693
+      spriteID: 8bb32e5fff11eac4eab9c9c6c0f08687
+      internalID: -1392116515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_8
+      name: blue2rocky_8
       rect:
         serializedVersion: 2
         x: 0
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb96189c2cdacc4468e26a3b05d92b07
-      internalID: 1000216367
+      spriteID: 9cd546fcd1446c5448a5c1abf842b012
+      internalID: -362776557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_9
+      name: blue2rocky_9
       rect:
         serializedVersion: 2
         x: 398
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa90203979c26f54e8f142266b41f682
-      internalID: -539101356
+      spriteID: 33743bbde41118248a02f6b494c6ba21
+      internalID: 832867584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_10
+      name: blue2rocky_10
       rect:
         serializedVersion: 2
         x: 796
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f469152f0764f148b531b22fa14c09a
-      internalID: 745623456
+      spriteID: 120121de5ae5e82409085d123ff0fb20
+      internalID: -1127987477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_11
+      name: blue2rocky_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8448369a18deb1546b9ab3d5d521ab24
-      internalID: -1058361318
+      spriteID: 37d878f7755b0fd4a8235efcb9bfc67d
+      internalID: -244952679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_12
+      name: blue2rocky_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22fc02e85593ec8448db366aecd43993
-      internalID: -574685003
+      spriteID: bbe5d1fea9553fb499ce8f583388d1c4
+      internalID: -1876258581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_13
+      name: blue2rocky_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07df41d877243b41954302296f0cdac
-      internalID: -54703448
+      spriteID: 0d98f010f85eaa0468f427bd417fbf96
+      internalID: -224686331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_14
+      name: blue2rocky_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7381219f1138479d5f51b36710879
-      internalID: -1194318573
+      spriteID: c8e332e5c7ba92841ab7ec5e0ef187f0
+      internalID: -679267283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_15
+      name: blue2rocky_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0e65040851fb74786e7a523e367d57
-      internalID: 1320336954
+      spriteID: 6b01e7f1f8f4ae84ab2a015736dea004
+      internalID: 553729272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_16
+      name: blue2rocky_16
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcaa62092feeea498d9cc2f9c6624b3
-      internalID: -411750398
+      spriteID: 3f453513037e6c94a90d79841d60b93d
+      internalID: -1007235972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_17
+      name: blue2rocky_17
       rect:
         serializedVersion: 2
         x: 398
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436490887591eef41a543497ccffe1ad
-      internalID: 1223093042
+      spriteID: c6867293c984c90419b6393e63ca2a7f
+      internalID: -1448500597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_18
+      name: blue2rocky_18
       rect:
         serializedVersion: 2
         x: 796
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd33332aacca1b479adfcdd26173e04
-      internalID: -631228003
+      spriteID: 45f6eb5247c795c44948161f56762ae4
+      internalID: 624547825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_19
+      name: blue2rocky_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f53d173059d9e646b964ffcd342ed2b
-      internalID: 1803279971
+      spriteID: 84065ce5890df534ab3191715c773188
+      internalID: -187049849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_20
+      name: blue2rocky_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359883747c3e6f4786ad67c9f71ec21
-      internalID: -405899597
+      spriteID: fec339a07732a294eb1320237f3f2377
+      internalID: -705863995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_21
+      name: blue2rocky_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234cd4355f2831419172f1a9ace1c83
-      internalID: 1712060741
+      spriteID: 24c89fb7896fc59478853dbc0169e75c
+      internalID: 537046569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_22
+      name: blue2rocky_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e72803b141010479838cc7d7c162d6
-      internalID: 830277625
+      spriteID: 7dc15ee95f7293844b9abd8e68adabbc
+      internalID: 857793676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_23
+      name: blue2rocky_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c30c1ecf546924193cc861513055ae
-      internalID: 1787450836
+      spriteID: 3d80aa15242939347b79b937aa693d78
+      internalID: 1666330276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_24
+      name: blue2rocky_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da5ba9950e4b2498a453d4a9ec98c3
-      internalID: 663387645
+      spriteID: 6f0e6075c22c25c4abcc62c71fb18a2f
+      internalID: -1006584159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_25
+      name: blue2rocky_25
       rect:
         serializedVersion: 2
         x: 398
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f882a98e1555f48a9c1dfeb04fcfb0
-      internalID: 1014415319
+      spriteID: cb847cd9e1ab67048ab1356f8faca5ee
+      internalID: 1178839586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_26
+      name: blue2rocky_26
       rect:
         serializedVersion: 2
         x: 796
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8585242568fe5a248a4b57a39a55913f
-      internalID: -2140248737
+      spriteID: ca3b2e2531aed32448086f1bfce3012d
+      internalID: 17928948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_27
+      name: blue2rocky_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef6b551f57e10240999f7b3fffb11e5
-      internalID: 1076698678
+      spriteID: 283352720fa596d48aa0ee19955ca516
+      internalID: -879861733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_28
+      name: blue2rocky_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0763ac5fc2952724fbaa9700995f88e7
-      internalID: 2016110638
+      spriteID: 9cfb3fc802e1aed47a1d09e98c1d36dc
+      internalID: 1075101174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_29
+      name: blue2rocky_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95857c62d73c4064889fc2a60cb833ee
-      internalID: -1344713072
+      spriteID: e2cb1ecae6607ed4a93e563035ec5e3e
+      internalID: 1899762697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_30
+      name: blue2rocky_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38f0c394b6ad6840b36e683c33ba3ce
-      internalID: 2134493849
+      spriteID: 6194ee56bf509b746988773d6bf60e14
+      internalID: -3820675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_31
+      name: blue2rocky_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283588b778882844bab67254d2c61ebc
-      internalID: 416718343
+      spriteID: 1b3341823c17f2b40a3138487e8625f0
+      internalID: 1643895465
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pikkozoikum_0: -1881135399
-      pikkozoikum_1: 1486708848
-      pikkozoikum_10: 745623456
-      pikkozoikum_11: -1058361318
-      pikkozoikum_12: -574685003
-      pikkozoikum_13: -54703448
-      pikkozoikum_14: -1194318573
-      pikkozoikum_15: 1320336954
-      pikkozoikum_16: -411750398
-      pikkozoikum_17: 1223093042
-      pikkozoikum_18: -631228003
-      pikkozoikum_19: 1803279971
-      pikkozoikum_2: -771588401
-      pikkozoikum_20: -405899597
-      pikkozoikum_21: 1712060741
-      pikkozoikum_22: 830277625
-      pikkozoikum_23: 1787450836
-      pikkozoikum_24: 663387645
-      pikkozoikum_25: 1014415319
-      pikkozoikum_26: -2140248737
-      pikkozoikum_27: 1076698678
-      pikkozoikum_28: 2016110638
-      pikkozoikum_29: -1344713072
-      pikkozoikum_3: -1016967854
-      pikkozoikum_30: 2134493849
-      pikkozoikum_31: 416718343
-      pikkozoikum_4: 336167409
-      pikkozoikum_5: 422043048
-      pikkozoikum_6: -957893508
-      pikkozoikum_7: -440319693
-      pikkozoikum_8: 1000216367
-      pikkozoikum_9: -539101356
+      blue2rocky_0: -815212754
+      blue2rocky_1: -679770163
+      blue2rocky_10: -1127987477
+      blue2rocky_11: -244952679
+      blue2rocky_12: -1876258581
+      blue2rocky_13: -224686331
+      blue2rocky_14: -679267283
+      blue2rocky_15: 553729272
+      blue2rocky_16: -1007235972
+      blue2rocky_17: -1448500597
+      blue2rocky_18: 624547825
+      blue2rocky_19: -187049849
+      blue2rocky_2: 134539326
+      blue2rocky_20: -705863995
+      blue2rocky_21: 537046569
+      blue2rocky_22: 857793676
+      blue2rocky_23: 1666330276
+      blue2rocky_24: -1006584159
+      blue2rocky_25: 1178839586
+      blue2rocky_26: 17928948
+      blue2rocky_27: -879861733
+      blue2rocky_28: 1075101174
+      blue2rocky_29: 1899762697
+      blue2rocky_3: -1063885383
+      blue2rocky_30: -3820675
+      blue2rocky_31: 1643895465
+      blue2rocky_4: -1980119448
+      blue2rocky_5: 1921597462
+      blue2rocky_6: -1550603483
+      blue2rocky_7: -1392116515
+      blue2rocky_8: -362776557
+      blue2rocky_9: 832867584
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

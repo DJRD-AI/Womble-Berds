@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf4d3762583af4479077206f1543451
+guid: f11670192b5a000489a09468e5cbfd53
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pikkozoikum_0
+      name: rodzos_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0247f1dfe0a2954881701be711eade3
-      internalID: -1881135399
+      spriteID: 7f75432c408cfd04aa0bd26fb71b5658
+      internalID: 397731630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_1
+      name: rodzos_1
       rect:
         serializedVersion: 2
         x: 398
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193c5b5d0e2e0464e8618d27bd8da43c
-      internalID: 1486708848
+      spriteID: 50c63811ad4420a45a31421a3803669a
+      internalID: 521410737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_2
+      name: rodzos_2
       rect:
         serializedVersion: 2
         x: 796
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7c7a9c5001fd64bb699ccb0e95dec2
-      internalID: -771588401
+      spriteID: 0bea4286aa612ca458b7fa208a98c601
+      internalID: -1102812669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_3
+      name: rodzos_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77170eadaf7c80841a450ab9eb7bc7c0
-      internalID: -1016967854
+      spriteID: 97d5aa2996d8c2341ae27bf8c97febde
+      internalID: -1450345275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_4
+      name: rodzos_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8051c08eb039e54a8bd1252fba97a25
-      internalID: 336167409
+      spriteID: fb782ef9fffffc748b5f7ecffea72f39
+      internalID: 200556667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_5
+      name: rodzos_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82bfc10a5a92ce439ab9af17c1bbd40
-      internalID: 422043048
+      spriteID: db66a30bb16e8bd41b75fb9b050d3391
+      internalID: 1316536447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_6
+      name: rodzos_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655d80e1c840ad548a85898866a7edd4
-      internalID: -957893508
+      spriteID: 476b2b3728ec6124d895be0dd7265946
+      internalID: 92079802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_7
+      name: rodzos_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ae7900cbd39a543be97b567f9787ac
-      internalID: -440319693
+      spriteID: f817556417b709b46ac801738df524c6
+      internalID: 99314788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_8
+      name: rodzos_8
       rect:
         serializedVersion: 2
         x: 0
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb96189c2cdacc4468e26a3b05d92b07
-      internalID: 1000216367
+      spriteID: e4bc9a0f7d6b5544086d53fa9ef45a2c
+      internalID: -985156192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_9
+      name: rodzos_9
       rect:
         serializedVersion: 2
         x: 398
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa90203979c26f54e8f142266b41f682
-      internalID: -539101356
+      spriteID: f043eaf8ad27fdf43a42e8b29e991196
+      internalID: -350639289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_10
+      name: rodzos_10
       rect:
         serializedVersion: 2
         x: 796
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f469152f0764f148b531b22fa14c09a
-      internalID: 745623456
+      spriteID: e3883763ef57fd748bd8e38cebaa7961
+      internalID: -475172866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_11
+      name: rodzos_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8448369a18deb1546b9ab3d5d521ab24
-      internalID: -1058361318
+      spriteID: 09b94d83abeccba41a6e36a44a2df031
+      internalID: 565862723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_12
+      name: rodzos_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22fc02e85593ec8448db366aecd43993
-      internalID: -574685003
+      spriteID: 8634ae411b1ee7d4fb3e84c55ece5637
+      internalID: -1619132873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_13
+      name: rodzos_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07df41d877243b41954302296f0cdac
-      internalID: -54703448
+      spriteID: 84a96a7f3c9644f4a94fc6d11ae07b40
+      internalID: -1675971376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_14
+      name: rodzos_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7381219f1138479d5f51b36710879
-      internalID: -1194318573
+      spriteID: e108f497336095941ae747a974756f65
+      internalID: -1980561001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_15
+      name: rodzos_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0e65040851fb74786e7a523e367d57
-      internalID: 1320336954
+      spriteID: 7820a38d543cdba4f84faed6498c0d84
+      internalID: 303574881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_16
+      name: rodzos_16
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcaa62092feeea498d9cc2f9c6624b3
-      internalID: -411750398
+      spriteID: 5f52dd1ebaa206647910fb38b6861c46
+      internalID: -24180822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_17
+      name: rodzos_17
       rect:
         serializedVersion: 2
         x: 398
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436490887591eef41a543497ccffe1ad
-      internalID: 1223093042
+      spriteID: 1499abb619411df4388043ff9e777299
+      internalID: 689298442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_18
+      name: rodzos_18
       rect:
         serializedVersion: 2
         x: 796
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd33332aacca1b479adfcdd26173e04
-      internalID: -631228003
+      spriteID: 375cb8056764cfd4ba9fdb8717345e5b
+      internalID: -460502081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_19
+      name: rodzos_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f53d173059d9e646b964ffcd342ed2b
-      internalID: 1803279971
+      spriteID: dd5477f9276eca94e96b7af0c24826f9
+      internalID: 2104594097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_20
+      name: rodzos_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359883747c3e6f4786ad67c9f71ec21
-      internalID: -405899597
+      spriteID: e3f4be77d5887fc4a88b131332ea17d5
+      internalID: 493374738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_21
+      name: rodzos_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234cd4355f2831419172f1a9ace1c83
-      internalID: 1712060741
+      spriteID: 36495f508a7ef004ea04cab4f5f3a066
+      internalID: 780260918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_22
+      name: rodzos_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e72803b141010479838cc7d7c162d6
-      internalID: 830277625
+      spriteID: 09b4d024e7b19fc42ab1c866bd68b7a7
+      internalID: -1361868865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_23
+      name: rodzos_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c30c1ecf546924193cc861513055ae
-      internalID: 1787450836
+      spriteID: 67db94eb07a26a44d9d8bda8d949ba25
+      internalID: 1941515698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_24
+      name: rodzos_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da5ba9950e4b2498a453d4a9ec98c3
-      internalID: 663387645
+      spriteID: a22971c594e4ce942bd2592a56dd7c22
+      internalID: -257285540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_25
+      name: rodzos_25
       rect:
         serializedVersion: 2
         x: 398
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f882a98e1555f48a9c1dfeb04fcfb0
-      internalID: 1014415319
+      spriteID: 63811dd0b4c80ce43a58d864f6ff1b39
+      internalID: 843532613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_26
+      name: rodzos_26
       rect:
         serializedVersion: 2
         x: 796
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8585242568fe5a248a4b57a39a55913f
-      internalID: -2140248737
+      spriteID: 5cafcd1f902616d4d9521c04e5ee6619
+      internalID: 1782483247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_27
+      name: rodzos_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef6b551f57e10240999f7b3fffb11e5
-      internalID: 1076698678
+      spriteID: f1ac8ff23622fe34592ba8ed190195c5
+      internalID: -1555665680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_28
+      name: rodzos_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0763ac5fc2952724fbaa9700995f88e7
-      internalID: 2016110638
+      spriteID: 703a212e93349a84db07d6feb97b7d61
+      internalID: 2130328320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_29
+      name: rodzos_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95857c62d73c4064889fc2a60cb833ee
-      internalID: -1344713072
+      spriteID: ad9063066bc559a4da5fa6c06c70da68
+      internalID: -439710237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_30
+      name: rodzos_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38f0c394b6ad6840b36e683c33ba3ce
-      internalID: 2134493849
+      spriteID: 462abcd309e1a7e4babce78887f7d0fc
+      internalID: -817873045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_31
+      name: rodzos_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283588b778882844bab67254d2c61ebc
-      internalID: 416718343
+      spriteID: d35406aebae68b04582857402b72803e
+      internalID: -1516496655
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pikkozoikum_0: -1881135399
-      pikkozoikum_1: 1486708848
-      pikkozoikum_10: 745623456
-      pikkozoikum_11: -1058361318
-      pikkozoikum_12: -574685003
-      pikkozoikum_13: -54703448
-      pikkozoikum_14: -1194318573
-      pikkozoikum_15: 1320336954
-      pikkozoikum_16: -411750398
-      pikkozoikum_17: 1223093042
-      pikkozoikum_18: -631228003
-      pikkozoikum_19: 1803279971
-      pikkozoikum_2: -771588401
-      pikkozoikum_20: -405899597
-      pikkozoikum_21: 1712060741
-      pikkozoikum_22: 830277625
-      pikkozoikum_23: 1787450836
-      pikkozoikum_24: 663387645
-      pikkozoikum_25: 1014415319
-      pikkozoikum_26: -2140248737
-      pikkozoikum_27: 1076698678
-      pikkozoikum_28: 2016110638
-      pikkozoikum_29: -1344713072
-      pikkozoikum_3: -1016967854
-      pikkozoikum_30: 2134493849
-      pikkozoikum_31: 416718343
-      pikkozoikum_4: 336167409
-      pikkozoikum_5: 422043048
-      pikkozoikum_6: -957893508
-      pikkozoikum_7: -440319693
-      pikkozoikum_8: 1000216367
-      pikkozoikum_9: -539101356
+      rodzos_0: 397731630
+      rodzos_1: 521410737
+      rodzos_10: -475172866
+      rodzos_11: 565862723
+      rodzos_12: -1619132873
+      rodzos_13: -1675971376
+      rodzos_14: -1980561001
+      rodzos_15: 303574881
+      rodzos_16: -24180822
+      rodzos_17: 689298442
+      rodzos_18: -460502081
+      rodzos_19: 2104594097
+      rodzos_2: -1102812669
+      rodzos_20: 493374738
+      rodzos_21: 780260918
+      rodzos_22: -1361868865
+      rodzos_23: 1941515698
+      rodzos_24: -257285540
+      rodzos_25: 843532613
+      rodzos_26: 1782483247
+      rodzos_27: -1555665680
+      rodzos_28: 2130328320
+      rodzos_29: -439710237
+      rodzos_3: -1450345275
+      rodzos_30: -817873045
+      rodzos_31: -1516496655
+      rodzos_4: 200556667
+      rodzos_5: 1316536447
+      rodzos_6: 92079802
+      rodzos_7: 99314788
+      rodzos_8: -985156192
+      rodzos_9: -350639289
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

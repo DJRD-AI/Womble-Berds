@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf4d3762583af4479077206f1543451
+guid: e6ae968a6e9097b41af2679bd4cf7fa7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pikkozoikum_0
+      name: ironisopod_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0247f1dfe0a2954881701be711eade3
-      internalID: -1881135399
+      spriteID: aaac42dbf03d69b4592334ff297a9d42
+      internalID: 2111502014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_1
+      name: ironisopod_1
       rect:
         serializedVersion: 2
         x: 398
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193c5b5d0e2e0464e8618d27bd8da43c
-      internalID: 1486708848
+      spriteID: d94b05e48ad6a1f4b806c4c95198eeb5
+      internalID: 1337560971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_2
+      name: ironisopod_2
       rect:
         serializedVersion: 2
         x: 796
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7c7a9c5001fd64bb699ccb0e95dec2
-      internalID: -771588401
+      spriteID: 275e1a8479032824ebcd9884066edf50
+      internalID: 873306171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_3
+      name: ironisopod_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77170eadaf7c80841a450ab9eb7bc7c0
-      internalID: -1016967854
+      spriteID: 1f43175deae6a8b4e8440e5eeef31dbb
+      internalID: 1130709451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_4
+      name: ironisopod_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8051c08eb039e54a8bd1252fba97a25
-      internalID: 336167409
+      spriteID: 0360fce6182f83f458c45cfb2e4e5a00
+      internalID: 413749562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_5
+      name: ironisopod_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82bfc10a5a92ce439ab9af17c1bbd40
-      internalID: 422043048
+      spriteID: 25d24215e7ebdbe43bdb96840999e46e
+      internalID: 783810971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_6
+      name: ironisopod_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655d80e1c840ad548a85898866a7edd4
-      internalID: -957893508
+      spriteID: 7a9c38c24cd70ee41a83f921282d9a90
+      internalID: 1399761000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_7
+      name: ironisopod_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ae7900cbd39a543be97b567f9787ac
-      internalID: -440319693
+      spriteID: 1098f0a6913bf294db2c80ce967e3393
+      internalID: 304827148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_8
+      name: ironisopod_8
       rect:
         serializedVersion: 2
         x: 0
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb96189c2cdacc4468e26a3b05d92b07
-      internalID: 1000216367
+      spriteID: e687bc408abe6ac4f9e11dc81624d35b
+      internalID: 1400491908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_9
+      name: ironisopod_9
       rect:
         serializedVersion: 2
         x: 398
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa90203979c26f54e8f142266b41f682
-      internalID: -539101356
+      spriteID: b49d00575ec540a46997fb8d740df9dd
+      internalID: 1891630563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_10
+      name: ironisopod_10
       rect:
         serializedVersion: 2
         x: 796
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f469152f0764f148b531b22fa14c09a
-      internalID: 745623456
+      spriteID: a758dcd88256e72499c2dcf721bdb90d
+      internalID: 13218525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_11
+      name: ironisopod_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8448369a18deb1546b9ab3d5d521ab24
-      internalID: -1058361318
+      spriteID: b187b416eea1bf94e94dceefbf3bbe92
+      internalID: -45249412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_12
+      name: ironisopod_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22fc02e85593ec8448db366aecd43993
-      internalID: -574685003
+      spriteID: f382d83e19204174c8b4f9b3c11d3eda
+      internalID: 653806242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_13
+      name: ironisopod_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07df41d877243b41954302296f0cdac
-      internalID: -54703448
+      spriteID: 494301040b5eeb74697d68b8101a394c
+      internalID: 1696959883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_14
+      name: ironisopod_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7381219f1138479d5f51b36710879
-      internalID: -1194318573
+      spriteID: d634d9a5eb591b44d95a3609b9067003
+      internalID: -193180987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_15
+      name: ironisopod_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0e65040851fb74786e7a523e367d57
-      internalID: 1320336954
+      spriteID: 2c4a78924dcb1ab49931a3d9fa98d0b9
+      internalID: 917920588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_16
+      name: ironisopod_16
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcaa62092feeea498d9cc2f9c6624b3
-      internalID: -411750398
+      spriteID: 0eb10c5468247324f89d06df77e78aab
+      internalID: 150170202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_17
+      name: ironisopod_17
       rect:
         serializedVersion: 2
         x: 398
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436490887591eef41a543497ccffe1ad
-      internalID: 1223093042
+      spriteID: a8534f68a07330445aa92156fad58b3d
+      internalID: 1275704902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_18
+      name: ironisopod_18
       rect:
         serializedVersion: 2
         x: 796
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd33332aacca1b479adfcdd26173e04
-      internalID: -631228003
+      spriteID: 4747659c606ed054199d55dfdd0f1f73
+      internalID: -269207886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_19
+      name: ironisopod_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f53d173059d9e646b964ffcd342ed2b
-      internalID: 1803279971
+      spriteID: 6a2acf491bc9bdf47b30894ccbbee24b
+      internalID: 178285992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_20
+      name: ironisopod_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359883747c3e6f4786ad67c9f71ec21
-      internalID: -405899597
+      spriteID: 88bc589c1feb6e747aee6d374ac46ad7
+      internalID: -692826530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_21
+      name: ironisopod_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234cd4355f2831419172f1a9ace1c83
-      internalID: 1712060741
+      spriteID: bc425c79689890948a3bd202df2a98c3
+      internalID: -95468412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_22
+      name: ironisopod_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e72803b141010479838cc7d7c162d6
-      internalID: 830277625
+      spriteID: 9e624048ca5759d40a5c8ca76dd39aa9
+      internalID: 1723649687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_23
+      name: ironisopod_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c30c1ecf546924193cc861513055ae
-      internalID: 1787450836
+      spriteID: 81b9d75aac288ec4d959c52b0c1d9220
+      internalID: -1203401557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_24
+      name: ironisopod_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da5ba9950e4b2498a453d4a9ec98c3
-      internalID: 663387645
+      spriteID: fa25e17e9c3f80d4fb6e60b2e916ef72
+      internalID: -680268185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_25
+      name: ironisopod_25
       rect:
         serializedVersion: 2
         x: 398
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f882a98e1555f48a9c1dfeb04fcfb0
-      internalID: 1014415319
+      spriteID: c005072a246fc914e95b9fe1c60ed8b1
+      internalID: -1880915052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_26
+      name: ironisopod_26
       rect:
         serializedVersion: 2
         x: 796
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8585242568fe5a248a4b57a39a55913f
-      internalID: -2140248737
+      spriteID: 67637d5c2016a124ea18ddec98e00e6b
+      internalID: -1244710029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_27
+      name: ironisopod_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef6b551f57e10240999f7b3fffb11e5
-      internalID: 1076698678
+      spriteID: 4fe1fa388b15d9e4f9a4c33a09254a58
+      internalID: 857882375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_28
+      name: ironisopod_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0763ac5fc2952724fbaa9700995f88e7
-      internalID: 2016110638
+      spriteID: ac49940ed5b63c543be91ea9a472737e
+      internalID: 183922538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_29
+      name: ironisopod_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95857c62d73c4064889fc2a60cb833ee
-      internalID: -1344713072
+      spriteID: abdc25a89a76cd84f90646c7a054f681
+      internalID: -893177846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_30
+      name: ironisopod_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38f0c394b6ad6840b36e683c33ba3ce
-      internalID: 2134493849
+      spriteID: 727e5e248dd97324492a8b5fdc8ba23b
+      internalID: -1125288838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_31
+      name: ironisopod_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283588b778882844bab67254d2c61ebc
-      internalID: 416718343
+      spriteID: 88ac508e8725036478603d208794112c
+      internalID: -799312621
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pikkozoikum_0: -1881135399
-      pikkozoikum_1: 1486708848
-      pikkozoikum_10: 745623456
-      pikkozoikum_11: -1058361318
-      pikkozoikum_12: -574685003
-      pikkozoikum_13: -54703448
-      pikkozoikum_14: -1194318573
-      pikkozoikum_15: 1320336954
-      pikkozoikum_16: -411750398
-      pikkozoikum_17: 1223093042
-      pikkozoikum_18: -631228003
-      pikkozoikum_19: 1803279971
-      pikkozoikum_2: -771588401
-      pikkozoikum_20: -405899597
-      pikkozoikum_21: 1712060741
-      pikkozoikum_22: 830277625
-      pikkozoikum_23: 1787450836
-      pikkozoikum_24: 663387645
-      pikkozoikum_25: 1014415319
-      pikkozoikum_26: -2140248737
-      pikkozoikum_27: 1076698678
-      pikkozoikum_28: 2016110638
-      pikkozoikum_29: -1344713072
-      pikkozoikum_3: -1016967854
-      pikkozoikum_30: 2134493849
-      pikkozoikum_31: 416718343
-      pikkozoikum_4: 336167409
-      pikkozoikum_5: 422043048
-      pikkozoikum_6: -957893508
-      pikkozoikum_7: -440319693
-      pikkozoikum_8: 1000216367
-      pikkozoikum_9: -539101356
+      ironisopod_0: 2111502014
+      ironisopod_1: 1337560971
+      ironisopod_10: 13218525
+      ironisopod_11: -45249412
+      ironisopod_12: 653806242
+      ironisopod_13: 1696959883
+      ironisopod_14: -193180987
+      ironisopod_15: 917920588
+      ironisopod_16: 150170202
+      ironisopod_17: 1275704902
+      ironisopod_18: -269207886
+      ironisopod_19: 178285992
+      ironisopod_2: 873306171
+      ironisopod_20: -692826530
+      ironisopod_21: -95468412
+      ironisopod_22: 1723649687
+      ironisopod_23: -1203401557
+      ironisopod_24: -680268185
+      ironisopod_25: -1880915052
+      ironisopod_26: -1244710029
+      ironisopod_27: 857882375
+      ironisopod_28: 183922538
+      ironisopod_29: -893177846
+      ironisopod_3: 1130709451
+      ironisopod_30: -1125288838
+      ironisopod_31: -799312621
+      ironisopod_4: 413749562
+      ironisopod_5: 783810971
+      ironisopod_6: 1399761000
+      ironisopod_7: 304827148
+      ironisopod_8: 1400491908
+      ironisopod_9: 1891630563
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

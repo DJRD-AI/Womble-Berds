@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf4d3762583af4479077206f1543451
+guid: cdfdbbda81289534da72e27919cd91ca
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pikkozoikum_0
+      name: jaune_ark005_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0247f1dfe0a2954881701be711eade3
-      internalID: -1881135399
+      spriteID: c42a41ef2f9be4545b629a0cd4b99e50
+      internalID: -1144071094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_1
+      name: jaune_ark005_1
       rect:
         serializedVersion: 2
         x: 398
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193c5b5d0e2e0464e8618d27bd8da43c
-      internalID: 1486708848
+      spriteID: cb902d5496283a848b802cde7296a3b2
+      internalID: 2078666594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_2
+      name: jaune_ark005_2
       rect:
         serializedVersion: 2
         x: 796
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7c7a9c5001fd64bb699ccb0e95dec2
-      internalID: -771588401
+      spriteID: efef9c01ef46f8840a6fc05a21347d6a
+      internalID: -206403926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_3
+      name: jaune_ark005_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77170eadaf7c80841a450ab9eb7bc7c0
-      internalID: -1016967854
+      spriteID: 9c9786b64bc5205478297e02e50a5de6
+      internalID: -534698276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_4
+      name: jaune_ark005_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8051c08eb039e54a8bd1252fba97a25
-      internalID: 336167409
+      spriteID: a55171b52983eb846810155fbd53c069
+      internalID: 492246293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_5
+      name: jaune_ark005_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82bfc10a5a92ce439ab9af17c1bbd40
-      internalID: 422043048
+      spriteID: 9be35bb8329af2649af32d53604963a0
+      internalID: 828227069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_6
+      name: jaune_ark005_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655d80e1c840ad548a85898866a7edd4
-      internalID: -957893508
+      spriteID: 67d0e21179d07774e973800a83296c56
+      internalID: 46965111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_7
+      name: jaune_ark005_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ae7900cbd39a543be97b567f9787ac
-      internalID: -440319693
+      spriteID: 71c0c534008888e4cb90e619663778a0
+      internalID: 491024273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_8
+      name: jaune_ark005_8
       rect:
         serializedVersion: 2
         x: 0
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb96189c2cdacc4468e26a3b05d92b07
-      internalID: 1000216367
+      spriteID: 8661fbd92dbd83947a81efb7324e4c89
+      internalID: -1752374446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_9
+      name: jaune_ark005_9
       rect:
         serializedVersion: 2
         x: 398
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa90203979c26f54e8f142266b41f682
-      internalID: -539101356
+      spriteID: 995ec115d25b07c45a50e24de3897cf2
+      internalID: -1850029897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_10
+      name: jaune_ark005_10
       rect:
         serializedVersion: 2
         x: 796
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f469152f0764f148b531b22fa14c09a
-      internalID: 745623456
+      spriteID: 79aba92fe1edd9243803b6a927021a87
+      internalID: -111452040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_11
+      name: jaune_ark005_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8448369a18deb1546b9ab3d5d521ab24
-      internalID: -1058361318
+      spriteID: 52891d4f0c12ac748be8732425860d2e
+      internalID: 1845269443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_12
+      name: jaune_ark005_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22fc02e85593ec8448db366aecd43993
-      internalID: -574685003
+      spriteID: dc7b8def80b2b2a40b41311dccd16244
+      internalID: 389302005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_13
+      name: jaune_ark005_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07df41d877243b41954302296f0cdac
-      internalID: -54703448
+      spriteID: 34d322a56b511a141ab10f827ba73316
+      internalID: 1520866491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_14
+      name: jaune_ark005_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7381219f1138479d5f51b36710879
-      internalID: -1194318573
+      spriteID: c4afa981f88a0a74cb56a471a520f02f
+      internalID: -1839727275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_15
+      name: jaune_ark005_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0e65040851fb74786e7a523e367d57
-      internalID: 1320336954
+      spriteID: 37fbfae22965d844b843c40ba52f4d57
+      internalID: 1448749528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_16
+      name: jaune_ark005_16
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdcaa62092feeea498d9cc2f9c6624b3
-      internalID: -411750398
+      spriteID: 524dce67576a31c47adc928ec08764dc
+      internalID: -430920757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_17
+      name: jaune_ark005_17
       rect:
         serializedVersion: 2
         x: 398
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436490887591eef41a543497ccffe1ad
-      internalID: 1223093042
+      spriteID: 7c492cdcbf1a55f49ad8d6f18ffba9c0
+      internalID: 1350601421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_18
+      name: jaune_ark005_18
       rect:
         serializedVersion: 2
         x: 796
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd33332aacca1b479adfcdd26173e04
-      internalID: -631228003
+      spriteID: 29ad3153668ffb24685af6413d8165e0
+      internalID: 659697537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_19
+      name: jaune_ark005_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f53d173059d9e646b964ffcd342ed2b
-      internalID: 1803279971
+      spriteID: b2f89acecee0e524bb29b0b067e5fd51
+      internalID: -1944027942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_20
+      name: jaune_ark005_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359883747c3e6f4786ad67c9f71ec21
-      internalID: -405899597
+      spriteID: 01e3e3c6e7d08e5409d73c0107bc438c
+      internalID: 1692383998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_21
+      name: jaune_ark005_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234cd4355f2831419172f1a9ace1c83
-      internalID: 1712060741
+      spriteID: dffaff83ca8b30e48809925cb9547770
+      internalID: 2027794494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_22
+      name: jaune_ark005_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e72803b141010479838cc7d7c162d6
-      internalID: 830277625
+      spriteID: 79d5aee226515a341a02a5b66c894749
+      internalID: -569069502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_23
+      name: jaune_ark005_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c30c1ecf546924193cc861513055ae
-      internalID: 1787450836
+      spriteID: 211f847d1576d484ea9c814e3c8e3b23
+      internalID: 1737694814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_24
+      name: jaune_ark005_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da5ba9950e4b2498a453d4a9ec98c3
-      internalID: 663387645
+      spriteID: 8fad5115913a90f4ebb96357d816d476
+      internalID: 47495706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_25
+      name: jaune_ark005_25
       rect:
         serializedVersion: 2
         x: 398
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f882a98e1555f48a9c1dfeb04fcfb0
-      internalID: 1014415319
+      spriteID: 4f8c287c68a39ba469399d099c7c7c90
+      internalID: -166958795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_26
+      name: jaune_ark005_26
       rect:
         serializedVersion: 2
         x: 796
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8585242568fe5a248a4b57a39a55913f
-      internalID: -2140248737
+      spriteID: eda95586574363d46bc8d71d13fc03f7
+      internalID: -573689444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_27
+      name: jaune_ark005_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef6b551f57e10240999f7b3fffb11e5
-      internalID: 1076698678
+      spriteID: 676fc384f02f1ed4da6d9f6fcb0c7fa7
+      internalID: 677521772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_28
+      name: jaune_ark005_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0763ac5fc2952724fbaa9700995f88e7
-      internalID: 2016110638
+      spriteID: 82b9654490e77bc458ae8de48e164db3
+      internalID: 1866721152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_29
+      name: jaune_ark005_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95857c62d73c4064889fc2a60cb833ee
-      internalID: -1344713072
+      spriteID: 270565c8fdf9fb9408e560d860d84039
+      internalID: -2033488293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_30
+      name: jaune_ark005_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38f0c394b6ad6840b36e683c33ba3ce
-      internalID: 2134493849
+      spriteID: 1c42ee55322caff4c8cff23dd530287e
+      internalID: -446277617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pikkozoikum_31
+      name: jaune_ark005_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283588b778882844bab67254d2c61ebc
-      internalID: 416718343
+      spriteID: d239281f809dee84e9a7f3fe73ec8e0a
+      internalID: -754136320
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pikkozoikum_0: -1881135399
-      pikkozoikum_1: 1486708848
-      pikkozoikum_10: 745623456
-      pikkozoikum_11: -1058361318
-      pikkozoikum_12: -574685003
-      pikkozoikum_13: -54703448
-      pikkozoikum_14: -1194318573
-      pikkozoikum_15: 1320336954
-      pikkozoikum_16: -411750398
-      pikkozoikum_17: 1223093042
-      pikkozoikum_18: -631228003
-      pikkozoikum_19: 1803279971
-      pikkozoikum_2: -771588401
-      pikkozoikum_20: -405899597
-      pikkozoikum_21: 1712060741
-      pikkozoikum_22: 830277625
-      pikkozoikum_23: 1787450836
-      pikkozoikum_24: 663387645
-      pikkozoikum_25: 1014415319
-      pikkozoikum_26: -2140248737
-      pikkozoikum_27: 1076698678
-      pikkozoikum_28: 2016110638
-      pikkozoikum_29: -1344713072
-      pikkozoikum_3: -1016967854
-      pikkozoikum_30: 2134493849
-      pikkozoikum_31: 416718343
-      pikkozoikum_4: 336167409
-      pikkozoikum_5: 422043048
-      pikkozoikum_6: -957893508
-      pikkozoikum_7: -440319693
-      pikkozoikum_8: 1000216367
-      pikkozoikum_9: -539101356
+      jaune_ark005_0: -1144071094
+      jaune_ark005_1: 2078666594
+      jaune_ark005_10: -111452040
+      jaune_ark005_11: 1845269443
+      jaune_ark005_12: 389302005
+      jaune_ark005_13: 1520866491
+      jaune_ark005_14: -1839727275
+      jaune_ark005_15: 1448749528
+      jaune_ark005_16: -430920757
+      jaune_ark005_17: 1350601421
+      jaune_ark005_18: 659697537
+      jaune_ark005_19: -1944027942
+      jaune_ark005_2: -206403926
+      jaune_ark005_20: 1692383998
+      jaune_ark005_21: 2027794494
+      jaune_ark005_22: -569069502
+      jaune_ark005_23: 1737694814
+      jaune_ark005_24: 47495706
+      jaune_ark005_25: -166958795
+      jaune_ark005_26: -573689444
+      jaune_ark005_27: 677521772
+      jaune_ark005_28: 1866721152
+      jaune_ark005_29: -2033488293
+      jaune_ark005_3: -534698276
+      jaune_ark005_30: -446277617
+      jaune_ark005_31: -754136320
+      jaune_ark005_4: 492246293
+      jaune_ark005_5: 828227069
+      jaune_ark005_6: 46965111
+      jaune_ark005_7: 491024273
+      jaune_ark005_8: -1752374446
+      jaune_ark005_9: -1850029897
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
