@@ -379,7 +379,7 @@ public class BerdInterface : Singleton<BerdInterface>
                 importer.maxTextureSize = 4096;
                 Texture2D spriteSheet = (Texture2D)AssetDatabase.LoadAssetAtPath(path,typeof(Texture2D));
                 Debug.Log(spriteSheet == null);
-                SliceSpritesTool.SliceByCell(spriteSheet,4,8,SpriteAlignment.Custom, new Vector2(0.6f,0.17f));
+                SliceSpriteSheets.SliceByCell(spriteSheet,4,8,SpriteAlignment.Custom, new Vector2(0.6f,0.17f));
             }
             GameObject NewObject = (GameObject)PrefabUtility.InstantiatePrefab(berdBase);
             Berd newBerd = NewObject.GetComponent<Berd>();
