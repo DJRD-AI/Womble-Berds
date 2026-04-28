@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-public class BerdInterface : MonoBehaviour
+public class BerdInterface : Singleton<BerdInterface>
 {
     /// <summary>
     /// Time in minutes before a berd gets DESTROYED!
@@ -27,6 +27,7 @@ public class BerdInterface : MonoBehaviour
     private TcpClient client;
     private StreamReader reader;
     private StreamWriter writer;
+    [SerializeField] GameObject berdBase;
 
     /// <summary>
     /// All possible berd prefabs
@@ -39,7 +40,7 @@ public class BerdInterface : MonoBehaviour
     /// <summary>
     /// List of messages with their senders, sendtime and deletetime
     /// </summary>
-    [SerializeField] private List<ChatMessage> Destructionlist;
+    private List<ChatMessage> Destructionlist = new();
     private Coroutine _DeletionTracker = null;
 
     #region Admin Vars
@@ -47,25 +48,14 @@ public class BerdInterface : MonoBehaviour
     private bool EnableAdminInputs = false;
     private bool EnableInputs = true;
     private bool EnableSpawns = true;
-    private bool EnableRemoval = true;
+    private bool EnableRemoval = false;
     static public bool EnableQuackCooldown{get;private set;} = true;
     #endregion
-    public static BoundPos WALKBOUND{get;private set;}
-    public static BoundPos DRAGBOUND{get;private set;}
-    public static BoundPos SPAWNBOUND{get;private set;}
-    public static BoundPos DESPAWNBOUND{get;private set;}
     [field:SerializeField] public BoundPos WalkBound{get;private set;}    = new(-7.8,8.5,-4.96f,-3.56f);
     [field:SerializeField] public BoundPos DragBound{get;private set;}    = new(-7.8,8.5,-4.96f,3.58f);
     [field:SerializeField] public BoundPos SpawnBound{get;private set;}   = new(-7.8,8.5,-4.96f,-3.56f);
     [field:SerializeField] public BoundPos DespawnBound{get;private set;} = new(-7.8,8.5,-4.96f,3.58f);
 
-    void Awake()
-    {
-        WALKBOUND    = WalkBound;
-        DRAGBOUND    = DragBound;
-        SPAWNBOUND   = SpawnBound;
-        DESPAWNBOUND = DespawnBound;
-    }
 
     // Update is called once per frame
     void Update(){
@@ -74,33 +64,7 @@ public class BerdInterface : MonoBehaviour
         ChatRead();
     }
 
-#if UNITY_EDITOR
-    public void FindAllBerds(){
-        string folderPath = "Assets/Prefabs/Berds";
-        string[] guids = AssetDatabase.FindAssets("t:Prefab", new[] { folderPath });
-        berds.Clear();
-        foreach (string guid in guids){
-            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
 
-            if (assetPath.Contains("Berd Base"))
-                continue;
-
-            GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
-            if (asset == null)
-                continue;
-            berds.Add(asset);
-
-            if(!assetPath.Contains(" Variant"))
-                continue;
-
-            string fileName = Path.GetFileNameWithoutExtension(assetPath);
-            string result = AssetDatabase.RenameAsset(assetPath, fileName.Replace(" Variant", ""));
-
-            if (!string.IsNullOrEmpty(result))
-                Debug.LogError($"Rename failed: {result}");
-        }
-    }
-#endif
 
     void AdminInputs(){
         if(Input.GetKeyDown(KeyCode.Q)) EnableAdminInputs = !EnableAdminInputs;
@@ -344,7 +308,8 @@ public class BerdInterface : MonoBehaviour
     }
 
     private IEnumerator SPAWNBERDARMY(){
-       foreach(GameObject berd in berds){
+        List<GameObject> shuffledBerds = berds.OrderBy(bp => UnityEngine.Random.value).ToList();
+       foreach(GameObject berd in shuffledBerds){
             GetBerd(berd.name.ToLower());
             ChatMessage NewMessage = new(){
                 Sender     = berd.name.ToLower(),
@@ -357,7 +322,8 @@ public class BerdInterface : MonoBehaviour
         }
     }
     private IEnumerator ClearBerds(){
-        foreach(GameObject berd in ActiveBerds){
+        List<GameObject> shuffledBerds = ActiveBerds.OrderBy(bp => UnityEngine.Random.value).ToList();
+        foreach(GameObject berd in shuffledBerds){
             berd.GetComponent<Berd>().DespawnBerd();
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
@@ -365,6 +331,67 @@ public class BerdInterface : MonoBehaviour
         Destructionlist.Clear();
         StopAllCoroutines();
     }
+#if UNITY_EDITOR
+    private static readonly string SpritesPath = "Assets/Sprites/Berds/";
+    private static readonly string PrefabPath = "Assets/Prefabs/Berds/";
+    public void FindAllBerds()
+    {
+        berds.Clear();
+        FindMadeBerds();
+        MakeNewBerds();
+    }
+    public void FindMadeBerds(){
+        string[] guids = AssetDatabase.FindAssets("t:Prefab", new[] { PrefabPath });
+
+        foreach (string guid in guids){
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+
+            if (assetPath.Contains("Berd Base"))
+                continue;
+
+            GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
+            if (asset == null)
+                continue;
+            berds.Add(asset);
+
+            if(!assetPath.Contains(" Variant"))
+                continue;
+
+            string fileName = Path.GetFileNameWithoutExtension(assetPath);
+            string result = AssetDatabase.RenameAsset(assetPath, fileName.Replace(" Variant", ""));
+
+            if (!string.IsNullOrEmpty(result))
+                Debug.LogError($"Rename failed: {result}");
+        }
+    }
+    public void MakeNewBerds()
+    {
+        string[] files = Directory.GetFiles(SpritesPath, "*.png");
+        foreach(var path in files){
+            string FileName = Path.GetFileNameWithoutExtension(path);
+            string FinalPath = PrefabPath + FileName + ".prefab";
+            if(berds.Any(b => string.Equals(b.name,FileName,StringComparison.OrdinalIgnoreCase))){
+                continue;
+            }
+
+            Debug.Log($"Name not found: {FileName}");
+            GameObject NewObject = (GameObject)PrefabUtility.InstantiatePrefab(berdBase);
+            Berd newBerd = NewObject.GetComponent<Berd>();
+
+            List<Sprite> sprites = new();
+
+
+            UnityEngine.Object[] assets = AssetDatabase.LoadAllAssetsAtPath(path);
+            foreach(UnityEngine.Object obj in assets){
+                if (obj is Sprite sprite)
+                    sprites.Add(sprite);
+            }
+            newBerd.SetSprites(sprites,FileName);
+            berds.Add(PrefabUtility.SaveAsPrefabAsset(NewObject,FinalPath));
+            DestroyImmediate(NewObject); 
+        }
+    }
+#endif
     void OnDrawGizmos(){
         DrawBoundPosGizmo(WalkBound,Color.yellow);
         DrawBoundPosGizmo(DragBound,Color.blue);

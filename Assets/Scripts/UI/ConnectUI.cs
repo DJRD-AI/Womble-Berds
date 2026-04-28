@@ -26,6 +26,6 @@ public class ConnectUI : MonoBehaviour
         PlayerPrefs.SetString("username", _username.text);
         PlayerPrefs.SetString("channel", _channel.text);
         PlayerPrefs.SetString("OAuth", _OAuth.text);
-        Destroy(transform.parent.gameObject);
+        Destroy(gameObject);
     }
 }

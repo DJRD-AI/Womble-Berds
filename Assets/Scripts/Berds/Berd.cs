@@ -50,6 +50,11 @@ public class Berd : MonoBehaviour
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
     }
 
+    private void OnValidate() {
+        if(spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
+            spriteRenderer.sprite = WalkCycle[0];
+    }
+
     void OnEnable(){
         StartCoroutine(Walking());
         StartCoroutine(RandomEvents());
@@ -68,6 +73,13 @@ public class Berd : MonoBehaviour
         transform.localScale = SCALES.Lerp(scale) * ScaleMod * Vector3.one;
         StartCoroutine(Spawning());
     }
+    public void SetSprites(List<Sprite> newSprites, string newName){
+        StopAllCoroutines();
+        WalkCycle = newSprites;
+        if(WalkCycle.Count > 0)
+            spriteRenderer.sprite = WalkCycle[0];
+        name = newName.ToLower();
+    }
 
     public void ResetBerd(){
         if(Movement != null)
@@ -79,9 +91,8 @@ public class Berd : MonoBehaviour
     }
 
     IEnumerator Spawning(){
-        float verPos = BerdInterface.SPAWNBOUND.VER.Random;
-        transform.position = BerdInterface.SPAWNBOUND.Random3;
-        _localPosition = BerdInterface.WALKBOUND.Random3;
+        transform.position = BerdInterface.Instance.SpawnBound.Random3;
+        _localPosition = BerdInterface.Instance.WalkBound.Random3;
         QuackTired = true;
         PlayQuack();
         MoveTo(_localPosition, UnityEngine.Random.Range(1,4));
@@ -95,7 +106,7 @@ public class Berd : MonoBehaviour
 
     public Coroutine DespawnBerd() => StartCoroutine(Despawning());
     IEnumerator Despawning(){
-        Vector2 MoveSpot = BerdInterface.DESPAWNBOUND.Random2;
+        Vector2 MoveSpot = BerdInterface.Instance.DespawnBound.Random2;
         PlayQuack();
         yield return new WaitUntil(() => !quackHole.isPlaying);
         PlayQuack();
@@ -132,13 +143,10 @@ public class Berd : MonoBehaviour
                     MoveDir(Direction,SPEED.Random);
                     break;
                 case < 0.4f:
-                    Vector2 EndPos = BerdInterface.WALKBOUND.Random2;
+                    Vector2 EndPos = BerdInterface.Instance.WalkBound.Random2;
                     MoveTo(EndPos,SPEED.Random);
                     break;
                 case < 0.6f:
-                    Scale(SCALES.Random,SPEED.Random);
-                    break;
-                case < 0.8f:
                     Quack();
                     break;
                 default:
@@ -182,7 +190,7 @@ public class Berd : MonoBehaviour
 
     public float MoveTo(Vector3 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
         if(PosClamp)
-            End = BerdInterface.WALKBOUND.Clamp(End);
+            End = BerdInterface.Instance.WalkBound.Clamp(End);
         End.z = End.y;
         speed = SpeedCheck(speed,SpeedClamp);
 
@@ -194,10 +202,10 @@ public class Berd : MonoBehaviour
         Movement = StartCoroutine(transform.AnimatingLocalPos(End,Duration));
         return Duration;
     }
-    public float MoveTo (Vector2 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(End.x,End.y,End.y), speed, PosClamp, SpeedClamp);
-    public float MoveTo (Transform End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true) => MoveTo(End.position, speed, PosClamp, SpeedClamp);
-    public float MoveDir(Vector3 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
-    public float MoveDir(Vector2 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveDir(new Vector3(Dir.x,Dir.y,Dir.y),speed, PosClamp, SpeedClamp);
+    public float MoveTo (Vector2   End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(End.x,End.y,End.y), speed, PosClamp, SpeedClamp);
+    public float MoveTo (Transform End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(End.position, speed, PosClamp, SpeedClamp);
+    public float MoveDir(Vector3   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
+    public float MoveDir(Vector2   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(Dir.x,Dir.y,Dir.y)+transform.localPosition,speed, PosClamp, SpeedClamp);
 
     public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
         if(ToFollow == null || ToFollow == this)
@@ -294,14 +302,14 @@ public class Berd : MonoBehaviour
             transform.localScale = scale * ScaleMod * Vector3.one;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             targetPos = ray.origin;
-            targetPos = BerdInterface.DRAGBOUND.Clamp(targetPos);
+            targetPos = BerdInterface.Instance.DragBound.Clamp(targetPos);
             targetPos.z = targetPos.y;
             transform.position = Vector3.Lerp(transform.position,targetPos,Time.deltaTime*10f);
             yield return null;
         }
         targetPos = transform.localPosition;
-        if(!BerdInterface.WALKBOUND.VER.InBounds(targetPos.y)){
-            targetPos.y = BerdInterface.WALKBOUND.VER.Random;
+        if(!BerdInterface.Instance.WalkBound.VER.InBounds(targetPos.y)){
+            targetPos.y = BerdInterface.Instance.WalkBound.VER.Random;
         }
         MoveTo(targetPos,10);
         yield return Movement;
