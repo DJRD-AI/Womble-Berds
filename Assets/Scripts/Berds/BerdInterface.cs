@@ -370,11 +370,17 @@ public class BerdInterface : Singleton<BerdInterface>
         foreach(var path in files){
             string FileName = Path.GetFileNameWithoutExtension(path);
             string FinalPath = PrefabPath + FileName + ".prefab";
-            if(berds.Any(b => string.Equals(b.name,FileName,StringComparison.OrdinalIgnoreCase))){
+            if(berds.Any(b => string.Equals(b.name,FileName,StringComparison.OrdinalIgnoreCase)))
                 continue;
-            }
 
-            Debug.Log($"Name not found: {FileName}");
+            TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
+            Debug.Log(importer == null);
+            if(importer != null && importer.spriteImportMode == SpriteImportMode.Single){
+                importer.maxTextureSize = 4096;
+                Texture2D spriteSheet = (Texture2D)AssetDatabase.LoadAssetAtPath(path,typeof(Texture2D));
+                Debug.Log(spriteSheet == null);
+                SliceSpritesTool.SliceByCell(spriteSheet,4,8,SpriteAlignment.Custom, new Vector2(0.6f,0.17f));
+            }
             GameObject NewObject = (GameObject)PrefabUtility.InstantiatePrefab(berdBase);
             Berd newBerd = NewObject.GetComponent<Berd>();
 

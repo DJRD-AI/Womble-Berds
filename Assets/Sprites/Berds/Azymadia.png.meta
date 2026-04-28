@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -105,511 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Azymadia_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7972b9bd783dea48848fce71a102cca
-      internalID: 1693627600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_1
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1103ba7ee404cd149857b221fed6207c
-      internalID: 457033225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_2
-      rect:
-        serializedVersion: 2
-        x: 796
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2bdf27e0c49ed041bdcc25d9b6e5a7f
-      internalID: 2111708022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_3
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd097c35579622d42a7dbdffcc03f143
-      internalID: 563636880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_4
-      rect:
-        serializedVersion: 2
-        x: 1592
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 764a9f3172367ae4ab2911815efaf5cc
-      internalID: -388557893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_5
-      rect:
-        serializedVersion: 2
-        x: 1990
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03e6c23fc3e16b54a990e2d86aca78a1
-      internalID: -1759233496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_6
-      rect:
-        serializedVersion: 2
-        x: 2388
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8806e88553ffc841b6528f37c200e9d
-      internalID: 94934528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_7
-      rect:
-        serializedVersion: 2
-        x: 2786
-        y: 900
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65fd5c0cf4ca5f1499b7ce4225311eb1
-      internalID: -2013928538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dfb308ad2097d040997cc74fa64a74a
-      internalID: -617531422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_9
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c79ed3d3bec768842a1b26a510e3447d
-      internalID: -98007548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_10
-      rect:
-        serializedVersion: 2
-        x: 796
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3af0301dbe67b44f9374aeb2f0c739c
-      internalID: 488664114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_11
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 606a809a5aa0dbc498d8016fc6439bb2
-      internalID: -1411663678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_12
-      rect:
-        serializedVersion: 2
-        x: 1592
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76a2f9d5126271f4c8bafee4aa72d434
-      internalID: 1136266348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_13
-      rect:
-        serializedVersion: 2
-        x: 1990
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9921932133af094d8a0fd0c974ad116
-      internalID: -662095962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_14
-      rect:
-        serializedVersion: 2
-        x: 2388
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: effe884e44a6ee0478a9acd4a8d28cb5
-      internalID: -1711296109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_15
-      rect:
-        serializedVersion: 2
-        x: 2786
-        y: 600
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7618e19e18532a4b83368d9ae9cddd2
-      internalID: -108501776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de477999bdd1fe4ab5ee091d5bbdc1a
-      internalID: -1555156290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_17
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85c4f6f7a29adcc40935c50024edaf9f
-      internalID: 861421872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_18
-      rect:
-        serializedVersion: 2
-        x: 796
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 570da9984828b5841847773bd5735c49
-      internalID: 695374061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_19
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24ace36437778ef4bb63ff86f39b8131
-      internalID: 810721897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_20
-      rect:
-        serializedVersion: 2
-        x: 1592
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b01923e80edfd04dbfa61da4555a0c3
-      internalID: 968775152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_21
-      rect:
-        serializedVersion: 2
-        x: 1990
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cbe44b008dba384f8d5b11ecf31514d
-      internalID: 1726721234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_22
-      rect:
-        serializedVersion: 2
-        x: 2388
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 612dd1afd34af2040b8e602b23202c1e
-      internalID: -2009063623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_23
-      rect:
-        serializedVersion: 2
-        x: 2786
-        y: 300
-        width: 398
-        height: 300
-      alignment: 9
-      pivot: {x: 0.6, y: 0.17}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1bd85fa5873bc54abe62f1849be4379
-      internalID: 1241294400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Azymadia_24
+      name: azymadia_0
       rect:
         serializedVersion: 2
         x: 0
@@ -621,16 +117,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1c6a0a12d36d147418fcacd72b9f96a6
-      internalID: 64636751
+      spriteID: 42c4715dffffffff0800000000000000
+      internalID: -719893468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_25
+      name: azymadia_1
       rect:
         serializedVersion: 2
         x: 398
@@ -642,16 +138,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5e6ef0fedcbcd2149a707d342d78ac07
-      internalID: -629138429
+      spriteID: 8cd11716000000000800000000000000
+      internalID: 1634803144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_26
+      name: azymadia_2
       rect:
         serializedVersion: 2
         x: 796
@@ -663,16 +159,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8daca8eb9dd037a4f9cfd850d16724e3
-      internalID: -755084777
+      spriteID: 3b810efcffffffff0800000000000000
+      internalID: -807397197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_27
+      name: azymadia_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -684,16 +180,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ed99c955897f6ec42b1dc16edb15c7f7
-      internalID: 1703688409
+      spriteID: 4379e3b9ffffffff0800000000000000
+      internalID: -1690396876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_28
+      name: azymadia_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -705,16 +201,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 671ccb1b7dca37747b123e9425512834
-      internalID: 1021726440
+      spriteID: 0c892f8cffffffff0800000000000000
+      internalID: -923625280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_29
+      name: azymadia_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -726,16 +222,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d17cb81180b4e9e40bb7f5870be54c21
-      internalID: 1837279385
+      spriteID: a3b2d75cffffffff0800000000000000
+      internalID: -981652678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_30
+      name: azymadia_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -747,16 +243,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ce60f719b5b5c8f43841c9b27e477843
-      internalID: -1509962497
+      spriteID: a85cd2f3000000000800000000000000
+      internalID: 1059964298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Azymadia_31
+      name: azymadia_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -768,10 +264,514 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 78a3477d96865d14287c83275d150a31
-      internalID: 583162557
+      spriteID: 64b160d9ffffffff0800000000000000
+      internalID: -1660544186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425da1ddffffffff0800000000000000
+      internalID: -585444060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d2435affffffff0800000000000000
+      internalID: -1523307116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bda4ae5000000000800000000000000
+      internalID: 1587850681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0920cbffffffff0800000000000000
+      internalID: -1140682569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd10999ffffffff0800000000000000
+      internalID: -1718608447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f610702000000000800000000000000
+      internalID: 544216824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1730cf79ffffffff0800000000000000
+      internalID: -1745091727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeeb0698ffffffff0800000000000000
+      internalID: -1990148374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c30f1bffffffff0800000000000000
+      internalID: -1309656035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ab19daffffffff0800000000000000
+      internalID: -1382958586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e92b60000000000800000000000000
+      internalID: 112369303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f334f7affffffff0800000000000000
+      internalID: -1477168138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e782beeffffffff0800000000000000
+      internalID: -290289693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23033863000000000800000000000000
+      internalID: 914567218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053d8384000000000800000000000000
+      internalID: 1211683664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6323c3000000000800000000000000
+      internalID: 1009923777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c59165000000000800000000000000
+      internalID: 1444502683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9695d6dffffffff0800000000000000
+      internalID: -690645348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6d74b2000000000800000000000000
+      internalID: 726128366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58390071000000000800000000000000
+      internalID: 385913733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1742a90000000000800000000000000
+      internalID: 161629978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd052abffffffff0800000000000000
+      internalID: -1171976713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e543d3000000000800000000000000
+      internalID: 1026842142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azymadia_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1109b38ffffffff0800000000000000
+      internalID: -2085027557
       vertices: []
       indices: 
       edges: []
@@ -819,6 +819,1788 @@ TextureImporter:
       Azymadia_7: -2013928538
       Azymadia_8: -617531422
       Azymadia_9: -98007548
+      azymadia_0: -719893468
+      azymadia_1: 1634803144
+      azymadia_10: 1587850681
+      azymadia_100: 0
+      azymadia_1000: 0
+      azymadia_1001: 0
+      azymadia_1002: 0
+      azymadia_1003: 0
+      azymadia_1004: 0
+      azymadia_1005: 0
+      azymadia_1006: 0
+      azymadia_1007: 0
+      azymadia_1008: 0
+      azymadia_1009: 0
+      azymadia_101: 0
+      azymadia_1010: 0
+      azymadia_1011: 0
+      azymadia_1012: 0
+      azymadia_1013: 0
+      azymadia_1014: 0
+      azymadia_1015: 0
+      azymadia_1016: 0
+      azymadia_1017: 0
+      azymadia_1018: 0
+      azymadia_1019: 0
+      azymadia_102: 0
+      azymadia_1020: 0
+      azymadia_1021: 0
+      azymadia_1022: 0
+      azymadia_1023: 0
+      azymadia_1024: 0
+      azymadia_1025: 0
+      azymadia_1026: 0
+      azymadia_1027: 0
+      azymadia_1028: 0
+      azymadia_1029: 0
+      azymadia_103: 0
+      azymadia_1030: 0
+      azymadia_1031: 0
+      azymadia_1032: 0
+      azymadia_1033: 0
+      azymadia_1034: 0
+      azymadia_1035: 0
+      azymadia_1036: 0
+      azymadia_1037: 0
+      azymadia_1038: 0
+      azymadia_1039: 0
+      azymadia_104: 0
+      azymadia_1040: 0
+      azymadia_1041: 0
+      azymadia_1042: 0
+      azymadia_1043: 0
+      azymadia_1044: 0
+      azymadia_1045: 0
+      azymadia_1046: 0
+      azymadia_1047: 0
+      azymadia_1048: 0
+      azymadia_1049: 0
+      azymadia_105: 0
+      azymadia_1050: 0
+      azymadia_1051: 0
+      azymadia_1052: 0
+      azymadia_1053: 0
+      azymadia_1054: 0
+      azymadia_1055: 0
+      azymadia_1056: 0
+      azymadia_1057: 0
+      azymadia_1058: 0
+      azymadia_1059: 0
+      azymadia_106: 0
+      azymadia_1060: 0
+      azymadia_1061: 0
+      azymadia_1062: 0
+      azymadia_1063: 0
+      azymadia_1064: 0
+      azymadia_1065: 0
+      azymadia_1066: 0
+      azymadia_1067: 0
+      azymadia_1068: 0
+      azymadia_1069: 0
+      azymadia_107: 0
+      azymadia_1070: 0
+      azymadia_1071: 0
+      azymadia_1072: 0
+      azymadia_1073: 0
+      azymadia_1074: 0
+      azymadia_1075: 0
+      azymadia_1076: 0
+      azymadia_1077: 0
+      azymadia_1078: 0
+      azymadia_1079: 0
+      azymadia_108: 0
+      azymadia_1080: 0
+      azymadia_1081: 0
+      azymadia_1082: 0
+      azymadia_1083: 0
+      azymadia_1084: 0
+      azymadia_1085: 0
+      azymadia_1086: 0
+      azymadia_1087: 0
+      azymadia_1088: 0
+      azymadia_1089: 0
+      azymadia_109: 0
+      azymadia_1090: 0
+      azymadia_1091: 0
+      azymadia_1092: 0
+      azymadia_1093: 0
+      azymadia_1094: 0
+      azymadia_1095: 0
+      azymadia_1096: 0
+      azymadia_1097: 0
+      azymadia_1098: 0
+      azymadia_1099: 0
+      azymadia_11: -1140682569
+      azymadia_110: 0
+      azymadia_1100: 0
+      azymadia_1101: 0
+      azymadia_1102: 0
+      azymadia_1103: 0
+      azymadia_1104: 0
+      azymadia_1105: 0
+      azymadia_1106: 0
+      azymadia_1107: 0
+      azymadia_1108: 0
+      azymadia_1109: 0
+      azymadia_111: 0
+      azymadia_1110: 0
+      azymadia_1111: 0
+      azymadia_1112: 0
+      azymadia_1113: 0
+      azymadia_1114: 0
+      azymadia_1115: 0
+      azymadia_1116: 0
+      azymadia_1117: 0
+      azymadia_1118: 0
+      azymadia_1119: 0
+      azymadia_112: 0
+      azymadia_1120: 0
+      azymadia_1121: 0
+      azymadia_1122: 0
+      azymadia_1123: 0
+      azymadia_1124: 0
+      azymadia_1125: 0
+      azymadia_1126: 0
+      azymadia_1127: 0
+      azymadia_1128: 0
+      azymadia_1129: 0
+      azymadia_113: 0
+      azymadia_1130: 0
+      azymadia_1131: 0
+      azymadia_1132: 0
+      azymadia_1133: 0
+      azymadia_1134: 0
+      azymadia_1135: 0
+      azymadia_1136: 0
+      azymadia_1137: 0
+      azymadia_1138: 0
+      azymadia_1139: 0
+      azymadia_114: 0
+      azymadia_1140: 0
+      azymadia_1141: 0
+      azymadia_1142: 0
+      azymadia_1143: 0
+      azymadia_1144: 0
+      azymadia_1145: 0
+      azymadia_1146: 0
+      azymadia_1147: 0
+      azymadia_1148: 0
+      azymadia_1149: 0
+      azymadia_115: 0
+      azymadia_1150: 0
+      azymadia_1151: 0
+      azymadia_1152: 0
+      azymadia_1153: 0
+      azymadia_1154: 0
+      azymadia_1155: 0
+      azymadia_1156: 0
+      azymadia_1157: 0
+      azymadia_1158: 0
+      azymadia_1159: 0
+      azymadia_116: 0
+      azymadia_1160: 0
+      azymadia_1161: 0
+      azymadia_1162: 0
+      azymadia_1163: 0
+      azymadia_1164: 0
+      azymadia_1165: 0
+      azymadia_1166: 0
+      azymadia_1167: 0
+      azymadia_1168: 0
+      azymadia_1169: 0
+      azymadia_117: 0
+      azymadia_1170: 0
+      azymadia_1171: 0
+      azymadia_1172: 0
+      azymadia_1173: 0
+      azymadia_1174: 0
+      azymadia_1175: 0
+      azymadia_1176: 0
+      azymadia_1177: 0
+      azymadia_1178: 0
+      azymadia_1179: 0
+      azymadia_118: 0
+      azymadia_1180: 0
+      azymadia_1181: 0
+      azymadia_1182: 0
+      azymadia_1183: 0
+      azymadia_1184: 0
+      azymadia_1185: 0
+      azymadia_1186: 0
+      azymadia_1187: 0
+      azymadia_1188: 0
+      azymadia_1189: 0
+      azymadia_119: 0
+      azymadia_1190: 0
+      azymadia_1191: 0
+      azymadia_1192: 0
+      azymadia_1193: 0
+      azymadia_1194: 0
+      azymadia_1195: 0
+      azymadia_1196: 0
+      azymadia_1197: 0
+      azymadia_1198: 0
+      azymadia_1199: 0
+      azymadia_12: -1718608447
+      azymadia_120: 0
+      azymadia_1200: 0
+      azymadia_1201: 0
+      azymadia_1202: 0
+      azymadia_1203: 0
+      azymadia_1204: 0
+      azymadia_1205: 0
+      azymadia_1206: 0
+      azymadia_1207: 0
+      azymadia_1208: 0
+      azymadia_1209: 0
+      azymadia_121: 0
+      azymadia_1210: 0
+      azymadia_1211: 0
+      azymadia_1212: 0
+      azymadia_1213: 0
+      azymadia_1214: 0
+      azymadia_1215: 0
+      azymadia_1216: 0
+      azymadia_1217: 0
+      azymadia_1218: 0
+      azymadia_1219: 0
+      azymadia_122: 0
+      azymadia_1220: 0
+      azymadia_1221: 0
+      azymadia_1222: 0
+      azymadia_1223: 0
+      azymadia_1224: 0
+      azymadia_1225: 0
+      azymadia_1226: 0
+      azymadia_1227: 0
+      azymadia_1228: 0
+      azymadia_1229: 0
+      azymadia_123: 0
+      azymadia_1230: 0
+      azymadia_1231: 0
+      azymadia_1232: 0
+      azymadia_1233: 0
+      azymadia_1234: 0
+      azymadia_1235: 0
+      azymadia_1236: 0
+      azymadia_1237: 0
+      azymadia_1238: 0
+      azymadia_1239: 0
+      azymadia_124: 0
+      azymadia_1240: 0
+      azymadia_1241: 0
+      azymadia_1242: 0
+      azymadia_1243: 0
+      azymadia_1244: 0
+      azymadia_1245: 0
+      azymadia_1246: 0
+      azymadia_1247: 0
+      azymadia_1248: 0
+      azymadia_1249: 0
+      azymadia_125: 0
+      azymadia_1250: 0
+      azymadia_1251: 0
+      azymadia_1252: 0
+      azymadia_1253: 0
+      azymadia_1254: 0
+      azymadia_1255: 0
+      azymadia_1256: 0
+      azymadia_1257: 0
+      azymadia_1258: 0
+      azymadia_1259: 0
+      azymadia_126: 0
+      azymadia_1260: 0
+      azymadia_1261: 0
+      azymadia_1262: 0
+      azymadia_1263: 0
+      azymadia_1264: 0
+      azymadia_1265: 0
+      azymadia_1266: 0
+      azymadia_1267: 0
+      azymadia_1268: 0
+      azymadia_1269: 0
+      azymadia_127: 0
+      azymadia_1270: 0
+      azymadia_1271: 0
+      azymadia_1272: 0
+      azymadia_1273: 0
+      azymadia_1274: 0
+      azymadia_1275: 0
+      azymadia_1276: 0
+      azymadia_1277: 0
+      azymadia_1278: 0
+      azymadia_1279: 0
+      azymadia_128: 0
+      azymadia_1280: 0
+      azymadia_1281: 0
+      azymadia_1282: 0
+      azymadia_1283: 0
+      azymadia_1284: 0
+      azymadia_1285: 0
+      azymadia_1286: 0
+      azymadia_1287: 0
+      azymadia_1288: 0
+      azymadia_1289: 0
+      azymadia_129: 0
+      azymadia_1290: 0
+      azymadia_1291: 0
+      azymadia_1292: 0
+      azymadia_1293: 0
+      azymadia_1294: 0
+      azymadia_1295: 0
+      azymadia_1296: 0
+      azymadia_1297: 0
+      azymadia_1298: 0
+      azymadia_1299: 0
+      azymadia_13: 544216824
+      azymadia_130: 0
+      azymadia_1300: 0
+      azymadia_1301: 0
+      azymadia_1302: 0
+      azymadia_1303: 0
+      azymadia_1304: 0
+      azymadia_1305: 0
+      azymadia_1306: 0
+      azymadia_1307: 0
+      azymadia_1308: 0
+      azymadia_1309: 0
+      azymadia_131: 0
+      azymadia_1310: 0
+      azymadia_1311: 0
+      azymadia_1312: 0
+      azymadia_1313: 0
+      azymadia_1314: 0
+      azymadia_1315: 0
+      azymadia_1316: 0
+      azymadia_1317: 0
+      azymadia_1318: 0
+      azymadia_1319: 0
+      azymadia_132: 0
+      azymadia_1320: 0
+      azymadia_1321: 0
+      azymadia_1322: 0
+      azymadia_1323: 0
+      azymadia_1324: 0
+      azymadia_1325: 0
+      azymadia_1326: 0
+      azymadia_1327: 0
+      azymadia_1328: 0
+      azymadia_1329: 0
+      azymadia_133: 0
+      azymadia_1330: 0
+      azymadia_1331: 0
+      azymadia_1332: 0
+      azymadia_1333: 0
+      azymadia_1334: 0
+      azymadia_1335: 0
+      azymadia_1336: 0
+      azymadia_1337: 0
+      azymadia_1338: 0
+      azymadia_1339: 0
+      azymadia_134: 0
+      azymadia_1340: 0
+      azymadia_1341: 0
+      azymadia_1342: 0
+      azymadia_1343: 0
+      azymadia_1344: 0
+      azymadia_1345: 0
+      azymadia_1346: 0
+      azymadia_1347: 0
+      azymadia_1348: 0
+      azymadia_1349: 0
+      azymadia_135: 0
+      azymadia_1350: 0
+      azymadia_1351: 0
+      azymadia_1352: 0
+      azymadia_1353: 0
+      azymadia_1354: 0
+      azymadia_1355: 0
+      azymadia_1356: 0
+      azymadia_1357: 0
+      azymadia_1358: 0
+      azymadia_1359: 0
+      azymadia_136: 0
+      azymadia_1360: 0
+      azymadia_1361: 0
+      azymadia_1362: 0
+      azymadia_1363: 0
+      azymadia_1364: 0
+      azymadia_1365: 0
+      azymadia_1366: 0
+      azymadia_1367: 0
+      azymadia_1368: 0
+      azymadia_1369: 0
+      azymadia_137: 0
+      azymadia_1370: 0
+      azymadia_1371: 0
+      azymadia_1372: 0
+      azymadia_1373: 0
+      azymadia_1374: 0
+      azymadia_1375: 0
+      azymadia_1376: 0
+      azymadia_1377: 0
+      azymadia_1378: 0
+      azymadia_1379: 0
+      azymadia_138: 0
+      azymadia_1380: 0
+      azymadia_1381: 0
+      azymadia_1382: 0
+      azymadia_1383: 0
+      azymadia_1384: 0
+      azymadia_1385: 0
+      azymadia_1386: 0
+      azymadia_1387: 0
+      azymadia_1388: 0
+      azymadia_1389: 0
+      azymadia_139: 0
+      azymadia_1390: 0
+      azymadia_1391: 0
+      azymadia_1392: 0
+      azymadia_1393: 0
+      azymadia_1394: 0
+      azymadia_1395: 0
+      azymadia_1396: 0
+      azymadia_1397: 0
+      azymadia_1398: 0
+      azymadia_1399: 0
+      azymadia_14: -1745091727
+      azymadia_140: 0
+      azymadia_1400: 0
+      azymadia_1401: 0
+      azymadia_1402: 0
+      azymadia_1403: 0
+      azymadia_1404: 0
+      azymadia_1405: 0
+      azymadia_1406: 0
+      azymadia_1407: 0
+      azymadia_1408: 0
+      azymadia_1409: 0
+      azymadia_141: 0
+      azymadia_1410: 0
+      azymadia_1411: 0
+      azymadia_1412: 0
+      azymadia_1413: 0
+      azymadia_1414: 0
+      azymadia_1415: 0
+      azymadia_1416: 0
+      azymadia_1417: 0
+      azymadia_1418: 0
+      azymadia_1419: 0
+      azymadia_142: 0
+      azymadia_1420: 0
+      azymadia_1421: 0
+      azymadia_1422: 0
+      azymadia_1423: 0
+      azymadia_1424: 0
+      azymadia_1425: 0
+      azymadia_1426: 0
+      azymadia_1427: 0
+      azymadia_1428: 0
+      azymadia_1429: 0
+      azymadia_143: 0
+      azymadia_1430: 0
+      azymadia_1431: 0
+      azymadia_1432: 0
+      azymadia_1433: 0
+      azymadia_1434: 0
+      azymadia_1435: 0
+      azymadia_1436: 0
+      azymadia_1437: 0
+      azymadia_1438: 0
+      azymadia_1439: 0
+      azymadia_144: 0
+      azymadia_1440: 0
+      azymadia_1441: 0
+      azymadia_1442: 0
+      azymadia_1443: 0
+      azymadia_1444: 0
+      azymadia_1445: 0
+      azymadia_1446: 0
+      azymadia_1447: 0
+      azymadia_1448: 0
+      azymadia_1449: 0
+      azymadia_145: 0
+      azymadia_1450: 0
+      azymadia_1451: 0
+      azymadia_1452: 0
+      azymadia_1453: 0
+      azymadia_1454: 0
+      azymadia_1455: 0
+      azymadia_1456: 0
+      azymadia_1457: 0
+      azymadia_1458: 0
+      azymadia_1459: 0
+      azymadia_146: 0
+      azymadia_1460: 0
+      azymadia_1461: 0
+      azymadia_1462: 0
+      azymadia_1463: 0
+      azymadia_1464: 0
+      azymadia_1465: 0
+      azymadia_1466: 0
+      azymadia_1467: 0
+      azymadia_1468: 0
+      azymadia_1469: 0
+      azymadia_147: 0
+      azymadia_1470: 0
+      azymadia_1471: 0
+      azymadia_1472: 0
+      azymadia_1473: 0
+      azymadia_1474: 0
+      azymadia_1475: 0
+      azymadia_1476: 0
+      azymadia_1477: 0
+      azymadia_1478: 0
+      azymadia_1479: 0
+      azymadia_148: 0
+      azymadia_1480: 0
+      azymadia_1481: 0
+      azymadia_1482: 0
+      azymadia_1483: 0
+      azymadia_1484: 0
+      azymadia_1485: 0
+      azymadia_1486: 0
+      azymadia_1487: 0
+      azymadia_1488: 0
+      azymadia_1489: 0
+      azymadia_149: 0
+      azymadia_1490: 0
+      azymadia_1491: 0
+      azymadia_1492: 0
+      azymadia_1493: 0
+      azymadia_1494: 0
+      azymadia_1495: 0
+      azymadia_1496: 0
+      azymadia_1497: 0
+      azymadia_1498: 0
+      azymadia_1499: 0
+      azymadia_15: -1990148374
+      azymadia_150: 0
+      azymadia_1500: 0
+      azymadia_1501: 0
+      azymadia_1502: 0
+      azymadia_1503: 0
+      azymadia_1504: 0
+      azymadia_1505: 0
+      azymadia_1506: 0
+      azymadia_1507: 0
+      azymadia_1508: 0
+      azymadia_1509: 0
+      azymadia_151: 0
+      azymadia_1510: 0
+      azymadia_1511: 0
+      azymadia_1512: 0
+      azymadia_1513: 0
+      azymadia_1514: 0
+      azymadia_1515: 0
+      azymadia_1516: 0
+      azymadia_1517: 0
+      azymadia_1518: 0
+      azymadia_1519: 0
+      azymadia_152: 0
+      azymadia_1520: 0
+      azymadia_1521: 0
+      azymadia_1522: 0
+      azymadia_1523: 0
+      azymadia_1524: 0
+      azymadia_1525: 0
+      azymadia_1526: 0
+      azymadia_1527: 0
+      azymadia_1528: 0
+      azymadia_1529: 0
+      azymadia_153: 0
+      azymadia_1530: 0
+      azymadia_1531: 0
+      azymadia_1532: 0
+      azymadia_1533: 0
+      azymadia_1534: 0
+      azymadia_1535: 0
+      azymadia_1536: 0
+      azymadia_1537: 0
+      azymadia_1538: 0
+      azymadia_1539: 0
+      azymadia_154: 0
+      azymadia_1540: 0
+      azymadia_1541: 0
+      azymadia_1542: 0
+      azymadia_1543: 0
+      azymadia_1544: 0
+      azymadia_1545: 0
+      azymadia_1546: 0
+      azymadia_1547: 0
+      azymadia_1548: 0
+      azymadia_1549: 0
+      azymadia_155: 0
+      azymadia_1550: 0
+      azymadia_1551: 0
+      azymadia_1552: 0
+      azymadia_1553: 0
+      azymadia_1554: 0
+      azymadia_1555: 0
+      azymadia_1556: 0
+      azymadia_1557: 0
+      azymadia_1558: 0
+      azymadia_1559: 0
+      azymadia_156: 0
+      azymadia_1560: 0
+      azymadia_1561: 0
+      azymadia_1562: 0
+      azymadia_1563: 0
+      azymadia_1564: 0
+      azymadia_1565: 0
+      azymadia_1566: 0
+      azymadia_1567: 0
+      azymadia_1568: 0
+      azymadia_1569: 0
+      azymadia_157: 0
+      azymadia_1570: 0
+      azymadia_1571: 0
+      azymadia_1572: 0
+      azymadia_1573: 0
+      azymadia_1574: 0
+      azymadia_1575: 0
+      azymadia_1576: 0
+      azymadia_1577: 0
+      azymadia_1578: 0
+      azymadia_1579: 0
+      azymadia_158: 0
+      azymadia_1580: 0
+      azymadia_1581: 0
+      azymadia_1582: 0
+      azymadia_1583: 0
+      azymadia_1584: 0
+      azymadia_1585: 0
+      azymadia_1586: 0
+      azymadia_1587: 0
+      azymadia_1588: 0
+      azymadia_1589: 0
+      azymadia_159: 0
+      azymadia_1590: 0
+      azymadia_1591: 0
+      azymadia_1592: 0
+      azymadia_1593: 0
+      azymadia_1594: 0
+      azymadia_1595: 0
+      azymadia_1596: 0
+      azymadia_1597: 0
+      azymadia_1598: 0
+      azymadia_1599: 0
+      azymadia_16: -1309656035
+      azymadia_160: 0
+      azymadia_1600: 0
+      azymadia_1601: 0
+      azymadia_1602: 0
+      azymadia_1603: 0
+      azymadia_1604: 0
+      azymadia_1605: 0
+      azymadia_1606: 0
+      azymadia_1607: 0
+      azymadia_1608: 0
+      azymadia_1609: 0
+      azymadia_161: 0
+      azymadia_1610: 0
+      azymadia_1611: 0
+      azymadia_1612: 0
+      azymadia_1613: 0
+      azymadia_1614: 0
+      azymadia_1615: 0
+      azymadia_1616: 0
+      azymadia_1617: 0
+      azymadia_1618: 0
+      azymadia_1619: 0
+      azymadia_162: 0
+      azymadia_1620: 0
+      azymadia_1621: 0
+      azymadia_1622: 0
+      azymadia_1623: 0
+      azymadia_1624: 0
+      azymadia_1625: 0
+      azymadia_1626: 0
+      azymadia_1627: 0
+      azymadia_1628: 0
+      azymadia_1629: 0
+      azymadia_163: 0
+      azymadia_1630: 0
+      azymadia_1631: 0
+      azymadia_1632: 0
+      azymadia_1633: 0
+      azymadia_1634: 0
+      azymadia_1635: 0
+      azymadia_1636: 0
+      azymadia_1637: 0
+      azymadia_1638: 0
+      azymadia_1639: 0
+      azymadia_164: 0
+      azymadia_1640: 0
+      azymadia_1641: 0
+      azymadia_1642: 0
+      azymadia_1643: 0
+      azymadia_1644: 0
+      azymadia_1645: 0
+      azymadia_1646: 0
+      azymadia_1647: 0
+      azymadia_1648: 0
+      azymadia_1649: 0
+      azymadia_165: 0
+      azymadia_1650: 0
+      azymadia_1651: 0
+      azymadia_1652: 0
+      azymadia_1653: 0
+      azymadia_1654: 0
+      azymadia_1655: 0
+      azymadia_1656: 0
+      azymadia_1657: 0
+      azymadia_1658: 0
+      azymadia_1659: 0
+      azymadia_166: 0
+      azymadia_1660: 0
+      azymadia_1661: 0
+      azymadia_1662: 0
+      azymadia_1663: 0
+      azymadia_1664: 0
+      azymadia_1665: 0
+      azymadia_1666: 0
+      azymadia_1667: 0
+      azymadia_1668: 0
+      azymadia_1669: 0
+      azymadia_167: 0
+      azymadia_1670: 0
+      azymadia_1671: 0
+      azymadia_1672: 0
+      azymadia_1673: 0
+      azymadia_1674: 0
+      azymadia_1675: 0
+      azymadia_1676: 0
+      azymadia_1677: 0
+      azymadia_1678: 0
+      azymadia_1679: 0
+      azymadia_168: 0
+      azymadia_1680: 0
+      azymadia_1681: 0
+      azymadia_1682: 0
+      azymadia_1683: 0
+      azymadia_1684: 0
+      azymadia_1685: 0
+      azymadia_1686: 0
+      azymadia_1687: 0
+      azymadia_1688: 0
+      azymadia_1689: 0
+      azymadia_169: 0
+      azymadia_1690: 0
+      azymadia_1691: 0
+      azymadia_1692: 0
+      azymadia_1693: 0
+      azymadia_1694: 0
+      azymadia_1695: 0
+      azymadia_1696: 0
+      azymadia_1697: 0
+      azymadia_1698: 0
+      azymadia_1699: 0
+      azymadia_17: -1382958586
+      azymadia_170: 0
+      azymadia_1700: 0
+      azymadia_1701: 0
+      azymadia_1702: 0
+      azymadia_1703: 0
+      azymadia_1704: 0
+      azymadia_1705: 0
+      azymadia_1706: 0
+      azymadia_1707: 0
+      azymadia_1708: 0
+      azymadia_1709: 0
+      azymadia_171: 0
+      azymadia_1710: 0
+      azymadia_1711: 0
+      azymadia_1712: 0
+      azymadia_1713: 0
+      azymadia_1714: 0
+      azymadia_1715: 0
+      azymadia_1716: 0
+      azymadia_1717: 0
+      azymadia_1718: 0
+      azymadia_1719: 0
+      azymadia_172: 0
+      azymadia_1720: 0
+      azymadia_1721: 0
+      azymadia_1722: 0
+      azymadia_1723: 0
+      azymadia_1724: 0
+      azymadia_1725: 0
+      azymadia_1726: 0
+      azymadia_1727: 0
+      azymadia_1728: 0
+      azymadia_1729: 0
+      azymadia_173: 0
+      azymadia_1730: 0
+      azymadia_1731: 0
+      azymadia_1732: 0
+      azymadia_1733: 0
+      azymadia_1734: 0
+      azymadia_1735: 0
+      azymadia_1736: 0
+      azymadia_1737: 0
+      azymadia_1738: 0
+      azymadia_1739: 0
+      azymadia_174: 0
+      azymadia_1740: 0
+      azymadia_1741: 0
+      azymadia_1742: 0
+      azymadia_1743: 0
+      azymadia_1744: 0
+      azymadia_1745: 0
+      azymadia_1746: 0
+      azymadia_1747: 0
+      azymadia_1748: 0
+      azymadia_1749: 0
+      azymadia_175: 0
+      azymadia_1750: 0
+      azymadia_1751: 0
+      azymadia_1752: 0
+      azymadia_1753: 0
+      azymadia_1754: 0
+      azymadia_1755: 0
+      azymadia_1756: 0
+      azymadia_1757: 0
+      azymadia_1758: 0
+      azymadia_1759: 0
+      azymadia_176: 0
+      azymadia_1760: 0
+      azymadia_1761: 0
+      azymadia_1762: 0
+      azymadia_1763: 0
+      azymadia_1764: 0
+      azymadia_1765: 0
+      azymadia_1766: 0
+      azymadia_1767: 0
+      azymadia_1768: 0
+      azymadia_1769: 0
+      azymadia_177: 0
+      azymadia_1770: 0
+      azymadia_1771: 0
+      azymadia_1772: 0
+      azymadia_1773: 0
+      azymadia_1774: 0
+      azymadia_1775: 0
+      azymadia_1776: 0
+      azymadia_1777: 0
+      azymadia_1778: 0
+      azymadia_1779: 0
+      azymadia_178: 0
+      azymadia_1780: 0
+      azymadia_1781: 0
+      azymadia_179: 0
+      azymadia_18: 112369303
+      azymadia_180: 0
+      azymadia_181: 0
+      azymadia_182: 0
+      azymadia_183: 0
+      azymadia_184: 0
+      azymadia_185: 0
+      azymadia_186: 0
+      azymadia_187: 0
+      azymadia_188: 0
+      azymadia_189: 0
+      azymadia_19: -1477168138
+      azymadia_190: 0
+      azymadia_191: 0
+      azymadia_192: 0
+      azymadia_193: 0
+      azymadia_194: 0
+      azymadia_195: 0
+      azymadia_196: 0
+      azymadia_197: 0
+      azymadia_198: 0
+      azymadia_199: 0
+      azymadia_2: -807397197
+      azymadia_20: -290289693
+      azymadia_200: 0
+      azymadia_201: 0
+      azymadia_202: 0
+      azymadia_203: 0
+      azymadia_204: 0
+      azymadia_205: 0
+      azymadia_206: 0
+      azymadia_207: 0
+      azymadia_208: 0
+      azymadia_209: 0
+      azymadia_21: 914567218
+      azymadia_210: 0
+      azymadia_211: 0
+      azymadia_212: 0
+      azymadia_213: 0
+      azymadia_214: 0
+      azymadia_215: 0
+      azymadia_216: 0
+      azymadia_217: 0
+      azymadia_218: 0
+      azymadia_219: 0
+      azymadia_22: 1211683664
+      azymadia_220: 0
+      azymadia_221: 0
+      azymadia_222: 0
+      azymadia_223: 0
+      azymadia_224: 0
+      azymadia_225: 0
+      azymadia_226: 0
+      azymadia_227: 0
+      azymadia_228: 0
+      azymadia_229: 0
+      azymadia_23: 1009923777
+      azymadia_230: 0
+      azymadia_231: 0
+      azymadia_232: 0
+      azymadia_233: 0
+      azymadia_234: 0
+      azymadia_235: 0
+      azymadia_236: 0
+      azymadia_237: 0
+      azymadia_238: 0
+      azymadia_239: 0
+      azymadia_24: 1444502683
+      azymadia_240: 0
+      azymadia_241: 0
+      azymadia_242: 0
+      azymadia_243: 0
+      azymadia_244: 0
+      azymadia_245: 0
+      azymadia_246: 0
+      azymadia_247: 0
+      azymadia_248: 0
+      azymadia_249: 0
+      azymadia_25: -690645348
+      azymadia_250: 0
+      azymadia_251: 0
+      azymadia_252: 0
+      azymadia_253: 0
+      azymadia_254: 0
+      azymadia_255: 0
+      azymadia_256: 0
+      azymadia_257: 0
+      azymadia_258: 0
+      azymadia_259: 0
+      azymadia_26: 726128366
+      azymadia_260: 0
+      azymadia_261: 0
+      azymadia_262: 0
+      azymadia_263: 0
+      azymadia_264: 0
+      azymadia_265: 0
+      azymadia_266: 0
+      azymadia_267: 0
+      azymadia_268: 0
+      azymadia_269: 0
+      azymadia_27: 385913733
+      azymadia_270: 0
+      azymadia_271: 0
+      azymadia_272: 0
+      azymadia_273: 0
+      azymadia_274: 0
+      azymadia_275: 0
+      azymadia_276: 0
+      azymadia_277: 0
+      azymadia_278: 0
+      azymadia_279: 0
+      azymadia_28: 161629978
+      azymadia_280: 0
+      azymadia_281: 0
+      azymadia_282: 0
+      azymadia_283: 0
+      azymadia_284: 0
+      azymadia_285: 0
+      azymadia_286: 0
+      azymadia_287: 0
+      azymadia_288: 0
+      azymadia_289: 0
+      azymadia_29: -1171976713
+      azymadia_290: 0
+      azymadia_291: 0
+      azymadia_292: 0
+      azymadia_293: 0
+      azymadia_294: 0
+      azymadia_295: 0
+      azymadia_296: 0
+      azymadia_297: 0
+      azymadia_298: 0
+      azymadia_299: 0
+      azymadia_3: -1690396876
+      azymadia_30: 1026842142
+      azymadia_300: 0
+      azymadia_301: 0
+      azymadia_302: 0
+      azymadia_303: 0
+      azymadia_304: 0
+      azymadia_305: 0
+      azymadia_306: 0
+      azymadia_307: 0
+      azymadia_308: 0
+      azymadia_309: 0
+      azymadia_31: -2085027557
+      azymadia_310: 0
+      azymadia_311: 0
+      azymadia_312: 0
+      azymadia_313: 0
+      azymadia_314: 0
+      azymadia_315: 0
+      azymadia_316: 0
+      azymadia_317: 0
+      azymadia_318: 0
+      azymadia_319: 0
+      azymadia_32: 0
+      azymadia_320: 0
+      azymadia_321: 0
+      azymadia_322: 0
+      azymadia_323: 0
+      azymadia_324: 0
+      azymadia_325: 0
+      azymadia_326: 0
+      azymadia_327: 0
+      azymadia_328: 0
+      azymadia_329: 0
+      azymadia_33: 0
+      azymadia_330: 0
+      azymadia_331: 0
+      azymadia_332: 0
+      azymadia_333: 0
+      azymadia_334: 0
+      azymadia_335: 0
+      azymadia_336: 0
+      azymadia_337: 0
+      azymadia_338: 0
+      azymadia_339: 0
+      azymadia_34: 0
+      azymadia_340: 0
+      azymadia_341: 0
+      azymadia_342: 0
+      azymadia_343: 0
+      azymadia_344: 0
+      azymadia_345: 0
+      azymadia_346: 0
+      azymadia_347: 0
+      azymadia_348: 0
+      azymadia_349: 0
+      azymadia_35: 0
+      azymadia_350: 0
+      azymadia_351: 0
+      azymadia_352: 0
+      azymadia_353: 0
+      azymadia_354: 0
+      azymadia_355: 0
+      azymadia_356: 0
+      azymadia_357: 0
+      azymadia_358: 0
+      azymadia_359: 0
+      azymadia_36: 0
+      azymadia_360: 0
+      azymadia_361: 0
+      azymadia_362: 0
+      azymadia_363: 0
+      azymadia_364: 0
+      azymadia_365: 0
+      azymadia_366: 0
+      azymadia_367: 0
+      azymadia_368: 0
+      azymadia_369: 0
+      azymadia_37: 0
+      azymadia_370: 0
+      azymadia_371: 0
+      azymadia_372: 0
+      azymadia_373: 0
+      azymadia_374: 0
+      azymadia_375: 0
+      azymadia_376: 0
+      azymadia_377: 0
+      azymadia_378: 0
+      azymadia_379: 0
+      azymadia_38: 0
+      azymadia_380: 0
+      azymadia_381: 0
+      azymadia_382: 0
+      azymadia_383: 0
+      azymadia_384: 0
+      azymadia_385: 0
+      azymadia_386: 0
+      azymadia_387: 0
+      azymadia_388: 0
+      azymadia_389: 0
+      azymadia_39: 0
+      azymadia_390: 0
+      azymadia_391: 0
+      azymadia_392: 0
+      azymadia_393: 0
+      azymadia_394: 0
+      azymadia_395: 0
+      azymadia_396: 0
+      azymadia_397: 0
+      azymadia_398: 0
+      azymadia_399: 0
+      azymadia_4: -923625280
+      azymadia_40: 0
+      azymadia_400: 0
+      azymadia_401: 0
+      azymadia_402: 0
+      azymadia_403: 0
+      azymadia_404: 0
+      azymadia_405: 0
+      azymadia_406: 0
+      azymadia_407: 0
+      azymadia_408: 0
+      azymadia_409: 0
+      azymadia_41: 0
+      azymadia_410: 0
+      azymadia_411: 0
+      azymadia_412: 0
+      azymadia_413: 0
+      azymadia_414: 0
+      azymadia_415: 0
+      azymadia_416: 0
+      azymadia_417: 0
+      azymadia_418: 0
+      azymadia_419: 0
+      azymadia_42: 0
+      azymadia_420: 0
+      azymadia_421: 0
+      azymadia_422: 0
+      azymadia_423: 0
+      azymadia_424: 0
+      azymadia_425: 0
+      azymadia_426: 0
+      azymadia_427: 0
+      azymadia_428: 0
+      azymadia_429: 0
+      azymadia_43: 0
+      azymadia_430: 0
+      azymadia_431: 0
+      azymadia_432: 0
+      azymadia_433: 0
+      azymadia_434: 0
+      azymadia_435: 0
+      azymadia_436: 0
+      azymadia_437: 0
+      azymadia_438: 0
+      azymadia_439: 0
+      azymadia_44: 0
+      azymadia_440: 0
+      azymadia_441: 0
+      azymadia_442: 0
+      azymadia_443: 0
+      azymadia_444: 0
+      azymadia_445: 0
+      azymadia_446: 0
+      azymadia_447: 0
+      azymadia_448: 0
+      azymadia_449: 0
+      azymadia_45: 0
+      azymadia_450: 0
+      azymadia_451: 0
+      azymadia_452: 0
+      azymadia_453: 0
+      azymadia_454: 0
+      azymadia_455: 0
+      azymadia_456: 0
+      azymadia_457: 0
+      azymadia_458: 0
+      azymadia_459: 0
+      azymadia_46: 0
+      azymadia_460: 0
+      azymadia_461: 0
+      azymadia_462: 0
+      azymadia_463: 0
+      azymadia_464: 0
+      azymadia_465: 0
+      azymadia_466: 0
+      azymadia_467: 0
+      azymadia_468: 0
+      azymadia_469: 0
+      azymadia_47: 0
+      azymadia_470: 0
+      azymadia_471: 0
+      azymadia_472: 0
+      azymadia_473: 0
+      azymadia_474: 0
+      azymadia_475: 0
+      azymadia_476: 0
+      azymadia_477: 0
+      azymadia_478: 0
+      azymadia_479: 0
+      azymadia_48: 0
+      azymadia_480: 0
+      azymadia_481: 0
+      azymadia_482: 0
+      azymadia_483: 0
+      azymadia_484: 0
+      azymadia_485: 0
+      azymadia_486: 0
+      azymadia_487: 0
+      azymadia_488: 0
+      azymadia_489: 0
+      azymadia_49: 0
+      azymadia_490: 0
+      azymadia_491: 0
+      azymadia_492: 0
+      azymadia_493: 0
+      azymadia_494: 0
+      azymadia_495: 0
+      azymadia_496: 0
+      azymadia_497: 0
+      azymadia_498: 0
+      azymadia_499: 0
+      azymadia_5: -981652678
+      azymadia_50: 0
+      azymadia_500: 0
+      azymadia_501: 0
+      azymadia_502: 0
+      azymadia_503: 0
+      azymadia_504: 0
+      azymadia_505: 0
+      azymadia_506: 0
+      azymadia_507: 0
+      azymadia_508: 0
+      azymadia_509: 0
+      azymadia_51: 0
+      azymadia_510: 0
+      azymadia_511: 0
+      azymadia_512: 0
+      azymadia_513: 0
+      azymadia_514: 0
+      azymadia_515: 0
+      azymadia_516: 0
+      azymadia_517: 0
+      azymadia_518: 0
+      azymadia_519: 0
+      azymadia_52: 0
+      azymadia_520: 0
+      azymadia_521: 0
+      azymadia_522: 0
+      azymadia_523: 0
+      azymadia_524: 0
+      azymadia_525: 0
+      azymadia_526: 0
+      azymadia_527: 0
+      azymadia_528: 0
+      azymadia_529: 0
+      azymadia_53: 0
+      azymadia_530: 0
+      azymadia_531: 0
+      azymadia_532: 0
+      azymadia_533: 0
+      azymadia_534: 0
+      azymadia_535: 0
+      azymadia_536: 0
+      azymadia_537: 0
+      azymadia_538: 0
+      azymadia_539: 0
+      azymadia_54: 0
+      azymadia_540: 0
+      azymadia_541: 0
+      azymadia_542: 0
+      azymadia_543: 0
+      azymadia_544: 0
+      azymadia_545: 0
+      azymadia_546: 0
+      azymadia_547: 0
+      azymadia_548: 0
+      azymadia_549: 0
+      azymadia_55: 0
+      azymadia_550: 0
+      azymadia_551: 0
+      azymadia_552: 0
+      azymadia_553: 0
+      azymadia_554: 0
+      azymadia_555: 0
+      azymadia_556: 0
+      azymadia_557: 0
+      azymadia_558: 0
+      azymadia_559: 0
+      azymadia_56: 0
+      azymadia_560: 0
+      azymadia_561: 0
+      azymadia_562: 0
+      azymadia_563: 0
+      azymadia_564: 0
+      azymadia_565: 0
+      azymadia_566: 0
+      azymadia_567: 0
+      azymadia_568: 0
+      azymadia_569: 0
+      azymadia_57: 0
+      azymadia_570: 0
+      azymadia_571: 0
+      azymadia_572: 0
+      azymadia_573: 0
+      azymadia_574: 0
+      azymadia_575: 0
+      azymadia_576: 0
+      azymadia_577: 0
+      azymadia_578: 0
+      azymadia_579: 0
+      azymadia_58: 0
+      azymadia_580: 0
+      azymadia_581: 0
+      azymadia_582: 0
+      azymadia_583: 0
+      azymadia_584: 0
+      azymadia_585: 0
+      azymadia_586: 0
+      azymadia_587: 0
+      azymadia_588: 0
+      azymadia_589: 0
+      azymadia_59: 0
+      azymadia_590: 0
+      azymadia_591: 0
+      azymadia_592: 0
+      azymadia_593: 0
+      azymadia_594: 0
+      azymadia_595: 0
+      azymadia_596: 0
+      azymadia_597: 0
+      azymadia_598: 0
+      azymadia_599: 0
+      azymadia_6: 1059964298
+      azymadia_60: 0
+      azymadia_600: 0
+      azymadia_601: 0
+      azymadia_602: 0
+      azymadia_603: 0
+      azymadia_604: 0
+      azymadia_605: 0
+      azymadia_606: 0
+      azymadia_607: 0
+      azymadia_608: 0
+      azymadia_609: 0
+      azymadia_61: 0
+      azymadia_610: 0
+      azymadia_611: 0
+      azymadia_612: 0
+      azymadia_613: 0
+      azymadia_614: 0
+      azymadia_615: 0
+      azymadia_616: 0
+      azymadia_617: 0
+      azymadia_618: 0
+      azymadia_619: 0
+      azymadia_62: 0
+      azymadia_620: 0
+      azymadia_621: 0
+      azymadia_622: 0
+      azymadia_623: 0
+      azymadia_624: 0
+      azymadia_625: 0
+      azymadia_626: 0
+      azymadia_627: 0
+      azymadia_628: 0
+      azymadia_629: 0
+      azymadia_63: 0
+      azymadia_630: 0
+      azymadia_631: 0
+      azymadia_632: 0
+      azymadia_633: 0
+      azymadia_634: 0
+      azymadia_635: 0
+      azymadia_636: 0
+      azymadia_637: 0
+      azymadia_638: 0
+      azymadia_639: 0
+      azymadia_64: 0
+      azymadia_640: 0
+      azymadia_641: 0
+      azymadia_642: 0
+      azymadia_643: 0
+      azymadia_644: 0
+      azymadia_645: 0
+      azymadia_646: 0
+      azymadia_647: 0
+      azymadia_648: 0
+      azymadia_649: 0
+      azymadia_65: 0
+      azymadia_650: 0
+      azymadia_651: 0
+      azymadia_652: 0
+      azymadia_653: 0
+      azymadia_654: 0
+      azymadia_655: 0
+      azymadia_656: 0
+      azymadia_657: 0
+      azymadia_658: 0
+      azymadia_659: 0
+      azymadia_66: 0
+      azymadia_660: 0
+      azymadia_661: 0
+      azymadia_662: 0
+      azymadia_663: 0
+      azymadia_664: 0
+      azymadia_665: 0
+      azymadia_666: 0
+      azymadia_667: 0
+      azymadia_668: 0
+      azymadia_669: 0
+      azymadia_67: 0
+      azymadia_670: 0
+      azymadia_671: 0
+      azymadia_672: 0
+      azymadia_673: 0
+      azymadia_674: 0
+      azymadia_675: 0
+      azymadia_676: 0
+      azymadia_677: 0
+      azymadia_678: 0
+      azymadia_679: 0
+      azymadia_68: 0
+      azymadia_680: 0
+      azymadia_681: 0
+      azymadia_682: 0
+      azymadia_683: 0
+      azymadia_684: 0
+      azymadia_685: 0
+      azymadia_686: 0
+      azymadia_687: 0
+      azymadia_688: 0
+      azymadia_689: 0
+      azymadia_69: 0
+      azymadia_690: 0
+      azymadia_691: 0
+      azymadia_692: 0
+      azymadia_693: 0
+      azymadia_694: 0
+      azymadia_695: 0
+      azymadia_696: 0
+      azymadia_697: 0
+      azymadia_698: 0
+      azymadia_699: 0
+      azymadia_7: -1660544186
+      azymadia_70: 0
+      azymadia_700: 0
+      azymadia_701: 0
+      azymadia_702: 0
+      azymadia_703: 0
+      azymadia_704: 0
+      azymadia_705: 0
+      azymadia_706: 0
+      azymadia_707: 0
+      azymadia_708: 0
+      azymadia_709: 0
+      azymadia_71: 0
+      azymadia_710: 0
+      azymadia_711: 0
+      azymadia_712: 0
+      azymadia_713: 0
+      azymadia_714: 0
+      azymadia_715: 0
+      azymadia_716: 0
+      azymadia_717: 0
+      azymadia_718: 0
+      azymadia_719: 0
+      azymadia_72: 0
+      azymadia_720: 0
+      azymadia_721: 0
+      azymadia_722: 0
+      azymadia_723: 0
+      azymadia_724: 0
+      azymadia_725: 0
+      azymadia_726: 0
+      azymadia_727: 0
+      azymadia_728: 0
+      azymadia_729: 0
+      azymadia_73: 0
+      azymadia_730: 0
+      azymadia_731: 0
+      azymadia_732: 0
+      azymadia_733: 0
+      azymadia_734: 0
+      azymadia_735: 0
+      azymadia_736: 0
+      azymadia_737: 0
+      azymadia_738: 0
+      azymadia_739: 0
+      azymadia_74: 0
+      azymadia_740: 0
+      azymadia_741: 0
+      azymadia_742: 0
+      azymadia_743: 0
+      azymadia_744: 0
+      azymadia_745: 0
+      azymadia_746: 0
+      azymadia_747: 0
+      azymadia_748: 0
+      azymadia_749: 0
+      azymadia_75: 0
+      azymadia_750: 0
+      azymadia_751: 0
+      azymadia_752: 0
+      azymadia_753: 0
+      azymadia_754: 0
+      azymadia_755: 0
+      azymadia_756: 0
+      azymadia_757: 0
+      azymadia_758: 0
+      azymadia_759: 0
+      azymadia_76: 0
+      azymadia_760: 0
+      azymadia_761: 0
+      azymadia_762: 0
+      azymadia_763: 0
+      azymadia_764: 0
+      azymadia_765: 0
+      azymadia_766: 0
+      azymadia_767: 0
+      azymadia_768: 0
+      azymadia_769: 0
+      azymadia_77: 0
+      azymadia_770: 0
+      azymadia_771: 0
+      azymadia_772: 0
+      azymadia_773: 0
+      azymadia_774: 0
+      azymadia_775: 0
+      azymadia_776: 0
+      azymadia_777: 0
+      azymadia_778: 0
+      azymadia_779: 0
+      azymadia_78: 0
+      azymadia_780: 0
+      azymadia_781: 0
+      azymadia_782: 0
+      azymadia_783: 0
+      azymadia_784: 0
+      azymadia_785: 0
+      azymadia_786: 0
+      azymadia_787: 0
+      azymadia_788: 0
+      azymadia_789: 0
+      azymadia_79: 0
+      azymadia_790: 0
+      azymadia_791: 0
+      azymadia_792: 0
+      azymadia_793: 0
+      azymadia_794: 0
+      azymadia_795: 0
+      azymadia_796: 0
+      azymadia_797: 0
+      azymadia_798: 0
+      azymadia_799: 0
+      azymadia_8: -585444060
+      azymadia_80: 0
+      azymadia_800: 0
+      azymadia_801: 0
+      azymadia_802: 0
+      azymadia_803: 0
+      azymadia_804: 0
+      azymadia_805: 0
+      azymadia_806: 0
+      azymadia_807: 0
+      azymadia_808: 0
+      azymadia_809: 0
+      azymadia_81: 0
+      azymadia_810: 0
+      azymadia_811: 0
+      azymadia_812: 0
+      azymadia_813: 0
+      azymadia_814: 0
+      azymadia_815: 0
+      azymadia_816: 0
+      azymadia_817: 0
+      azymadia_818: 0
+      azymadia_819: 0
+      azymadia_82: 0
+      azymadia_820: 0
+      azymadia_821: 0
+      azymadia_822: 0
+      azymadia_823: 0
+      azymadia_824: 0
+      azymadia_825: 0
+      azymadia_826: 0
+      azymadia_827: 0
+      azymadia_828: 0
+      azymadia_829: 0
+      azymadia_83: 0
+      azymadia_830: 0
+      azymadia_831: 0
+      azymadia_832: 0
+      azymadia_833: 0
+      azymadia_834: 0
+      azymadia_835: 0
+      azymadia_836: 0
+      azymadia_837: 0
+      azymadia_838: 0
+      azymadia_839: 0
+      azymadia_84: 0
+      azymadia_840: 0
+      azymadia_841: 0
+      azymadia_842: 0
+      azymadia_843: 0
+      azymadia_844: 0
+      azymadia_845: 0
+      azymadia_846: 0
+      azymadia_847: 0
+      azymadia_848: 0
+      azymadia_849: 0
+      azymadia_85: 0
+      azymadia_850: 0
+      azymadia_851: 0
+      azymadia_852: 0
+      azymadia_853: 0
+      azymadia_854: 0
+      azymadia_855: 0
+      azymadia_856: 0
+      azymadia_857: 0
+      azymadia_858: 0
+      azymadia_859: 0
+      azymadia_86: 0
+      azymadia_860: 0
+      azymadia_861: 0
+      azymadia_862: 0
+      azymadia_863: 0
+      azymadia_864: 0
+      azymadia_865: 0
+      azymadia_866: 0
+      azymadia_867: 0
+      azymadia_868: 0
+      azymadia_869: 0
+      azymadia_87: 0
+      azymadia_870: 0
+      azymadia_871: 0
+      azymadia_872: 0
+      azymadia_873: 0
+      azymadia_874: 0
+      azymadia_875: 0
+      azymadia_876: 0
+      azymadia_877: 0
+      azymadia_878: 0
+      azymadia_879: 0
+      azymadia_88: 0
+      azymadia_880: 0
+      azymadia_881: 0
+      azymadia_882: 0
+      azymadia_883: 0
+      azymadia_884: 0
+      azymadia_885: 0
+      azymadia_886: 0
+      azymadia_887: 0
+      azymadia_888: 0
+      azymadia_889: 0
+      azymadia_89: 0
+      azymadia_890: 0
+      azymadia_891: 0
+      azymadia_892: 0
+      azymadia_893: 0
+      azymadia_894: 0
+      azymadia_895: 0
+      azymadia_896: 0
+      azymadia_897: 0
+      azymadia_898: 0
+      azymadia_899: 0
+      azymadia_9: -1523307116
+      azymadia_90: 0
+      azymadia_900: 0
+      azymadia_901: 0
+      azymadia_902: 0
+      azymadia_903: 0
+      azymadia_904: 0
+      azymadia_905: 0
+      azymadia_906: 0
+      azymadia_907: 0
+      azymadia_908: 0
+      azymadia_909: 0
+      azymadia_91: 0
+      azymadia_910: 0
+      azymadia_911: 0
+      azymadia_912: 0
+      azymadia_913: 0
+      azymadia_914: 0
+      azymadia_915: 0
+      azymadia_916: 0
+      azymadia_917: 0
+      azymadia_918: 0
+      azymadia_919: 0
+      azymadia_92: 0
+      azymadia_920: 0
+      azymadia_921: 0
+      azymadia_922: 0
+      azymadia_923: 0
+      azymadia_924: 0
+      azymadia_925: 0
+      azymadia_926: 0
+      azymadia_927: 0
+      azymadia_928: 0
+      azymadia_929: 0
+      azymadia_93: 0
+      azymadia_930: 0
+      azymadia_931: 0
+      azymadia_932: 0
+      azymadia_933: 0
+      azymadia_934: 0
+      azymadia_935: 0
+      azymadia_936: 0
+      azymadia_937: 0
+      azymadia_938: 0
+      azymadia_939: 0
+      azymadia_94: 0
+      azymadia_940: 0
+      azymadia_941: 0
+      azymadia_942: 0
+      azymadia_943: 0
+      azymadia_944: 0
+      azymadia_945: 0
+      azymadia_946: 0
+      azymadia_947: 0
+      azymadia_948: 0
+      azymadia_949: 0
+      azymadia_95: 0
+      azymadia_950: 0
+      azymadia_951: 0
+      azymadia_952: 0
+      azymadia_953: 0
+      azymadia_954: 0
+      azymadia_955: 0
+      azymadia_956: 0
+      azymadia_957: 0
+      azymadia_958: 0
+      azymadia_959: 0
+      azymadia_96: 0
+      azymadia_960: 0
+      azymadia_961: 0
+      azymadia_962: 0
+      azymadia_963: 0
+      azymadia_964: 0
+      azymadia_965: 0
+      azymadia_966: 0
+      azymadia_967: 0
+      azymadia_968: 0
+      azymadia_969: 0
+      azymadia_97: 0
+      azymadia_970: 0
+      azymadia_971: 0
+      azymadia_972: 0
+      azymadia_973: 0
+      azymadia_974: 0
+      azymadia_975: 0
+      azymadia_976: 0
+      azymadia_977: 0
+      azymadia_978: 0
+      azymadia_979: 0
+      azymadia_98: 0
+      azymadia_980: 0
+      azymadia_981: 0
+      azymadia_982: 0
+      azymadia_983: 0
+      azymadia_984: 0
+      azymadia_985: 0
+      azymadia_986: 0
+      azymadia_987: 0
+      azymadia_988: 0
+      azymadia_989: 0
+      azymadia_99: 0
+      azymadia_990: 0
+      azymadia_991: 0
+      azymadia_992: 0
+      azymadia_993: 0
+      azymadia_994: 0
+      azymadia_995: 0
+      azymadia_996: 0
+      azymadia_997: 0
+      azymadia_998: 0
+      azymadia_999: 0
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
