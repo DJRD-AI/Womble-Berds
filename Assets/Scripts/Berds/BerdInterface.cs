@@ -315,7 +315,7 @@ public class BerdInterface : MonoBehaviour
                 GameObject Berd2Object = GetBerd(parts[1],false);
                 if(Berd2Object == null)
                     break;
-                if(berd.TryFollow(Berd2Object,Command,Fargs[2],false) != -1)
+                if(berd.TryFollow(Berd2Object,Command,Fargs[2]) != -1)
                     break;
                 break;
 

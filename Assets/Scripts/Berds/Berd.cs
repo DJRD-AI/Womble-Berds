@@ -17,7 +17,7 @@ public class Berd : MonoBehaviour
     private static readonly BoundVal SPEED       = new(0f, 10.0f);
     private static readonly BoundVal QUACKPITCH  = new(0.5f,1.5f);
     private static readonly BoundVal QUACKVOL    = new(0.5f,2f);
-    private static readonly BoundVal RANDOMEVENT = new(15.0f,45.0f);
+    private static readonly BoundVal RANDOMEVENT = new(5.0f,10.0f);
     #endregion
     private bool QuackTired = false;
     [field:SerializeField] public List<Transform> SpecialPositions{get;private set;}
@@ -173,10 +173,10 @@ public class Berd : MonoBehaviour
         QuackTired = false;
     }
 
-    private float SpeedCheck(float speed, bool clamp = true)=> SpeedCheck(speed,SPEED,clamp);
-    private float SpeedCheck(float speed, BoundVal bounds, bool clamp = true){
-        if(clamp) speed = bounds.Clamp(speed);
-        if(speed == 0) return bounds.Lower;
+    private float SpeedCheck(float speed, bool clamp = true,BoundVal? bounds = null){
+        bounds ??= SPEED;
+        if(clamp) speed = bounds.Value.Clamp(speed);
+        if(speed == 0) return bounds.Value.Lower;
         return Mathf.Abs(speed);
     }
 
@@ -200,7 +200,7 @@ public class Berd : MonoBehaviour
     public float MoveDir(Vector2 Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveDir(new Vector3(Dir.x,Dir.y,Dir.y),speed, PosClamp, SpeedClamp);
 
     public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
-        if(ToFollow == null)
+        if(ToFollow == null || ToFollow == this)
             return -1;
         if(where.StartsWith("!"))
             where = where[1..];
@@ -212,7 +212,7 @@ public class Berd : MonoBehaviour
         return duration;
     }
     public float TryFollow(GameObject ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
-        if(ToFollow == null)
+        if(ToFollow == null || ToFollow == gameObject)
             return -1;
         Berd berd = ToFollow.GetComponent<Berd>();
         return TryFollow(berd, where, speed,PosClamp,SpeedClamp);
@@ -228,16 +228,20 @@ public class Berd : MonoBehaviour
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
         Scaling = StartCoroutine(transform.AnimatingLocalScale(Vector3.one*endScale,duration));
     }
-    public void Scale(Transform endScale = null, float duration = 1.0f){
+    public void Scale(Transform endScale = null, float duration = 1.0f, bool scaleClamp  = true){
         if(endScale == null)
             return;
+        float EndSize = endScale.lossyScale.x;
+        if(scaleClamp)
+            EndSize = SCALES.Clamp(EndSize);
         duration = SpeedCheck(duration);
 
         if(Scaling != null)
             StopCoroutine(Scaling);
+        if(scaleClamp)
 
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-        Scaling = StartCoroutine(transform.AnimatingLocalScale(endScale.lossyScale*ScaleMod,duration));
+        Scaling = StartCoroutine(transform.AnimatingLocalScale(EndSize*ScaleMod*Vector3.one,duration));
     }
 
     public void Wiggle(float Amplitude = 1, float speed = 1, bool speedClamp = true){
