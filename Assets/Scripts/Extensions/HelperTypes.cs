@@ -1,7 +1,6 @@
 using System;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.AI;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -106,6 +105,14 @@ public class BoundPos{
         value.y = VER.Clamp(value.y);
         value.z = VER.Clamp(value.z);
         return value;
+    }
+    void DrawBoundPosGizmo(BoundPos bounds, Color color)
+    {
+        Gizmos.color = color;
+        Gizmos.DrawLine(bounds.UPLEFT   ,bounds.DOWNLEFT);
+        Gizmos.DrawLine(bounds.UPLEFT   ,bounds.UPRIGHT);
+        Gizmos.DrawLine(bounds.UPRIGHT  ,bounds.DOWNRIGHT);
+        Gizmos.DrawLine(bounds.DOWNRIGHT,bounds.DOWNLEFT);
     }
 }
 

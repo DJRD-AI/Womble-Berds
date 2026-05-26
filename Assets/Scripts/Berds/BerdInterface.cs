@@ -404,7 +404,8 @@ public class BerdInterface : Singleton<BerdInterface>
         DrawBoundPosGizmo(SpawnBound,Color.green);
         DrawBoundPosGizmo(DespawnBound,Color.red);
     }
-    void DrawBoundPosGizmo(BoundPos bounds, Color color){
+    void DrawBoundPosGizmo(BoundPos bounds, Color color)
+    {
         Gizmos.color = color;
         Gizmos.DrawLine(bounds.UPLEFT   ,bounds.DOWNLEFT);
         Gizmos.DrawLine(bounds.UPLEFT   ,bounds.UPRIGHT);
