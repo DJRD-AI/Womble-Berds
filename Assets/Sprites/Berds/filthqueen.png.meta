@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a981c27a2007a74484861a5a4d1af42
+guid: 9650480437a8fb346a4022151096cb7b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: peppiranh_0
+      name: filthqueen_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,16 +117,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dedfcfc798719e040912179956778621
-      internalID: -241934795
+      spriteID: 58a5aa0afb907d6a0800000000000000
+      internalID: -6424655624781800827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_1
+      name: filthqueen_1
       rect:
         serializedVersion: 2
         x: 398
@@ -138,16 +138,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 259e9d402be533c409947404a8bc4d3d
-      internalID: -1057859198
+      spriteID: a26264f373ff73e20800000000000000
+      internalID: 3330411062213617194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_2
+      name: filthqueen_2
       rect:
         serializedVersion: 2
         x: 796
@@ -159,16 +159,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dea9a6fc5be415b4b94c77c8dd66f6d5
-      internalID: -834692874
+      spriteID: f571321e5e9584170800000000000000
+      internalID: 8162873168468580191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_3
+      name: filthqueen_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -180,16 +180,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dadfd29f419ea0b43a0a30700c659d9c
-      internalID: -270214126
+      spriteID: 3d94b528155c28160800000000000000
+      internalID: 7026395322521438675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_4
+      name: filthqueen_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -201,16 +201,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d4afed8262c13be49972480925b519c3
-      internalID: 1436622592
+      spriteID: 79007750a82c0e4e0800000000000000
+      internalID: -1954348340225834857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_5
+      name: filthqueen_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -222,16 +222,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6576bb940f3c9f94296e21fe03c5ac00
-      internalID: 952389444
+      spriteID: cc0e1c55643e991b0800000000000000
+      internalID: -5649234366333591348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_6
+      name: filthqueen_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -243,16 +243,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2ddd8184a80c20942921063517bbe777
-      internalID: 859764219
+      spriteID: eb86e1741247135b0800000000000000
+      internalID: -5390399592709855042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_7
+      name: filthqueen_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -264,16 +264,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b69d2a4832b9d74ebe6fe9cda6326ec
-      internalID: 365130291
+      spriteID: 6bd4ff414279e46b0800000000000000
+      internalID: -5310140729396343370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_8
+      name: filthqueen_8
       rect:
         serializedVersion: 2
         x: 0
@@ -285,16 +285,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 86410e95197c25340bd7f0f363745958
-      internalID: 919329287
+      spriteID: 2d3e6e025734319c0800000000000000
+      internalID: -3957745477186296878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_9
+      name: filthqueen_9
       rect:
         serializedVersion: 2
         x: 398
@@ -306,16 +306,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 38516c2d6e7b53544a51f9c7ab46a42f
-      internalID: 1496664303
+      spriteID: dd14669b15fb35160800000000000000
+      internalID: 7013159402469736925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_10
+      name: filthqueen_10
       rect:
         serializedVersion: 2
         x: 796
@@ -327,16 +327,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84202caff7b6e4d438707b711f24e03c
-      internalID: -300522183
+      spriteID: 6ab0139e155f92330800000000000000
+      internalID: 3686747502132923302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_11
+      name: filthqueen_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -348,16 +348,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0bd7c532cede44148b6902f49dda66f7
-      internalID: 734416925
+      spriteID: 16a9cd31ca6fb8040800000000000000
+      internalID: 4651082259118201441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_12
+      name: filthqueen_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -369,16 +369,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 232f59d9068509b4088c989b3b0438f7
-      internalID: 1230256201
+      spriteID: ab595635da3343c90800000000000000
+      internalID: -7191065885482314310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_13
+      name: filthqueen_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -390,16 +390,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ab918499c27c7854f91d8c17ee628edc
-      internalID: -1754760469
+      spriteID: b79e2fb31b6aca2d0800000000000000
+      internalID: -3266052349605254789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_14
+      name: filthqueen_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -411,16 +411,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f86ce00769cf20144bbeea7cae1a30ea
-      internalID: -238502837
+      spriteID: 01a9e3680267e6540800000000000000
+      internalID: 5003066118118480400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_15
+      name: filthqueen_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -432,16 +432,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2740c24190879714f9c3f4ac9cc2f836
-      internalID: -564510127
+      spriteID: f09a83762fc5a8320800000000000000
+      internalID: 2560961534297155855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_16
+      name: filthqueen_16
       rect:
         serializedVersion: 2
         x: 0
@@ -453,16 +453,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4dc880566ae970744a790e368928e7b0
-      internalID: -595110562
+      spriteID: f670f560ee61c5d20800000000000000
+      internalID: 3268512641129056111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_17
+      name: filthqueen_17
       rect:
         serializedVersion: 2
         x: 398
@@ -474,16 +474,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a8f4d2fcecc657245afee1bcf2503a94
-      internalID: -2141054710
+      spriteID: 488efac1d56b19200800000000000000
+      internalID: 185129570728405124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_18
+      name: filthqueen_18
       rect:
         serializedVersion: 2
         x: 796
@@ -495,16 +495,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0c5b6077ecd0a23488ecdf5a2ecd197a
-      internalID: -329676092
+      spriteID: 2b9813c4a3cc87fd0800000000000000
+      internalID: -2343899055287858766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_19
+      name: filthqueen_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -516,16 +516,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8a412cbf87b564d4e973f9e285c89f45
-      internalID: -1175390834
+      spriteID: ff96e75fe65d7efe0800000000000000
+      internalID: -1159723706482791937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_20
+      name: filthqueen_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -537,16 +537,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8b963c0beba45f14caf710c912ae8b3d
-      internalID: -2050588613
+      spriteID: 6f5ba73e3fd3fb070800000000000000
+      internalID: 8124280370502481398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_21
+      name: filthqueen_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -558,16 +558,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b482e7ef1b9ae67479c1ce09715bf239
-      internalID: -997259222
+      spriteID: 4499c68d6f425f830800000000000000
+      internalID: 4104227278029625668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_22
+      name: filthqueen_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -579,16 +579,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1f8f2af8c1c5a904c81b19c5d48b6da8
-      internalID: 1480791648
+      spriteID: e21879434b4f699f0800000000000000
+      internalID: -461912856945262290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_23
+      name: filthqueen_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -600,16 +600,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 25547b7cb6f58584fa0c4af58eb40cc8
-      internalID: -603723502
+      spriteID: 03fa002f1c3c9b570800000000000000
+      internalID: 8483026610885275440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_24
+      name: filthqueen_24
       rect:
         serializedVersion: 2
         x: 0
@@ -621,16 +621,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6f19010f6b7d0c48890d0583d3959f4
-      internalID: 1618920090
+      spriteID: bfe661774d8ddd810800000000000000
+      internalID: 1791826633805950715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_25
+      name: filthqueen_25
       rect:
         serializedVersion: 2
         x: 398
@@ -642,16 +642,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b68473f1ff74d342892ba06a433579a
-      internalID: -701193389
+      spriteID: 87b5a45f4dc1fea20800000000000000
+      internalID: 3093723170000755576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_26
+      name: filthqueen_26
       rect:
         serializedVersion: 2
         x: 796
@@ -663,16 +663,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 620590bae8287464ba073b8f4288b034
-      internalID: -1654892437
+      spriteID: 1b76fb6adc89aa4b0800000000000000
+      internalID: -5428358391808432207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_27
+      name: filthqueen_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -684,16 +684,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ad95ed39f6e6f8441a1d4c24c7591e7a
-      internalID: -67153820
+      spriteID: 9fc7a0e77e4cdb4a0800000000000000
+      internalID: -6575883382359950087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_28
+      name: filthqueen_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -705,16 +705,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 172ccd3946c97d64bb6bf01699666c74
-      internalID: -868021953
+      spriteID: 4a2cce3f0ef6ba940800000000000000
+      internalID: 5308459597741998756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_29
+      name: filthqueen_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -726,16 +726,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c22e6f826a52fee458f5300f89b37b09
-      internalID: 1771850611
+      spriteID: c49a4342906037a40800000000000000
+      internalID: 5364638217460296012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_30
+      name: filthqueen_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -747,16 +747,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d56acada81eb3ae45863f925e0f343e7
-      internalID: 526269062
+      spriteID: e4cfdf68284ed9460800000000000000
+      internalID: 7250202224398040142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peppiranh_31
+      name: filthqueen_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -768,10 +768,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 23e696a3b443ea8468837d66257c725e
-      internalID: 968677277
+      spriteID: 71227a45ebaebb360800000000000000
+      internalID: 7186595733584683543
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      peppiranh_0: -241934795
-      peppiranh_1: -1057859198
-      peppiranh_10: -300522183
-      peppiranh_11: 734416925
-      peppiranh_12: 1230256201
-      peppiranh_13: -1754760469
-      peppiranh_14: -238502837
-      peppiranh_15: -564510127
-      peppiranh_16: -595110562
-      peppiranh_17: -2141054710
-      peppiranh_18: -329676092
-      peppiranh_19: -1175390834
-      peppiranh_2: -834692874
-      peppiranh_20: -2050588613
-      peppiranh_21: -997259222
-      peppiranh_22: 1480791648
-      peppiranh_23: -603723502
-      peppiranh_24: 1618920090
-      peppiranh_25: -701193389
-      peppiranh_26: -1654892437
-      peppiranh_27: -67153820
-      peppiranh_28: -868021953
-      peppiranh_29: 1771850611
-      peppiranh_3: -270214126
-      peppiranh_30: 526269062
-      peppiranh_31: 968677277
-      peppiranh_4: 1436622592
-      peppiranh_5: 952389444
-      peppiranh_6: 859764219
-      peppiranh_7: 365130291
-      peppiranh_8: 919329287
-      peppiranh_9: 1496664303
+      filthqueen_0: -6424655624781800827
+      filthqueen_1: 3330411062213617194
+      filthqueen_10: 3686747502132923302
+      filthqueen_11: 4651082259118201441
+      filthqueen_12: -7191065885482314310
+      filthqueen_13: -3266052349605254789
+      filthqueen_14: 5003066118118480400
+      filthqueen_15: 2560961534297155855
+      filthqueen_16: 3268512641129056111
+      filthqueen_17: 185129570728405124
+      filthqueen_18: -2343899055287858766
+      filthqueen_19: -1159723706482791937
+      filthqueen_2: 8162873168468580191
+      filthqueen_20: 8124280370502481398
+      filthqueen_21: 4104227278029625668
+      filthqueen_22: -461912856945262290
+      filthqueen_23: 8483026610885275440
+      filthqueen_24: 1791826633805950715
+      filthqueen_25: 3093723170000755576
+      filthqueen_26: -5428358391808432207
+      filthqueen_27: -6575883382359950087
+      filthqueen_28: 5308459597741998756
+      filthqueen_29: 5364638217460296012
+      filthqueen_3: 7026395322521438675
+      filthqueen_30: 7250202224398040142
+      filthqueen_31: 7186595733584683543
+      filthqueen_4: -1954348340225834857
+      filthqueen_5: -5649234366333591348
+      filthqueen_6: -5390399592709855042
+      filthqueen_7: -5310140729396343370
+      filthqueen_8: -3957745477186296878
+      filthqueen_9: 7013159402469736925
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

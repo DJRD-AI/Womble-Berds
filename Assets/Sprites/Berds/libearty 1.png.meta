@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: 93d800e9998716e43b50676f8764065f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: libearty 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dc02b325dfd50f0800000000000000
+      internalID: -1126465802151604937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e96b871677a70210800000000000000
+      internalID: 1299191143162669540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0e82ee8145478a0800000000000000
+      internalID: -6308324711987617564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a45c2102165ca060800000000000000
+      internalID: 6966037358964397222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555a2f1cd0d51ac20800000000000000
+      internalID: 3215953922589107541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_5
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3133f030a0f36e0a0800000000000000
+      internalID: -6852720470764080365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_6
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f1a53f632e898b0800000000000000
+      internalID: -5145113848631910616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_7
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb291feeabdc6a0800000000000000
+      internalID: -6427275557769921574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98463d5b747fd9670800000000000000
+      internalID: 8547259555184338057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12bc6f98933dbe80800000000000000
+      internalID: -8161310219122724326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ff992d6d982c860800000000000000
+      internalID: 7548747481175687061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899268d11507135e0800000000000000
+      internalID: -1931639271475238504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3abb65150316efa0800000000000000
+      internalID: -5771904959873566149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8586383467a42c690800000000000000
+      internalID: -7583416950739212200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55185825333efb130800000000000000
+      internalID: 3584833637977522517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892dd3c2edfab0480800000000000000
+      internalID: -8931852067199397224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa73e7418376785a0800000000000000
+      internalID: -6519128445035858006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbd48b06da0c1240800000000000000
+      internalID: 4763694420283677619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130e192fac16da750800000000000000
+      internalID: 6317813376551608369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0179715629a3850800000000000000
+      internalID: 6357554786872004799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f2e7a8692468320800000000000000
+      internalID: 2559806652542758758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a65e93fda433d60800000000000000
+      internalID: 7868715296555887132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e75493b65270fd40800000000000000
+      internalID: 5616114452036605924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31d3e6708328dec0800000000000000
+      internalID: -3542042072269467332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caa630e551f307c0800000000000000
+      internalID: -4106173084095567162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab7617bc7994aca0800000000000000
+      internalID: -6006507242078700634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd790b07283580790800000000000000
+      internalID: -7563703754467272739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f94089e9939f4c0800000000000000
+      internalID: -4253305019756667089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763dd2f4eb7256d60800000000000000
+      internalID: 7882750421107594087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdfc5ee56ff72720800000000000000
+      internalID: 2821504504826756551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a80bf0af83a97340800000000000000
+      internalID: 4862097109999618211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: libearty 1_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d940411deb2edb2e0800000000000000
+      internalID: -2108279741360110435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      libearty 1_0: -1126465802151604937
+      libearty 1_1: 1299191143162669540
+      libearty 1_10: 7548747481175687061
+      libearty 1_11: -1931639271475238504
+      libearty 1_12: -5771904959873566149
+      libearty 1_13: -7583416950739212200
+      libearty 1_14: 3584833637977522517
+      libearty 1_15: -8931852067199397224
+      libearty 1_16: -6519128445035858006
+      libearty 1_17: 4763694420283677619
+      libearty 1_18: 6317813376551608369
+      libearty 1_19: 6357554786872004799
+      libearty 1_2: -6308324711987617564
+      libearty 1_20: 2559806652542758758
+      libearty 1_21: 7868715296555887132
+      libearty 1_22: 5616114452036605924
+      libearty 1_23: -3542042072269467332
+      libearty 1_24: -4106173084095567162
+      libearty 1_25: -6006507242078700634
+      libearty 1_26: -7563703754467272739
+      libearty 1_27: -4253305019756667089
+      libearty 1_28: 7882750421107594087
+      libearty 1_29: 2821504504826756551
+      libearty 1_3: 6966037358964397222
+      libearty 1_30: 4862097109999618211
+      libearty 1_31: -2108279741360110435
+      libearty 1_4: 3215953922589107541
+      libearty 1_5: -6852720470764080365
+      libearty 1_6: -5145113848631910616
+      libearty 1_7: -6427275557769921574
+      libearty 1_8: 8547259555184338057
+      libearty 1_9: -8161310219122724326
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

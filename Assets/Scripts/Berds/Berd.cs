@@ -51,7 +51,7 @@ public class Berd : MonoBehaviour
     }
 
     private void OnValidate() {
-        if(spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
+   if(spriteRenderer != null && spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
             spriteRenderer.sprite = WalkCycle[0];
     }
 

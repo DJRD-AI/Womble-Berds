@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: f907f1ced113ee946be3eef8afbfb06a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpgplayer34 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c52496a46d6ac190800000000000000
+      internalID: -7941414713855564349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20db54fcf4194ed0800000000000000
+      internalID: -2429387447325700052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47060990aec5d24a0800000000000000
+      internalID: -6616530117284831116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039d827fb5ec8f6d0800000000000000
+      internalID: -2956386260984735440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cc453c411141690800000000000000
+      internalID: -7632456687612015505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_5
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d9d363338af4220800000000000000
+      internalID: 2472379658356497800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_6
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81cbc556e5f0ad80800000000000000
+      internalID: -8241316948457307766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_7
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6451e9d18d52200800000000000000
+      internalID: 154767383931995838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2995bda6c2688e5f0800000000000000
+      internalID: -727183814490891886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c8ea8789fc79cb0800000000000000
+      internalID: -4857185419329106798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04afdca32973d4620800000000000000
+      internalID: 2759923247839312448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c6fa597839a92d0800000000000000
+      internalID: -3271139968790074218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc316e361b191a380800000000000000
+      internalID: -8961721592419314740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd6d006e99b49d60800000000000000
+      internalID: 7896140136554786288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3746037e4a1117370800000000000000
+      internalID: 8318449386681033843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a058e998837e140800000000000000
+      internalID: 4748826495806671397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496bb7d6f721e3840800000000000000
+      internalID: 5205618557793842836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd85bf6777d230cf0800000000000000
+      internalID: -287335960101037860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03394bc00badefba0800000000000000
+      internalID: -6053160399477107920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79cdc89bc0a17030800000000000000
+      internalID: 3490747982491273594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325f2629342cfb2d0800000000000000
+      internalID: -3260674009718393565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4cca6d7f4bdb590800000000000000
+      internalID: -7656764814908406622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cd6dc70c6c59710800000000000000
+      internalID: 1699482964432706596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a47ea3dc7edb510800000000000000
+      internalID: 1566663114037348962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b935c95a1b582e30800000000000000
+      internalID: 4478929998153333171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062161bfd4b8021f0800000000000000
+      internalID: -1071703544272907680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df487a120861e50800000000000000
+      internalID: 6779747171085647232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378636e81175917d0800000000000000
+      internalID: -2947228748222338957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3cfff0803fb2190800000000000000
+      internalID: -7986022298257734730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c7f8f379d3795f0800000000000000
+      internalID: -750063093118174197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bff54e4329c1e0b0800000000000000
+      internalID: -5701054499800088651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpgplayer34 1_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b84bdd0ae377cdf0800000000000000
+      internalID: -160031812656346952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rpgplayer34 1_0: -7941414713855564349
+      rpgplayer34 1_1: -2429387447325700052
+      rpgplayer34 1_10: 2759923247839312448
+      rpgplayer34 1_11: -3271139968790074218
+      rpgplayer34 1_12: -8961721592419314740
+      rpgplayer34 1_13: 7896140136554786288
+      rpgplayer34 1_14: 8318449386681033843
+      rpgplayer34 1_15: 4748826495806671397
+      rpgplayer34 1_16: 5205618557793842836
+      rpgplayer34 1_17: -287335960101037860
+      rpgplayer34 1_18: -6053160399477107920
+      rpgplayer34 1_19: 3490747982491273594
+      rpgplayer34 1_2: -6616530117284831116
+      rpgplayer34 1_20: -3260674009718393565
+      rpgplayer34 1_21: -7656764814908406622
+      rpgplayer34 1_22: 1699482964432706596
+      rpgplayer34 1_23: 1566663114037348962
+      rpgplayer34 1_24: 4478929998153333171
+      rpgplayer34 1_25: -1071703544272907680
+      rpgplayer34 1_26: 6779747171085647232
+      rpgplayer34 1_27: -2947228748222338957
+      rpgplayer34 1_28: -7986022298257734730
+      rpgplayer34 1_29: -750063093118174197
+      rpgplayer34 1_3: -2956386260984735440
+      rpgplayer34 1_30: -5701054499800088651
+      rpgplayer34 1_31: -160031812656346952
+      rpgplayer34 1_4: -7632456687612015505
+      rpgplayer34 1_5: 2472379658356497800
+      rpgplayer34 1_6: -8241316948457307766
+      rpgplayer34 1_7: 154767383931995838
+      rpgplayer34 1_8: -727183814490891886
+      rpgplayer34 1_9: -4857185419329106798
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

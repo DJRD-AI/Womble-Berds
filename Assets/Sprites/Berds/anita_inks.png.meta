@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: 8d8eeb15bd4ae8447b48a3ecc02654e7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anita_inks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8e75a1b6d19fb0800000000000000
+      internalID: -4642693682368180920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472ee1a08cc032f0800000000000000
+      internalID: -995070664804260024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea6853c37206cba0800000000000000
+      internalID: -6069160751613318422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbbb2850b1b5b4e0800000000000000
+      internalID: -1966470291325731852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6955cf85e61c220800000000000000
+      internalID: 2504404196264351460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_5
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0163a923c454490800000000000000
+      internalID: -7762714602483871574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_6
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9f6262c037f2cb0800000000000000
+      internalID: -4886560574656808497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_7
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c8c31ab37928120800000000000000
+      internalID: 2414658632587971698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cf5e03975458ae0800000000000000
+      internalID: -1547754510118159272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c654bb5594c9215e0800000000000000
+      internalID: -1940316650658380436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0640a9cc824042980800000000000000
+      internalID: -8564716018073992096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_11
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60749c9b7819fb10800000000000000
+      internalID: 2015669227412025453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1044fab4ba57c7c90800000000000000
+      internalID: -7170727128111037439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbf4f24f977e1e50800000000000000
+      internalID: 6781989614773402583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973d7c3753fc42180800000000000000
+      internalID: -9140953515172572295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_15
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7082b628cf50ca9d0800000000000000
+      internalID: -2761825889406998521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab181d58a43fea0800000000000000
+      internalID: -5840242353163355451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_17
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05ce7bd107615b30800000000000000
+      internalID: 4274310779026457870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0cfefe78c43c410800000000000000
+      internalID: 1496123647946899632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf113fc641fa8c30800000000000000
+      internalID: 4362564475487854554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_20
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a316b0dc1b5ca8b0800000000000000
+      internalID: -5139632895417773147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_21
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fdc48df17036c40800000000000000
+      internalID: 5504251002931175247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b588f9f748d7c9620800000000000000
+      internalID: 2782236677838440539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_23
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5884ff0e59403d0800000000000000
+      internalID: -3241301038211758639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e810a88f0663a0f40800000000000000
+      internalID: 5695424468877967758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c6ba2800645a6e0800000000000000
+      internalID: -1826977105822651299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6762baafe68da17f0800000000000000
+      internalID: -640962025783351690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a76ecad9b5f60b0800000000000000
+      internalID: -5733263067850573252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82604bca4bf7b500800000000000000
+      internalID: 412074189583835791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_29
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f128896f67f3520800000000000000
+      internalID: 2683994704428801872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_30
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ab354086ff77cb0800000000000000
+      internalID: -4866140050136253856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anita_inks_31
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
+      alignment: 9
+      pivot: {x: 0.6, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcd63de71cd60290800000000000000
+      internalID: -7924404498989654820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      anita_inks_0: -4642693682368180920
+      anita_inks_1: -995070664804260024
+      anita_inks_10: -8564716018073992096
+      anita_inks_11: 2015669227412025453
+      anita_inks_12: -7170727128111037439
+      anita_inks_13: 6781989614773402583
+      anita_inks_14: -9140953515172572295
+      anita_inks_15: -2761825889406998521
+      anita_inks_16: -5840242353163355451
+      anita_inks_17: 4274310779026457870
+      anita_inks_18: 1496123647946899632
+      anita_inks_19: 4362564475487854554
+      anita_inks_2: -6069160751613318422
+      anita_inks_20: -5139632895417773147
+      anita_inks_21: 5504251002931175247
+      anita_inks_22: 2782236677838440539
+      anita_inks_23: -3241301038211758639
+      anita_inks_24: 5695424468877967758
+      anita_inks_25: -1826977105822651299
+      anita_inks_26: -640962025783351690
+      anita_inks_27: -5733263067850573252
+      anita_inks_28: 412074189583835791
+      anita_inks_29: 2683994704428801872
+      anita_inks_3: -1966470291325731852
+      anita_inks_30: -4866140050136253856
+      anita_inks_31: -7924404498989654820
+      anita_inks_4: 2504404196264351460
+      anita_inks_5: -7762714602483871574
+      anita_inks_6: -4886560574656808497
+      anita_inks_7: 2414658632587971698
+      anita_inks_8: -1547754510118159272
+      anita_inks_9: -1940316650658380436
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
