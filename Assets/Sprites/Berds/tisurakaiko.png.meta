@@ -109,9 +109,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 512
-        height: 96
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: tisurakaiko_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 96
+        x: 398
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: tisurakaiko_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 512
-        height: 96
+        x: 796
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: tisurakaiko_3
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 512
-        height: 96
+        x: 1194
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: tisurakaiko_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 512
-        height: 96
+        x: 1592
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: tisurakaiko_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 96
-        width: 512
-        height: 96
+        x: 1990
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: tisurakaiko_6
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 96
-        width: 512
-        height: 96
+        x: 2388
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: tisurakaiko_7
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 96
-        width: 512
-        height: 96
+        x: 2786
+        y: 900
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,9 +277,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 512
-        height: 96
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: tisurakaiko_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 192
-        width: 512
-        height: 96
+        x: 398
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: tisurakaiko_10
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 192
-        width: 512
-        height: 96
+        x: 796
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: tisurakaiko_11
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 192
-        width: 512
-        height: 96
+        x: 1194
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: tisurakaiko_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 512
-        height: 96
+        x: 1592
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: tisurakaiko_13
       rect:
         serializedVersion: 2
-        x: 512
-        y: 288
-        width: 512
-        height: 96
+        x: 1990
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: tisurakaiko_14
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 288
-        width: 512
-        height: 96
+        x: 2388
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: tisurakaiko_15
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 288
-        width: 512
-        height: 96
+        x: 2786
+        y: 600
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,9 +445,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 512
-        height: 96
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: tisurakaiko_17
       rect:
         serializedVersion: 2
-        x: 512
-        y: 384
-        width: 512
-        height: 96
+        x: 398
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: tisurakaiko_18
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 384
-        width: 512
-        height: 96
+        x: 796
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: tisurakaiko_19
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
-        width: 512
-        height: 96
+        x: 1194
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: tisurakaiko_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 480
-        width: 512
-        height: 96
+        x: 1592
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: tisurakaiko_21
       rect:
         serializedVersion: 2
-        x: 512
-        y: 480
-        width: 512
-        height: 96
+        x: 1990
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: tisurakaiko_22
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 480
-        width: 512
-        height: 96
+        x: 2388
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: tisurakaiko_23
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 480
-        width: 512
-        height: 96
+        x: 2786
+        y: 300
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,9 +613,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 512
-        height: 96
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
       name: tisurakaiko_25
       rect:
         serializedVersion: 2
-        x: 512
-        y: 576
-        width: 512
-        height: 96
+        x: 398
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: tisurakaiko_26
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 576
-        width: 512
-        height: 96
+        x: 796
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,10 +675,10 @@ TextureImporter:
       name: tisurakaiko_27
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 576
-        width: 512
-        height: 96
+        x: 1194
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,10 +696,10 @@ TextureImporter:
       name: tisurakaiko_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 672
-        width: 512
-        height: 96
+        x: 1592
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: tisurakaiko_29
       rect:
         serializedVersion: 2
-        x: 512
-        y: 672
-        width: 512
-        height: 96
+        x: 1990
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: tisurakaiko_30
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 672
-        width: 512
-        height: 96
+        x: 2388
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: tisurakaiko_31
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 672
-        width: 512
-        height: 96
+        x: 2786
+        y: 0
+        width: 398
+        height: 300
       alignment: 9
       pivot: {x: 0.6, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}

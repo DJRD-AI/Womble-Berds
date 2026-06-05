@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e7196c5a1bda974a953bcfc599a90d8
+guid: 02e36278737e0604f940e9ec80e7a219
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +46,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.6, y: 0.17}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: diahuntergirl_0
+      name: diahuntergirl 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,16 +117,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ba6fd69c2d991934c90e151e765c625a
-      internalID: -240942362
+      spriteID: 1129145398e22f2c0800000000000000
+      internalID: -4399402719148666351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_1
+      name: diahuntergirl 1_1
       rect:
         serializedVersion: 2
         x: 398
@@ -138,16 +138,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 14812dc0c7aa53946af3af35c601efb0
-      internalID: -792598797
+      spriteID: e02a556de126e5500800000000000000
+      internalID: 386854502584918542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_2
+      name: diahuntergirl 1_2
       rect:
         serializedVersion: 2
         x: 796
@@ -159,16 +159,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1c9c5e1074107de42ab3963995368ae1
-      internalID: -1277448199
+      spriteID: 3e3ef123e2e92e230800000000000000
+      internalID: 3666666967879640035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_3
+      name: diahuntergirl 1_3
       rect:
         serializedVersion: 2
         x: 1194
@@ -180,16 +180,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8926e33cec103134188b15a253e3b5a8
-      internalID: 2121347270
+      spriteID: e291b540287705fb0800000000000000
+      internalID: -4661094214025930450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_4
+      name: diahuntergirl 1_4
       rect:
         serializedVersion: 2
         x: 1592
@@ -201,16 +201,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 53087399b6a7e6e46bf6e0e4d287934f
-      internalID: 34077689
+      spriteID: 2e3cdc1bf578e7e00800000000000000
+      internalID: 1044421008671228898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_5
+      name: diahuntergirl 1_5
       rect:
         serializedVersion: 2
         x: 1990
@@ -222,16 +222,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6ac9ada3f44fbfe4296b42c0a7dbcb9b
-      internalID: 2049942345
+      spriteID: 6c5bfed3106bf0fb0800000000000000
+      internalID: -4679321371364313658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_6
+      name: diahuntergirl 1_6
       rect:
         serializedVersion: 2
         x: 2388
@@ -243,16 +243,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f771af8769a558b4d93fd1e8d89a0bba
-      internalID: 433334913
+      spriteID: 52b43c4b44246b8c0800000000000000
+      internalID: -3983923957504718043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_7
+      name: diahuntergirl 1_7
       rect:
         serializedVersion: 2
         x: 2786
@@ -264,16 +264,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b8f23d172905d3a48964ba87a6d4a8ef
-      internalID: 601453319
+      spriteID: 3a2ba043468fce760800000000000000
+      internalID: 7488633389663826595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_8
+      name: diahuntergirl 1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -285,16 +285,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: febb51820ce73634a932460f9d8c9672
-      internalID: -1638901984
+      spriteID: b6eea6866c1707840800000000000000
+      internalID: 5219797065091706475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_9
+      name: diahuntergirl 1_9
       rect:
         serializedVersion: 2
         x: 398
@@ -306,16 +306,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: db8763ce6ef279243a2f5a4119fb3edd
-      internalID: -1315757567
+      spriteID: 0ecaa0d459332c440800000000000000
+      internalID: 4954579256396655840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_10
+      name: diahuntergirl 1_10
       rect:
         serializedVersion: 2
         x: 796
@@ -327,16 +327,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 32c1dcc37885c2447b6eb09e06d5dd09
-      internalID: 1385630955
+      spriteID: 5f1210b119ad39490800000000000000
+      internalID: -7740603017761578507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_11
+      name: diahuntergirl 1_11
       rect:
         serializedVersion: 2
         x: 1194
@@ -348,16 +348,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c14d0b1f09d058a429e0fb51d066bea8
-      internalID: 2010063307
+      spriteID: b55e698f012597d80800000000000000
+      internalID: -8252474609336130213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_12
+      name: diahuntergirl 1_12
       rect:
         serializedVersion: 2
         x: 1592
@@ -369,16 +369,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9252495060dc8fd4187397577b8d8012
-      internalID: -1971090103
+      spriteID: 886e0a92422de3110800000000000000
+      internalID: 1242661599959901832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_13
+      name: diahuntergirl 1_13
       rect:
         serializedVersion: 2
         x: 1990
@@ -390,16 +390,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dee40612ba3d5cd44a95693331fd8936
-      internalID: -1286012267
+      spriteID: b2b8b0ed9727361a0800000000000000
+      internalID: -6817479543166891221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_14
+      name: diahuntergirl 1_14
       rect:
         serializedVersion: 2
         x: 2388
@@ -411,16 +411,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 49f14d363198f6b479859f88f4b66645
-      internalID: 321027523
+      spriteID: cb4638368c780a0b0800000000000000
+      internalID: -5719422232027765572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_15
+      name: diahuntergirl 1_15
       rect:
         serializedVersion: 2
         x: 2786
@@ -432,16 +432,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b894742d207da46449ca8b93fdf2c781
-      internalID: 2051637318
+      spriteID: 66a3d2db31b2e3b50800000000000000
+      internalID: 6574739869785733734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_16
+      name: diahuntergirl 1_16
       rect:
         serializedVersion: 2
         x: 0
@@ -453,16 +453,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5dbbb502af060d24d9c9e1bd471fda47
-      internalID: 746971006
+      spriteID: d2dac331e8a27be80800000000000000
+      internalID: -8163009009889268435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_17
+      name: diahuntergirl 1_17
       rect:
         serializedVersion: 2
         x: 398
@@ -474,16 +474,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b5b764dcfa0d1a488952251dabeef03
-      internalID: -1705121325
+      spriteID: 9c5a19c00cef62480800000000000000
+      internalID: -8924165510790011447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_18
+      name: diahuntergirl 1_18
       rect:
         serializedVersion: 2
         x: 796
@@ -495,16 +495,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 67114e19d40e18a41a7bea59936959e5
-      internalID: 628089991
+      spriteID: 186e93ceb05226670800000000000000
+      internalID: 8530421377331226241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_19
+      name: diahuntergirl 1_19
       rect:
         serializedVersion: 2
         x: 1194
@@ -516,16 +516,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9213128a07cbb864abc3185a52ca3652
-      internalID: -506892422
+      spriteID: b1cc0f7871d4a3790800000000000000
+      internalID: -7549637061872923621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_20
+      name: diahuntergirl 1_20
       rect:
         serializedVersion: 2
         x: 1592
@@ -537,16 +537,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d0bbc9a75e16fa4787a5f3fc3c2de7a
-      internalID: 1893972560
+      spriteID: ccf603ea961227330800000000000000
+      internalID: 3707062181057032140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_21
+      name: diahuntergirl 1_21
       rect:
         serializedVersion: 2
         x: 1990
@@ -558,16 +558,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 623406ec7d3743b44a87fbbdb1aed511
-      internalID: 1161115478
+      spriteID: 360b12876b24a3490800000000000000
+      internalID: -7765821255980044189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_22
+      name: diahuntergirl 1_22
       rect:
         serializedVersion: 2
         x: 2388
@@ -579,16 +579,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84f0ef0cb66cf984f9b5cd8f98adcc1a
-      internalID: -905613551
+      spriteID: f84e7493bbdf98420800000000000000
+      internalID: 2632914437736490127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_23
+      name: diahuntergirl 1_23
       rect:
         serializedVersion: 2
         x: 2786
@@ -600,16 +600,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5f44f9188c765374f9f4017693c8a6ef
-      internalID: -1410512245
+      spriteID: a834394989a33a100800000000000000
+      internalID: 118002442243883914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_24
+      name: diahuntergirl 1_24
       rect:
         serializedVersion: 2
         x: 0
@@ -621,16 +621,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 74e8c3a260708b243848d031356e3821
-      internalID: -775573919
+      spriteID: 661660fbabd53a3e0800000000000000
+      internalID: -2043686749245906586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_25
+      name: diahuntergirl 1_25
       rect:
         serializedVersion: 2
         x: 398
@@ -642,16 +642,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 54c37406e45c75f40b475e6726c35be1
-      internalID: 602620789
+      spriteID: f65be1700fda1e630800000000000000
+      internalID: 3954633194231215471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_26
+      name: diahuntergirl 1_26
       rect:
         serializedVersion: 2
         x: 796
@@ -663,16 +663,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d153d31feeb1bf40b83aa6dfb6fdbe4
-      internalID: -1894761963
+      spriteID: a6e82690ae98b12a0800000000000000
+      internalID: -6765662376921231766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_27
+      name: diahuntergirl 1_27
       rect:
         serializedVersion: 2
         x: 1194
@@ -684,16 +684,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd542046ea4787642a13eaf423e0cbca
-      internalID: -1576557939
+      spriteID: 8ef2bfe2298b289f0800000000000000
+      internalID: -467608473300160536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_28
+      name: diahuntergirl 1_28
       rect:
         serializedVersion: 2
         x: 1592
@@ -705,16 +705,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 44e7ec54e60efef459899880775db792
-      internalID: -1178534164
+      spriteID: 358fa856691a652e0800000000000000
+      internalID: -2137343305819948973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_29
+      name: diahuntergirl 1_29
       rect:
         serializedVersion: 2
         x: 1990
@@ -726,16 +726,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7a70ab5d7d59f7f4f8952adfd513bff9
-      internalID: -1741424694
+      spriteID: fd976ab3349cffde0800000000000000
+      internalID: -1297096877058655777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_30
+      name: diahuntergirl 1_30
       rect:
         serializedVersion: 2
         x: 2388
@@ -747,16 +747,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cbc72b7622e050044a4984ee9d0c934e
-      internalID: 290129427
+      spriteID: ff4075fa1f2c9ec70800000000000000
+      internalID: 9000939673561269503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diahuntergirl_31
+      name: diahuntergirl 1_31
       rect:
         serializedVersion: 2
         x: 2786
@@ -768,10 +768,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b92ba07dec2fc241a1d72a0b6055f79
-      internalID: 1479195833
+      spriteID: fd59aefdc5c8b1a60800000000000000
+      internalID: 7645859122913121759
       vertices: []
       indices: 
       edges: []
@@ -787,38 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      diahuntergirl_0: -240942362
-      diahuntergirl_1: -792598797
-      diahuntergirl_10: 1385630955
-      diahuntergirl_11: 2010063307
-      diahuntergirl_12: -1971090103
-      diahuntergirl_13: -1286012267
-      diahuntergirl_14: 321027523
-      diahuntergirl_15: 2051637318
-      diahuntergirl_16: 746971006
-      diahuntergirl_17: -1705121325
-      diahuntergirl_18: 628089991
-      diahuntergirl_19: -506892422
-      diahuntergirl_2: -1277448199
-      diahuntergirl_20: 1893972560
-      diahuntergirl_21: 1161115478
-      diahuntergirl_22: -905613551
-      diahuntergirl_23: -1410512245
-      diahuntergirl_24: -775573919
-      diahuntergirl_25: 602620789
-      diahuntergirl_26: -1894761963
-      diahuntergirl_27: -1576557939
-      diahuntergirl_28: -1178534164
-      diahuntergirl_29: -1741424694
-      diahuntergirl_3: 2121347270
-      diahuntergirl_30: 290129427
-      diahuntergirl_31: 1479195833
-      diahuntergirl_4: 34077689
-      diahuntergirl_5: 2049942345
-      diahuntergirl_6: 433334913
-      diahuntergirl_7: 601453319
-      diahuntergirl_8: -1638901984
-      diahuntergirl_9: -1315757567
+      diahuntergirl 1_0: -4399402719148666351
+      diahuntergirl 1_1: 386854502584918542
+      diahuntergirl 1_10: -7740603017761578507
+      diahuntergirl 1_11: -8252474609336130213
+      diahuntergirl 1_12: 1242661599959901832
+      diahuntergirl 1_13: -6817479543166891221
+      diahuntergirl 1_14: -5719422232027765572
+      diahuntergirl 1_15: 6574739869785733734
+      diahuntergirl 1_16: -8163009009889268435
+      diahuntergirl 1_17: -8924165510790011447
+      diahuntergirl 1_18: 8530421377331226241
+      diahuntergirl 1_19: -7549637061872923621
+      diahuntergirl 1_2: 3666666967879640035
+      diahuntergirl 1_20: 3707062181057032140
+      diahuntergirl 1_21: -7765821255980044189
+      diahuntergirl 1_22: 2632914437736490127
+      diahuntergirl 1_23: 118002442243883914
+      diahuntergirl 1_24: -2043686749245906586
+      diahuntergirl 1_25: 3954633194231215471
+      diahuntergirl 1_26: -6765662376921231766
+      diahuntergirl 1_27: -467608473300160536
+      diahuntergirl 1_28: -2137343305819948973
+      diahuntergirl 1_29: -1297096877058655777
+      diahuntergirl 1_3: -4661094214025930450
+      diahuntergirl 1_30: 9000939673561269503
+      diahuntergirl 1_31: 7645859122913121759
+      diahuntergirl 1_4: 1044421008671228898
+      diahuntergirl 1_5: -4679321371364313658
+      diahuntergirl 1_6: -3983923957504718043
+      diahuntergirl 1_7: 7488633389663826595
+      diahuntergirl 1_8: 5219797065091706475
+      diahuntergirl 1_9: 4954579256396655840
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
