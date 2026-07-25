@@ -37,6 +37,7 @@ public class BerdInterface : Singleton<BerdInterface>
     /// Currently active berds
     /// </summary>
     [SerializeField] private List<GameObject> ActiveBerds; //Currently active berds
+    [SerializeField] private List<GameObject> ArmyBerds; //Currently active berds
     /// <summary>
     /// List of messages with their senders, sendtime and deletetime
     /// </summary>
@@ -45,6 +46,7 @@ public class BerdInterface : Singleton<BerdInterface>
 
     #region Admin Vars
     private string username = "";
+    private bool SummoningArmy = false;
     private bool EnableAdminInputs = false;
     private bool EnableInputs = true;
     private bool EnableSpawns = true;
@@ -58,7 +60,8 @@ public class BerdInterface : Singleton<BerdInterface>
 
 
     // Update is called once per frame
-    void Update(){
+    void Update()
+    {
         AdminInputs();
         GrabBerds();
         ChatRead();
@@ -66,7 +69,8 @@ public class BerdInterface : Singleton<BerdInterface>
 
 
 
-    void AdminInputs(){
+    void AdminInputs()
+    {
         if(Input.GetKeyDown(KeyCode.Q)) EnableAdminInputs = !EnableAdminInputs;
         if(!EnableAdminInputs) return;
 
@@ -79,7 +83,8 @@ public class BerdInterface : Singleton<BerdInterface>
         if(Input.GetKeyDown(KeyCode.C)) StartCoroutine(ClearBerds());
     }
 
-    void GrabBerds(){
+    void GrabBerds()
+    {
         if(!Input.GetMouseButtonDown(0))
             return;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -99,12 +104,25 @@ public class BerdInterface : Singleton<BerdInterface>
     /// </summary>
     /// <param name="name">Lowercase name of the sender</param>
     /// <returns></returns>
-    private GameObject GetBerd(string name = "", bool spawn = true){
+    private GameObject GetBerd(string name = "", bool spawn = true)
+    {
         //See if the berd is contained within the active berds list.
         if(name.StartsWith('@'))
             name = name[1..];
-        GameObject ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
 
+        GameObject ReturningBerd = ArmyBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
+
+        if(ReturningBerd != null || !EnableSpawns || !spawn)
+        {
+            if (!SummoningArmy)
+            {
+                ArmyBerds.Remove(ReturningBerd);
+                ActiveBerds.Add(ReturningBerd);
+            }
+            return ReturningBerd;
+        }
+
+        ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
         if(ReturningBerd != null || !EnableSpawns || !spawn)
             return ReturningBerd;
 
@@ -116,7 +134,10 @@ public class BerdInterface : Singleton<BerdInterface>
 
         ReturningBerd = Instantiate(ReturningBerd,transform);
         ReturningBerd.name = name;
-        ActiveBerds.Add(ReturningBerd);
+        if(SummoningArmy)
+            ArmyBerds.Add(ReturningBerd);
+        else
+            ActiveBerds.Add(ReturningBerd);
         return ReturningBerd;
     }
     /// <summary>
@@ -127,7 +148,8 @@ public class BerdInterface : Singleton<BerdInterface>
     /// <returns></returns>
     private GameObject GetBerd(ChatMessage message = null, bool spawn = true) => message != null ? GetBerd(message.Sender,spawn) : null;
 
-    public bool Chatconnect(string username = null, string channel = null, string oauth = null){
+    public bool Chatconnect(string username = null, string channel = null, string oauth = null)
+    {
         if(username == null)
             return false;
         if(channel == null)
@@ -150,14 +172,16 @@ public class BerdInterface : Singleton<BerdInterface>
         return true;
     }
 
-    void ChatRead(){
+    void ChatRead()
+    {
         if(client == null)
             return;
         if(client.Available <= 0)
             return;
 
         string message = reader.ReadLine();
-        if (message.StartsWith("PING")){
+        if (message.StartsWith("PING"))
+        {
             Debug.Log(message);
             writer.WriteLine("PONG :tmi.twitch.tv\r\n");
             writer.Flush();
@@ -178,7 +202,8 @@ public class BerdInterface : Singleton<BerdInterface>
     /// </summary>
     /// <param name="RawMessage">Raw twitch message</param>
     /// <returns>Parsed message in chatmessage class</returns>
-    ChatMessage ParseMessage(string RawMessage){
+    ChatMessage ParseMessage(string RawMessage)
+    {
         if (!RawMessage.Contains("PRIVMSG"))
             return null;
 
@@ -192,20 +217,23 @@ public class BerdInterface : Singleton<BerdInterface>
         int msgStart = RawMessage.IndexOf(':', msgIndex);
         string message = RawMessage[(msgStart + 1)..];
 
-        return new(){
+        return new()
+        {
             Sender     = username.ToLower(),
             Body       = message,
             DeleteTime = DateTime.Now.AddMinutes(DESTRUCTIONTIME)
         };
     }
-    private void HandleAdminCommand(ChatMessage message){
+    private void HandleAdminCommand(ChatMessage message)
+    {
         if(!message.Body.StartsWith("!"))
             return;
 
         string[] parts = message.Body.Split(' ');
         string Command = parts[0];
 
-        switch (Command){
+        switch (Command)
+        {
             case "!summon":
                 GetBerd(parts[1]);
                 break;
@@ -220,7 +248,8 @@ public class BerdInterface : Singleton<BerdInterface>
             case "!admin":
                 if(parts.Length < 1)
                     return;
-                ChatMessage phony = new (){
+                ChatMessage phony = new ()
+                {
                     Sender = parts[0],
                     Body = ""
                 };
@@ -233,7 +262,8 @@ public class BerdInterface : Singleton<BerdInterface>
                 break;
         }
     }
-    private void HandleCommand(ChatMessage message){
+    private void HandleCommand(ChatMessage message)
+    {
         GameObject BerdObject = GetBerd(message);
 
         if(BerdObject == null)
@@ -250,13 +280,15 @@ public class BerdInterface : Singleton<BerdInterface>
         string[] parts = message.Body.Split(' ');
         string Command = parts[0][1..].ToLower();
         float[] Fargs = new float[ARGCOUNT];
-        for(int i = 0; i < ARGCOUNT; i++){
+        for(int i = 0; i < ARGCOUNT; i++)
+        {
             if(i >= parts.Length-1 || !float.TryParse(parts[i+1], out Fargs[i]))
                 Fargs[i] = 1;
         }
 
 
-        switch (Command){
+        switch (Command)
+        {
             case "reset": berd.ResetBerd(); break;
             case "scale" : berd.Scale(Fargs[0],Fargs[1]); break;
             case "quack" : berd.Quack(Fargs[0],Fargs[1]); break;
@@ -286,14 +318,17 @@ public class BerdInterface : Singleton<BerdInterface>
         }
     }
 
-    private void UpdateDestructionList(ChatMessage Message){
+    private void UpdateDestructionList(ChatMessage Message)
+    {
         Destructionlist.RemoveAll(m => m != null && string.Equals(m.Sender, Message.Sender,StringComparison.OrdinalIgnoreCase));
         Destructionlist.Add(Message);
         _DeletionTracker ??= StartCoroutine(DeletingBerds());
     }
 
-    IEnumerator DeletingBerds(){
-        while(Destructionlist.Count != 0 && EnableRemoval){
+    IEnumerator DeletingBerds()
+    {
+        while(Destructionlist.Count != 0 && EnableRemoval)
+        {
             ChatMessage ToCheck = Destructionlist[0];
             Destructionlist.RemoveAt(0);
             yield return new WaitForSeconds((float)(ToCheck.DeleteTime - DateTime.Now).TotalSeconds);
@@ -307,11 +342,15 @@ public class BerdInterface : Singleton<BerdInterface>
         }
     }
 
-    private IEnumerator SPAWNBERDARMY(){
+    private IEnumerator SPAWNBERDARMY()
+    {
+        SummoningArmy = true;
         List<GameObject> shuffledBerds = berds.OrderBy(bp => UnityEngine.Random.value).ToList();
-       foreach(GameObject berd in shuffledBerds){
+       foreach(GameObject berd in shuffledBerds)
+        {
             GetBerd(berd.name.ToLower());
-            ChatMessage NewMessage = new(){
+            ChatMessage NewMessage = new()
+            {
                 Sender     = berd.name.ToLower(),
                 Body       = "",
                 DeleteTime = DateTime.Now.AddMinutes(DESTRUCTIONTIME)
@@ -320,10 +359,14 @@ public class BerdInterface : Singleton<BerdInterface>
                 UpdateDestructionList(NewMessage);
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
+        SummoningArmy = false;
     }
-    private IEnumerator ClearBerds(){
-        List<GameObject> shuffledBerds = ActiveBerds.OrderBy(bp => UnityEngine.Random.value).ToList();
-        foreach(GameObject berd in shuffledBerds){
+    private IEnumerator ClearBerds()
+    {
+        List<GameObject> ToDismiss = ArmyBerds.Count > 0 ? ArmyBerds : ActiveBerds;
+        ToDismiss = ToDismiss.OrderBy(bp => UnityEngine.Random.value).ToList();
+        foreach(GameObject berd in ToDismiss)
+        {
             berd.GetComponent<Berd>().DespawnBerd();
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
@@ -340,10 +383,12 @@ public class BerdInterface : Singleton<BerdInterface>
         FindMadeBerds();
         MakeNewBerds();
     }
-    public void FindMadeBerds(){
+    public void FindMadeBerds()
+    {
         string[] guids = AssetDatabase.FindAssets("t:Prefab", new[] { PrefabPath });
 
-        foreach (string guid in guids){
+        foreach (string guid in guids)
+        {
             string assetPath = AssetDatabase.GUIDToAssetPath(guid);
 
             if (assetPath.Contains("Berd Base"))
@@ -367,7 +412,8 @@ public class BerdInterface : Singleton<BerdInterface>
     public void MakeNewBerds()
     {
         string[] files = Directory.GetFiles(SpritesPath, "*.png");
-        foreach(var path in files){
+        foreach(var path in files)
+        {
             string FileName = Path.GetFileNameWithoutExtension(path);
             string FinalPath = PrefabPath + FileName + ".prefab";
             if(berds.Any(b => string.Equals(b.name,FileName,StringComparison.OrdinalIgnoreCase)))
@@ -375,7 +421,8 @@ public class BerdInterface : Singleton<BerdInterface>
 
             TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
             Debug.Log(importer == null);
-            if(importer != null && importer.spriteImportMode == SpriteImportMode.Single){
+            if(importer != null && importer.spriteImportMode == SpriteImportMode.Single)
+            {
                 importer.maxTextureSize = 4096;
                 Texture2D spriteSheet = (Texture2D)AssetDatabase.LoadAssetAtPath(path,typeof(Texture2D));
                 Debug.Log(spriteSheet == null);
@@ -388,7 +435,8 @@ public class BerdInterface : Singleton<BerdInterface>
 
 
             UnityEngine.Object[] assets = AssetDatabase.LoadAllAssetsAtPath(path);
-            foreach(UnityEngine.Object obj in assets){
+            foreach(UnityEngine.Object obj in assets)
+            {
                 if (obj is Sprite sprite)
                     sprites.Add(sprite);
             }
@@ -398,7 +446,8 @@ public class BerdInterface : Singleton<BerdInterface>
         }
     }
 #endif
-    void OnDrawGizmos(){
+    void OnDrawGizmos()
+    {
         DrawBoundPosGizmo(WalkBound,Color.yellow);
         DrawBoundPosGizmo(DragBound,Color.blue);
         DrawBoundPosGizmo(SpawnBound,Color.green);
@@ -436,7 +485,8 @@ public class BerdInterfaceEditor : Editor{
         spawn   = serializedObject.FindProperty("<SpawnBound>k__BackingField");
         despawn = serializedObject.FindProperty("<DespawnBound>k__BackingField");
     }
-    public override void OnInspectorGUI(){
+    public override void OnInspectorGUI()
+    {
         if (target == null || serializedObject == null)
             return;
 

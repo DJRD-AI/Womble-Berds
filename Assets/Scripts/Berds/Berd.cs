@@ -42,38 +42,46 @@ public class Berd : MonoBehaviour
     public bool IsDragging{get; private set;} = false;
     DateTime RandomEvent;
 
-    private void Reset() {
+    private void Reset()
+    {
         quackHole = GetComponent<AudioSource>();
     }
 
-    void Awake(){
+    void Awake()
+    {
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
     }
 
-    private void OnValidate() {
+    private void OnValidate()
+    {
    if(spriteRenderer != null && spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
             spriteRenderer.sprite = WalkCycle[0];
     }
 
-    void OnEnable(){
+    void OnEnable()
+    {
         StartCoroutine(Walking());
         StartCoroutine(RandomEvents());
     }
 
-    void OnDisable(){
+    void OnDisable()
+    {
         StopAllCoroutines();
     }
 
-    void OnDestroy(){
+    void OnDestroy()
+    {
         StopAllCoroutines();
     }
 
-    void Start(){
+    void Start()
+    {
         quackHole.clip = quack;
         transform.localScale = SCALES.Lerp(scale) * ScaleMod * Vector3.one;
         StartCoroutine(Spawning());
     }
-    public void SetSprites(List<Sprite> newSprites, string newName){
+    public void SetSprites(List<Sprite> newSprites, string newName)
+    {
         StopAllCoroutines();
         WalkCycle = newSprites;
         if(WalkCycle.Count > 0)
@@ -81,7 +89,8 @@ public class Berd : MonoBehaviour
         name = newName.ToLower();
     }
 
-    public void ResetBerd(){
+    public void ResetBerd()
+    {
         if(Movement != null)
             StopCoroutine(Movement);
         if(Scaling != null)
@@ -90,7 +99,8 @@ public class Berd : MonoBehaviour
         transform.localScale = scale * ScaleMod * Vector3.one;
     }
 
-    IEnumerator Spawning(){
+    IEnumerator Spawning()
+    {
         transform.position = BerdInterface.Instance.SpawnBound.Random3;
         _localPosition = BerdInterface.Instance.WalkBound.Random3;
         QuackTired = true;
@@ -105,7 +115,8 @@ public class Berd : MonoBehaviour
     }
 
     public Coroutine DespawnBerd() => StartCoroutine(Despawning());
-    IEnumerator Despawning(){
+    IEnumerator Despawning()
+    {
         Vector2 MoveSpot = BerdInterface.Instance.DespawnBound.Random2;
         PlayQuack();
         yield return new WaitUntil(() => !quackHole.isPlaying);
@@ -116,23 +127,28 @@ public class Berd : MonoBehaviour
         Destroy(gameObject);
     }
 
-    IEnumerator Walking(){
+    IEnumerator Walking()
+    {
         int index = 0;
         float delay = WalkCycleTime/WalkCycle.Count;
-        while (true){
+        while (true)
+        {
             yield return new WaitForSeconds(delay);
             index = (index+1)%WalkCycle.Count;
             spriteRenderer.sprite = WalkCycle[index];
         }
     }
 
-    IEnumerator RandomEvents(){
-        while (true){
+    IEnumerator RandomEvents()
+    {
+        while (true)
+        {
             yield return new WaitForSeconds((float)(RandomEvent - DateTime.Now).TotalSeconds);
             if(RandomEvent > DateTime.Now)
                 continue;
             RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-            switch (UnityEngine.Random.Range(0f, 1f)){
+            switch (UnityEngine.Random.Range(0f, 1f))
+            {
                 case < 0.2f:
                     Vector2 Direction = 
                         new(
@@ -156,14 +172,16 @@ public class Berd : MonoBehaviour
     }
 
     private void PlayQuack() => PlayQuack(specialChance);
-    private void PlayQuack(float SpecialOdds){
+    private void PlayQuack(float SpecialOdds)
+    {
         if(quackSpecial != null)
             quackHole.clip = UnityEngine.Random.Range(0.0f,1.0f) > SpecialOdds ? quack : quackSpecial;
         quackHole.Play();
     }
 
     public void Quack(float pitch = 1.0f, float volume  = 1.0f,bool clampPitch = true, bool VolClamp = true) => StartCoroutine(Quacking(volume,pitch,clampPitch,VolClamp));
-    public IEnumerator Quacking(float pitch = 1.0f, float volume = 1.0f,bool clampPitch = true, bool VolClamp = true){
+    public IEnumerator Quacking(float pitch = 1.0f, float volume = 1.0f,bool clampPitch = true, bool VolClamp = true)
+    {
         if(QuackTired)
             yield break;
         if(clampPitch)
@@ -181,14 +199,16 @@ public class Berd : MonoBehaviour
         QuackTired = false;
     }
 
-    private float SpeedCheck(float speed, bool clamp = true,BoundVal? bounds = null){
+    private float SpeedCheck(float speed, bool clamp = true,BoundVal? bounds = null)
+    {
         bounds ??= SPEED;
         if(clamp) speed = bounds.Value.Clamp(speed);
         if(speed == 0) return bounds.Value.Lower;
         return Mathf.Abs(speed);
     }
 
-    public float MoveTo(Vector3 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+    public float MoveTo(Vector3 End, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
+    {
         if(PosClamp)
             End = BerdInterface.Instance.WalkBound.Clamp(End);
         End.z = End.y;
@@ -207,7 +227,8 @@ public class Berd : MonoBehaviour
     public float MoveDir(Vector3   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
     public float MoveDir(Vector2   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(Dir.x,Dir.y,Dir.y)+transform.localPosition,speed, PosClamp, SpeedClamp);
 
-    public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+    public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
+    {
         if(ToFollow == null || ToFollow == this)
             return -1;
         if(where.StartsWith("!"))
@@ -219,14 +240,16 @@ public class Berd : MonoBehaviour
         Scale(endPos,duration);
         return duration;
     }
-    public float TryFollow(GameObject ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true){
+    public float TryFollow(GameObject ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
+    {
         if(ToFollow == null || ToFollow == gameObject)
             return -1;
         Berd berd = ToFollow.GetComponent<Berd>();
         return TryFollow(berd, where, speed,PosClamp,SpeedClamp);
     }
 
-    public void Scale(float endScale = 10.0f, float duration = 1.0f){
+    public void Scale(float endScale = 10.0f, float duration = 1.0f)
+    {
         endScale = SCALES.Lerp(endScale/10) * ScaleMod;
         duration = SpeedCheck(duration);
 
@@ -236,7 +259,8 @@ public class Berd : MonoBehaviour
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
         Scaling = StartCoroutine(transform.AnimatingLocalScale(Vector3.one*endScale,duration));
     }
-    public void Scale(Transform endScale = null, float duration = 1.0f, bool scaleClamp  = true){
+    public void Scale(Transform endScale = null, float duration = 1.0f, bool scaleClamp  = true)
+    {
         if(endScale == null)
             return;
         float EndSize = endScale.lossyScale.x;
@@ -252,7 +276,8 @@ public class Berd : MonoBehaviour
         Scaling = StartCoroutine(transform.AnimatingLocalScale(EndSize*ScaleMod*Vector3.one,duration));
     }
 
-    public void Wiggle(float Amplitude = 1, float speed = 1, bool speedClamp = true){
+    public void Wiggle(float Amplitude = 1, float speed = 1, bool speedClamp = true)
+    {
         if(Movement != null)
             StopCoroutine(Movement);
         speed = SpeedCheck(speed,speedClamp);
@@ -260,7 +285,8 @@ public class Berd : MonoBehaviour
         RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
         Movement = StartCoroutine(Wiggling(Amplitude,speed));
     }
-    public IEnumerator Wiggling(float Amplitude = 1, float speed = 1){
+    public IEnumerator Wiggling(float Amplitude = 1, float speed = 1)
+    {
         Vector3 startPos = transform.localPosition;
         Vector3 CurrentPos = startPos;
         speed = SPEED.Clamp(speed);
@@ -273,7 +299,8 @@ public class Berd : MonoBehaviour
         AnimationCurve EndCurve   = AnimationCurve.EaseInOut(0.75f,1,1.0f,0.0f);
 
         float CurvePoint = 0;
-        while(CurvePoint < 1){
+        while(CurvePoint < 1)
+        {
             AnimationCurve workCurve = CurvePoint switch{
                 < 0.25f => StartCurve,
                 > 0.75f => EndCurve,
@@ -290,14 +317,16 @@ public class Berd : MonoBehaviour
     }
 
     public void StartDragging() => StartCoroutine(FollowCursor());
-    IEnumerator FollowCursor(){
+    IEnumerator FollowCursor()
+    {
         Vector3 targetPos;
         QuackTired = false;
         IsDragging = true;
         Quack(2,UnityEngine.Random.Range(1.1f,1.5f));
         if(Movement != null)
             StopCoroutine(Movement);
-        while (Input.GetMouseButton(0)){
+        while (Input.GetMouseButton(0))
+        {
             scale = SCALES.Clamp(scale+Input.mouseScrollDelta.y * 0.10f);
             transform.localScale = scale * ScaleMod * Vector3.one;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -308,7 +337,8 @@ public class Berd : MonoBehaviour
             yield return null;
         }
         targetPos = transform.localPosition;
-        if(!BerdInterface.Instance.WalkBound.VER.InBounds(targetPos.y)){
+        if(!BerdInterface.Instance.WalkBound.VER.InBounds(targetPos.y))
+        {
             targetPos.y = BerdInterface.Instance.WalkBound.VER.Random;
         }
         MoveTo(targetPos,10);
@@ -334,7 +364,8 @@ public class BerdEditor : Editor{
     SerializedProperty _SpecialPos;
     GUIStyle centeredStyle;
 
-    void OnEnable(){
+    void OnEnable()
+    {
         if(target == null || serializedObject == null)
             return;
         _startScale     = serializedObject.FindProperty("scale");
@@ -349,15 +380,18 @@ public class BerdEditor : Editor{
 
         _SpecialPos     = serializedObject.FindProperty("<SpecialPositions>k__BackingField");
     }
-    public override void OnInspectorGUI(){
+    public override void OnInspectorGUI()
+    {
         if(target == null || serializedObject == null)
             return;
-        centeredStyle ??= new GUIStyle(GUI.skin.box){
+        centeredStyle ??= new GUIStyle(GUI.skin.box)
+        {
             alignment = TextAnchor.MiddleCenter 
         };
 
         _scalerFold = EditorGUILayout.Foldout(_scalerFold,"Scale Modifiers");
-        if (_scalerFold){
+        if (_scalerFold)
+        {
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_startScale);
             EditorGUILayout.PropertyField(_scaleMod);
@@ -365,10 +399,12 @@ public class BerdEditor : Editor{
         }
 
         _audioFold = EditorGUILayout.Foldout(_audioFold,"Audio settings");
-        if (_audioFold){
+        if (_audioFold)
+        {
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_quack);
-            if(_quack.objectReferenceValue != null){
+            if(_quack.objectReferenceValue != null)
+            {
                 EditorGUILayout.PropertyField(_quackSpecial);
                 if(_quackSpecial.objectReferenceValue != null)
                     EditorGUILayout.PropertyField(_specialChance);
@@ -379,7 +415,8 @@ public class BerdEditor : Editor{
         EditorGUILayout.PropertyField(_SpecialPos);
         Event evt = Event.current;
         _spriteFold = EditorGUILayout.Foldout(_spriteFold,"Sprite settings");
-        if (_spriteFold){
+        if (_spriteFold)
+        {
             EditorGUI.indentLevel++;
             EditorGUILayout.PropertyField(_walkTime);
             EditorGUILayout.PropertyField(_walkCycle);
@@ -390,7 +427,8 @@ public class BerdEditor : Editor{
         serializedObject.ApplyModifiedProperties();
     }
 
-    bool DrawSpriteDrop(ref Event evt){
+    bool DrawSpriteDrop(ref Event evt)
+    {
         EditorGUILayout.Space(10);
         Rect dropArea = GUILayoutUtility.GetRect(0, 40, GUILayout.ExpandWidth(true));
         GUI.Box(dropArea, "Drag Sprite Sheet Here",centeredStyle);
@@ -408,7 +446,8 @@ public class BerdEditor : Editor{
 
         DragAndDrop.AcceptDrag();
 
-        if(DragAndDrop.objectReferences.Length != 1){
+        if(DragAndDrop.objectReferences.Length != 1)
+        {
             Debug.LogError("Must assign 1 item at a time");
             return true;
         }
@@ -416,12 +455,14 @@ public class BerdEditor : Editor{
         string path = AssetDatabase.GetAssetPath(DragAndDrop.objectReferences[0]);
         UnityEngine.Object[] assets = AssetDatabase.LoadAllAssetsAtPath(path);
         List<Sprite> sprites = new();
-        foreach (UnityEngine.Object obj in assets){
+        foreach (UnityEngine.Object obj in assets)
+        {
             if (obj is Sprite sprite)
                 sprites.Add(sprite);
         }
 
-        if(sprites.Count == 0){
+        if(sprites.Count == 0)
+        {
             Debug.Log($"No Sprites found for {DragAndDrop.objectReferences[0]}");
             return true;
         }
