@@ -46,7 +46,6 @@ public class BerdInterface : Singleton<BerdInterface>
 
     #region Admin Vars
     private string username = "";
-    private bool SummoningArmy = false;
     private bool EnableAdminInputs = false;
     private bool EnableInputs = true;
     private bool EnableSpawns = true;
@@ -104,7 +103,7 @@ public class BerdInterface : Singleton<BerdInterface>
     /// </summary>
     /// <param name="name">Lowercase name of the sender</param>
     /// <returns></returns>
-    private GameObject GetBerd(string name = "", bool spawn = true)
+    private GameObject GetBerd(string name = "", bool spawn = true, bool summon = false)
     {
         //See if the berd is contained within the active berds list.
         if(name.StartsWith('@'))
@@ -114,7 +113,7 @@ public class BerdInterface : Singleton<BerdInterface>
 
         if(ReturningBerd != null || !EnableSpawns || !spawn)
         {
-            if (!SummoningArmy)
+            if (!summon)
             {
                 ArmyBerds.Remove(ReturningBerd);
                 ActiveBerds.Add(ReturningBerd);
@@ -134,7 +133,7 @@ public class BerdInterface : Singleton<BerdInterface>
 
         ReturningBerd = Instantiate(ReturningBerd,transform);
         ReturningBerd.name = name;
-        if(SummoningArmy)
+        if(summon)
             ArmyBerds.Add(ReturningBerd);
         else
             ActiveBerds.Add(ReturningBerd);
@@ -190,7 +189,7 @@ public class BerdInterface : Singleton<BerdInterface>
         ChatMessage chatMessage = ParseMessage(message);
         if(chatMessage == null)
             return;
-        if(chatMessage.Sender == username)
+        if(string.Equals(chatMessage.Sender, username, StringComparison.OrdinalIgnoreCase))
             HandleAdminCommand(chatMessage);
         if(EnableInputs)
             HandleCommand(chatMessage);
@@ -344,11 +343,10 @@ public class BerdInterface : Singleton<BerdInterface>
 
     private IEnumerator SPAWNBERDARMY()
     {
-        SummoningArmy = true;
         List<GameObject> shuffledBerds = berds.OrderBy(bp => UnityEngine.Random.value).ToList();
        foreach(GameObject berd in shuffledBerds)
         {
-            GetBerd(berd.name.ToLower());
+            GetBerd(berd.name.ToLower(), summon:true);
             ChatMessage NewMessage = new()
             {
                 Sender     = berd.name.ToLower(),
@@ -359,18 +357,17 @@ public class BerdInterface : Singleton<BerdInterface>
                 UpdateDestructionList(NewMessage);
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
-        SummoningArmy = false;
     }
     private IEnumerator ClearBerds()
     {
         List<GameObject> ToDismiss = ArmyBerds.Count > 0 ? ArmyBerds : ActiveBerds;
         ToDismiss = ToDismiss.OrderBy(bp => UnityEngine.Random.value).ToList();
+        (ArmyBerds.Count > 0 ? ArmyBerds : ActiveBerds).Clear();
         foreach(GameObject berd in ToDismiss)
         {
             berd.GetComponent<Berd>().DespawnBerd();
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
-        ActiveBerds.Clear();
         Destructionlist.Clear();
         StopAllCoroutines();
     }
@@ -420,7 +417,6 @@ public class BerdInterface : Singleton<BerdInterface>
                 continue;
 
             TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
-            Debug.Log(importer == null);
             if(importer != null && importer.spriteImportMode == SpriteImportMode.Single)
             {
                 importer.maxTextureSize = 4096;
