@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Collections;
 using System.Collections.Generic;
 
+
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -111,7 +112,7 @@ public class BerdInterface : Singleton<BerdInterface>
 
         GameObject ReturningBerd = ArmyBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
 
-        if(ReturningBerd != null || !EnableSpawns || !spawn)
+        if(ReturningBerd != null)
         {
             if (!summon)
             {
@@ -122,7 +123,10 @@ public class BerdInterface : Singleton<BerdInterface>
         }
 
         ReturningBerd = ActiveBerds.FirstOrDefault(b => b != null && string.Equals(b.name,name,StringComparison.OrdinalIgnoreCase));
-        if(ReturningBerd != null || !EnableSpawns || !spawn)
+        if(ReturningBerd != null)
+            return ReturningBerd;
+
+        if(!EnableSpawns || !spawn)
             return ReturningBerd;
 
         //Make a new berd based upon the list of all berds
@@ -233,9 +237,9 @@ public class BerdInterface : Singleton<BerdInterface>
 
         switch (Command)
         {
-            case "!summon":
-                GetBerd(parts[1]);
-                break;
+            case "!summon army"   : StartCoroutine(SPAWNBERDARMY()); break;
+            case "!dismiss army"  : StartCoroutine(ClearBerds(true)); break;
+            case "!summon"        : GetBerd(parts[1], summon:true) ; break;
             case "!dismiss":
                 GameObject berd = GetBerd(parts[1], false);
                 if(berd == null)
@@ -292,7 +296,6 @@ public class BerdInterface : Singleton<BerdInterface>
             case "scale" : berd.Scale(Fargs[0],Fargs[1]); break;
             case "quack" : berd.Quack(Fargs[0],Fargs[1]); break;
             case "wiggle": berd.Wiggle(Fargs[0],Fargs[1]); break;
-
             case "up": case "down": case "left": case "right":
                 bool Vertical = Command == "up" || Command == "down";
                 Vector2 direction = Vertical ? Vector2.up * 0.1f : Vector2.right;
@@ -313,7 +316,6 @@ public class BerdInterface : Singleton<BerdInterface>
                 if(berd.TryFollow(Berd2Object,Command,Fargs[2]) != -1)
                     break;
                 break;
-
         }
     }
 
@@ -339,6 +341,7 @@ public class BerdInterface : Singleton<BerdInterface>
             ActiveBerds.Remove(ToDestroy);
             ToDestroy.GetComponent<Berd>().DespawnBerd();
         }
+        _DeletionTracker = null;
     }
 
     private IEnumerator SPAWNBERDARMY()
@@ -358,12 +361,14 @@ public class BerdInterface : Singleton<BerdInterface>
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));
         }
     }
-    private IEnumerator ClearBerds()
+    private IEnumerator ClearBerds(bool OnlyArmy = false)
     {
-        List<GameObject> ToDismiss = ArmyBerds.Count > 0 ? ArmyBerds : ActiveBerds;
-        ToDismiss = ToDismiss.OrderBy(bp => UnityEngine.Random.value).ToList();
-        (ArmyBerds.Count > 0 ? ArmyBerds : ActiveBerds).Clear();
-        foreach(GameObject berd in ToDismiss)
+        List<GameObject> ToDismiss = ArmyBerds;
+        if(!OnlyArmy && ArmyBerds.Count == 0)
+            ToDismiss = ActiveBerds;
+        List<GameObject> ShuffledBerds = ToDismiss.OrderBy(bp => UnityEngine.Random.value).ToList();
+        ToDismiss.Clear();
+        foreach(GameObject berd in ShuffledBerds)
         {
             berd.GetComponent<Berd>().DespawnBerd();
             yield return new WaitForSeconds(UnityEngine.Random.Range(0.1f,0.3f));

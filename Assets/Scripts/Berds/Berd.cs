@@ -54,7 +54,7 @@ public class Berd : MonoBehaviour
 
     private void OnValidate()
     {
-   if(spriteRenderer != null && spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
+        if(spriteRenderer != null && spriteRenderer.sprite == null && WalkCycle != null && WalkCycle.Count > 0)
             spriteRenderer.sprite = WalkCycle[0];
     }
 
@@ -186,11 +186,11 @@ public class Berd : MonoBehaviour
             yield break;
         if(clampPitch)
             pitch = QUACKPITCH.Clamp(pitch);
+        quackHole.pitch = pitch;
         if(VolClamp)
             volume = QUACKVOL.Clamp(pitch);
-        RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
-        quackHole.pitch = pitch;
         quackHole.volume = volume;
+        RandomEvent = DateTime.Now.AddMinutes(RANDOMEVENT.Random);
         PlayQuack();
         if(!BerdInterface.EnableQuackCooldown)
             yield break;
@@ -227,9 +227,11 @@ public class Berd : MonoBehaviour
     public float MoveDir(Vector3   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(Dir + transform.localPosition,  speed, PosClamp, SpeedClamp);
     public float MoveDir(Vector2   Dir, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)   => MoveTo(new Vector3(Dir.x,Dir.y,Dir.y)+transform.localPosition,speed, PosClamp, SpeedClamp);
 
-    public float TryFollow(Berd ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
+    public float TryFollow(Berd ToFollow, string where, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
     {
         if(ToFollow == null || ToFollow == this)
+            return -1;
+        if(string.IsNullOrEmpty(where))
             return -1;
         if(where.StartsWith("!"))
             where = where[1..];
@@ -240,7 +242,7 @@ public class Berd : MonoBehaviour
         Scale(endPos,duration);
         return duration;
     }
-    public float TryFollow(GameObject ToFollow, string where = "", float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
+    public float TryFollow(GameObject ToFollow, string where, float speed = 1, bool PosClamp = true, bool SpeedClamp = true)
     {
         if(ToFollow == null || ToFollow == gameObject)
             return -1;

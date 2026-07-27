@@ -1013,12 +1013,12 @@ MonoBehaviour:
   berds:
   - {fileID: 8544559131044350142, guid: 6ddb3e248247a614d85eadd84a970246, type: 3}
   - {fileID: 2345116585224949228, guid: 79bb66a75b529d74da23a3f3977537ef, type: 3}
+  - {fileID: 4038312606479881553, guid: 0099c21e892a5e64d8e4f44f4e0e8178, type: 3}
   - {fileID: 1388371779881364141, guid: bea8cfde544a0504fa31c198976703fe, type: 3}
   - {fileID: 3594654273101973304, guid: f5e7c686d35ead84787e51fae6b9f3f1, type: 3}
   - {fileID: 8461531676067187684, guid: d7d94d7b3a84ecd4393afc0486b417ea, type: 3}
   - {fileID: 3525543982490557388, guid: ab3acb79e7a1eea4b81dd82520f512fe, type: 3}
   - {fileID: 3821576586456707904, guid: 45c34c48288c9eb4aa0719ebaa86166c, type: 3}
-  - {fileID: 6364602256379200571, guid: ebb375089559eff4388285da1b0d69f1, type: 3}
   - {fileID: 9027360645058522936, guid: 064d821052fcf1d44ab783708d564c11, type: 3}
   - {fileID: 6906907450633591780, guid: 27d78ca720ae39843b26d32d07837bc1, type: 3}
   - {fileID: 1018712140136817181, guid: de1550b6aee9c4c4e8f726bb81efe3f8, type: 3}
@@ -1070,6 +1070,7 @@ MonoBehaviour:
   - {fileID: 7373293783709307940, guid: 0e25b6d12f413684b86800ecddac05de, type: 3}
   - {fileID: 5446495507878769963, guid: 52412b17b8ff25040a64fe66123da4c5, type: 3}
   ActiveBerds: []
+  ArmyBerds: []
   <WalkBound>k__BackingField:
     <HOR>k__BackingField:
       Upper: 8.5
